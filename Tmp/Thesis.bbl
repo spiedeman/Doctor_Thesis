@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
+  \urlstyle{same}\fi
+\providecommand{\href}[2]{\url{#2}}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
+
+\bibitem[{Linde(2008)}]{linde2008inflationary}
+LINDE~A.
+\newblock Inflationary cosmology\allowbreak[M]//\allowbreak
+Inflationary Cosmology.
+\newblock Springer, 2008: 1-54.
+
+\end{thebibliography}

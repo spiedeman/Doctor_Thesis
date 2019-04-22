@@ -1,0 +1,108 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/4aed4f0/
+. 一些拐点暴胀模型的文章	Tex/chaps/chap3sec2.tex	/^\\section{一些拐点暴胀模型的文章}$/;"	s
+. 作者简历	Tex/Backmatter.tex	/^\\section*{作者简历}$/;"	s
+. 先试试效果	Tex/Chap_Guide.tex	/^\\section{先试试效果}$/;"	s
+. 原初黑洞	Tex/chaps/chap4sec2.tex	/^\\section{原初黑洞}$/;"	s
+. 参加的研究项目及获奖情况:	Tex/Backmatter.tex	/^\\section*{参加的研究项目及获奖情况:}$/;"	s
+. 双拐点暴胀模型	Tex/chaps/chap2sec2.tex	/^\\section{双拐点暴胀模型}$/;"	s
+. 字符	Tex/Prematter.tex	/^\\section*{字符}$/;"	s
+. 小结	Tex/chaps/chap2sec4.tex	/^\\section{小结}$/;"	s
+. 已发表(或正式接受)的学术论文:	Tex/Backmatter.tex	/^\\section*{已发表(或正式接受)的学术论文:}$/;"	s
+. 常见使用问题	Tex/Chap_Guide.tex	/^\\section{常见使用问题}\\label{sec:qa}$/;"	s
+. 引力波	Tex/chaps/chap4sec4.tex	/^\\section{引力波}$/;"	s
+. 拐点暴胀模型基本概念	Tex/chaps/chap3sec1.tex	/^\\section{拐点暴胀模型基本概念}$/;"	s
+. 数学公式、图表、参考文献等功能	Tex/Chap_Guide.tex	/^\\section{数学公式、图表、参考文献等功能}$/;"	s
+. 文档目录简介	Tex/Chap_Guide.tex	/^\\section{文档目录简介}$/;"	s
+. 暴胀介绍	Tex/chaps/chap2sec1.tex	/^\\section{暴胀介绍}$/;"	s
+. 模板下载	Tex/Chap_Intro.tex	/^\\section{模板下载}$/;"	s
+. 测试公式编号	Tex/Appendix.tex	/^\\section{测试公式编号} \\label{sec:testmath}$/;"	s
+. 测试生僻字	Tex/Appendix.tex	/^\\section{测试生僻字}$/;"	s
+. 申请或已获得的专利:	Tex/Backmatter.tex	/^\\section*{申请或已获得的专利:}$/;"	s
+. 研究背景	Tex/Chap_Intro.tex	/^\\section{研究背景}$/;"	s
+. 算子	Tex/Prematter.tex	/^\\section*{算子}$/;"	s
+. 系统要求	Tex/Chap_Intro.tex	/^\\section{系统要求}\\label{sec:system}$/;"	s
+. 缩写	Tex/Prematter.tex	/^\\section*{缩写}$/;"	s
+. 计算方法	Tex/chaps/chap4sec3.tex	/^\\section{计算方法}$/;"	s
+. 论文无附录者无需附录部分	Tex/Appendix.tex	/^\\section{论文无附录者无需附录部分}$/;"	s
+. 超引力	Tex/chaps/chap4sec1.tex	/^\\section{超引力}$/;"	s
+. 问题反馈	Tex/Chap_Intro.tex	/^\\section{问题反馈}$/;"	s
+. 随机引力波背景	Tex/chaps/chap2sec3.tex	/^\\section{随机引力波背景}$/;"	s
+. 预测	Tex/chaps/chap3sec3.tex	/^\\section{预测}$/;"	s
+.. Biblio文件夹	Tex/Chap_Guide.tex	/^\\subsection{Biblio文件夹}$/;"	s
+.. Img文件夹	Tex/Chap_Guide.tex	/^\\subsection{Img文件夹}$/;"	s
+.. Style文件夹	Tex/Chap_Guide.tex	/^\\subsection{Style文件夹}$/;"	s
+.. Tex文件夹	Tex/Chap_Guide.tex	/^\\subsection{Tex文件夹}$/;"	s
+.. Thesis.tex	Tex/Chap_Guide.tex	/^\\subsection{Thesis.tex}$/;"	s
+.. Tmp文件夹	Tex/Chap_Guide.tex	/^\\subsection{Tmp文件夹}$/;"	s
+.. casthesis作者	Tex/Backmatter.tex	/^\\subsection*{casthesis作者}$/;"	s
+.. ucasthesis作者	Tex/Backmatter.tex	/^\\subsection*{ucasthesis作者}$/;"	s
+.. 参考文献引用	Tex/Chap_Guide.tex	/^\\subsection{参考文献引用}$/;"	s
+.. 图片插入	Tex/Chap_Guide.tex	/^\\subsection{图片插入}$/;"	s
+.. 数学公式	Tex/Chap_Guide.tex	/^\\subsection{数学公式}$/;"	s
+.. 数学环境	Tex/Chap_Guide.tex	/^\\subsection{数学环境}$/;"	s
+.. 算法	Tex/Chap_Guide.tex	/^\\subsection{算法}$/;"	s
+.. 编译脚本	Tex/Chap_Guide.tex	/^\\subsection{编译脚本}$/;"	s
+.. 表格	Tex/Chap_Guide.tex	/^\\subsection{表格}$/;"	s
+BACKMATTER	Thesis.tex	/^\\backmatter% initialize the environment$/;"	s
+BIBINPUTS	artratex.bat	/^set BIBINPUTS=.\/\/;%BIBINPUTS%$/;"	v
+BIBLIOGRAPHY	Thesis.tex	/^\\bibliography{Biblio\/ref}% bibliography$/;"	s
+BSTINPUTS	artratex.bat	/^set BSTINPUTS=.\/\/;%BSTINPUTS%$/;"	v
+CHAP \\LaTeX{	Tex/Chap_Guide.tex	/^\\chapter{\\LaTeX{}使用说明}\\label{chap:guide}$/;"	s
+CHAP 中国科学院大学学位论文撰写要求	Tex/Appendix.tex	/^\\chapter{中国科学院大学学位论文撰写要求}$/;"	s
+CHAP 作者简历及攻读学位期间发表的学术论文与研究成果	Tex/Backmatter.tex	/^\\chapter{作者简历及攻读学位期间发表的学术论文与研究成果}$/;"	s
+CHAP 双拐点暴胀模型预言的引力波	Tex/chaps/Chap_4.tex	/^\\chapter{双拐点暴胀模型预言的引力波}$/;"	s
+CHAP 引言	Tex/Chap_Intro.tex	/^\\chapter{引言}\\label{chap:introduction}$/;"	s
+CHAP 引言	Tex/chaps/Chap_Intro.tex	/^\\chapter{引言}%$/;"	s
+CHAP 总结与展望	Tex/chaps/Chap_5.tex	/^\\chapter{总结与展望}%$/;"	s
+CHAP 暴胀	Tex/chaps/Chap_2.tex	/^\\chapter{暴胀}%$/;"	s
+CHAP 暴胀模型	Tex/chaps/Chap_3.tex	/^\\chapter{暴胀模型}%$/;"	s
+CHAP 致\\quad 谢	Tex/Backmatter.tex	/^\\chapter[致谢]{致\\quad 谢}\\chaptermark{致\\quad 谢}% syntax: \\chapter[目录]{标题}\\/;"	s
+CompileName	artratex.bat	/^set CompileName="pdflatex"$/;"	v
+CompileName	artratex.bat	/^set CompileName="xelatex"$/;"	v
+CompilerOrder	artratex.bat	/^set CompilerOrder="2"$/;"	v
+FRONTMATTER	Thesis.tex	/^\\frontmatter% initialize the environment$/;"	s
+FileName	artratex.bat	/^set FileName=%%~nF$/;"	v
+MAINMATTER	Thesis.tex	/^\\mainmatter% initialize the environment$/;"	s
+TABLE OF CONTENTS	Thesis.tex	/^\\tableofcontents% content catalog$/;"	s
+TEXINPUTS	artratex.bat	/^set TEXINPUTS=.\/\/;%TEXINPUTS%$/;"	v
+`ucasthesis` 国科大学位论文 LaTeX 模板 [最新样式]	README.md	/^# `ucasthesis` 国科大学位论文 LaTeX 模板 [最新样式]$/;"	c
+alg:euclid	Tex/Chap_Guide.tex	/^    \\caption{Euclid's algorithm}\\label{alg:euclid}$/;"	l
+alg:euclid	Tex/Chap_Guide.tex	/^如见算法~\\ref{alg:euclid}，详细使用方法请参见文档 \\href{https:\/\/ctan.org\/pk/;"	r
+chap:guide	Tex/Chap_Guide.tex	/^\\chapter{\\LaTeX{}使用说明}\\label{chap:guide}$/;"	l
+chap:inflation	Tex/chaps/Chap_2.tex	/^\\label{chap:inflation}$/;"	l
+chap:inflection_model	Tex/chaps/Chap_3.tex	/^\\label{chap:inflection_model}$/;"	l
+chap:introduction	Tex/Chap_Intro.tex	/^\\chapter{引言}\\label{chap:introduction}$/;"	l
+chap:introduction	Tex/chaps/Chap_Intro.tex	/^\\label{chap:introduction}$/;"	l
+chap:summary	Tex/chaps/Chap_5.tex	/^\\label{chap:summary}$/;"	l
+eq:appedns	Tex/Appendix.tex	/^\\begin{equation} \\label{eq:appedns}$/;"	l
+eq:ns	Tex/Chap_Guide.tex	/^\\begin{equation} \\label{eq:ns}$/;"	l
+euclidendwhile	Tex/Chap_Guide.tex	/^        \\EndWhile\\label{euclidendwhile}$/;"	l
+fig:oaspl	Tex/Chap_Guide.tex	/^    \\label{fig:oaspl}$/;"	l
+fig:oaspl	Tex/Chap_Guide.tex	/^多图的插入如图\\ref{fig:oaspl}，多图不应在子图中给文本子标题，只要给序/;"	r
+fig:oaspl_a	Tex/Chap_Guide.tex	/^      \\label{fig:oaspl_a}$/;"	l
+fig:oaspl_b	Tex/Chap_Guide.tex	/^      \\label{fig:oaspl_b}$/;"	l
+fig:oaspl_c	Tex/Chap_Guide.tex	/^      \\label{fig:oaspl_c}$/;"	l
+fig:oaspl_d	Tex/Chap_Guide.tex	/^      \\label{fig:oaspl_d}$/;"	l
+fig:shock_cyn	Tex/Chap_Guide.tex	/^    \\label{fig:shock_cyn}$/;"	l
+fig:shock_cyn	Tex/Chap_Guide.tex	/^如果插图的空白区域过大，以图片\\verb|shock_cyn|为例，自动裁剪如图\\ref{f/;"	r
+fig:tc_q_criteria	Tex/Chap_Guide.tex	/^    \\label{fig:tc_q_criteria}$/;"	l
+fig:tc_q_criteria	Tex/Chap_Guide.tex	/^单图插入：假设插入名为\\verb|tc_q_criteria|（后缀可以为.jpg、.png、.pdf，下/;"	r
+sec:qa	Tex/Chap_Guide.tex	/^    \\item 错误处理：若编译中遇到了问题，请先查看“常见问题”（章节~/;"	r
+sec:qa	Tex/Chap_Guide.tex	/^\\section{常见使用问题}\\label{sec:qa}$/;"	l
+sec:qa	Tex/Chap_Intro.tex	/^关于模板编译和样式设计的问题，请\\textbf{先仔细阅读此说明文档，特别/;"	r
+sec:system	Tex/Chap_Guide.tex	/^    \\item 安装软件：根据所用操作系统和章节~\\ref{sec:system}中的信息安装\\/;"	r
+sec:system	Tex/Chap_Intro.tex	/^\\section{系统要求}\\label{sec:system}$/;"	l
+sec:testmath	Tex/Appendix.tex	/^\\section{测试公式编号} \\label{sec:testmath}$/;"	l
+tab:sample	Tex/Chap_Guide.tex	/^    \\label{tab:sample}$/;"	l
+tab:sample	Tex/Chap_Guide.tex	/^请见表~\\ref{tab:sample}。$/;"	r
+更新记录	README.md	/^## 更新记录$/;"	s
+模板下载	README.md	/^## 模板下载$/;"	s
+模板简介	README.md	/^## 模板简介$/;"	s
+重要建议	README.md	/^## 重要建议$/;"	s
+重要通知	README.md	/^## 重要通知$/;"	s
