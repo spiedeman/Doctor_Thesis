@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{42}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -6,10 +6,270 @@
 \providecommand{\href}[2]{\url{#2}}
 \providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
 
-\bibitem[{Linde(2008)}]{linde2008inflationary}
+\bibitem[{Amaro-Seoane {\bibetal}(2017)Amaro-Seoane, Audley, Babak, Baker,
+  Barausse, Bender, Berti, Binetruy, Born, Bortoluzzi, et~al.}]{amaro2017laser}
+AMARO-SEOANE~P, AUDLEY~H, BABAK~S, et~al.
+\newblock Laser interferometer space antenna\allowbreak[J].
+\newblock arXiv preprint arXiv:1702.00786, 2017.
+
+\bibitem[{Guo {\bibetal}(2018)Guo, Cai, and Zhang}]{guo2018taiji}
+GUO~Z~K, CAI~R~G, ZHANG~Y~Z.
+\newblock Taiji program: Gravitational-wave sources\allowbreak[J].
+\newblock arXiv preprint arXiv:1807.09495, 2018.
+
+\bibitem[{Freedman {\bibetal}(1989)Freedman, Nieuwenhuizen, and
+  Ferrara}]{freedman1989progress}
+FREEDMAN~D~Z, NIEUWENHUIZEN~P~V, FERRARA~S.
+\newblock Progress toward a theory of supergravity\allowbreak[M]//\allowbreak
+Supergravities in Diverse Dimensions: Commentary and Reprints (In 2 Volumes).
+\newblock World Scientific, 1989: 512-516.
+
+\bibitem[{Deser {\biband} Zumino(1976)Deser and Zumino}]{deser1976consistent}
+DESER~S~D, ZUMINO~B.
+\newblock Consistent supergravity\allowbreak[J].
+\newblock Phys. Lett. B, 1976, 62\penalty0 (CERN-TH-2164):\penalty0 335-337.
+
+\bibitem[{Wess {\biband} Bagger(1992)Wess and Bagger}]{wess1992supersymmetry}
+WESS~J, BAGGER~J.
+\newblock Supersymmetry and supergravity\allowbreak[M].
+\newblock Princeton university press, 1992.
+
+\bibitem[{Yamaguchi(2011)}]{yamaguchi2011supergravity}
+YAMAGUCHI~M.
+\newblock Supergravity-based inflation models: a review\allowbreak[J].
+\newblock Classical and Quantum Gravity, 2011, 28\penalty0 (10):\penalty0
+  103001.
+
+\bibitem[{Stewart(1995)}]{stewart1995inflation}
+STEWART~E~D.
+\newblock Inflation, supergravity, and superstrings\allowbreak[J].
+\newblock Physical Review D, 1995, 51\penalty0 (12):\penalty0 6847.
+
+\bibitem[{Linde(1994)}]{linde1994hybrid}
 LINDE~A.
-\newblock Inflationary cosmology\allowbreak[M]//\allowbreak
-Inflationary Cosmology.
-\newblock Springer, 2008: 1-54.
+\newblock Hybrid inflation\allowbreak[J].
+\newblock Physical Review D, 1994, 49\penalty0 (2):\penalty0 748.
+
+\bibitem[{Linde {\biband} Riotto(1997)Linde and Riotto}]{linde1997hybrid}
+LINDE~A, RIOTTO~A.
+\newblock Hybrid inflation in supergravity\allowbreak[J].
+\newblock Physical Review D, 1997, 56\penalty0 (4):\penalty0 R1841.
+
+\bibitem[{Panagiotakopoulos(1997)}]{panagiotakopoulos1997hybrid}
+PANAGIOTAKOPOULOS~C.
+\newblock Hybrid inflation with quasi-canonical supergravity\allowbreak[J].
+\newblock Physics Letters B, 1997, 402\penalty0 (3-4):\penalty0 257-262.
+
+\bibitem[{Takahashi(2010)}]{takahashi2010linear}
+TAKAHASHI~F.
+\newblock Linear inflation from running kinetic term in
+  supergravity\allowbreak[J].
+\newblock Physics Letters B, 2010, 693\penalty0 (2):\penalty0 140-143.
+
+\bibitem[{Nakayama {\biband} Takahashi(2010)Nakayama and
+  Takahashi}]{nakayama2010running}
+NAKAYAMA~K, TAKAHASHI~F.
+\newblock Running kinetic inflation\allowbreak[J].
+\newblock Journal of Cosmology and Astroparticle Physics, 2010, 2010\penalty0
+  (11):\penalty0 009.
+
+\bibitem[{Kasuya {\biband} Takahashi(2014)Kasuya and
+  Takahashi}]{kasuya2014flat}
+KASUYA~S, TAKAHASHI~F.
+\newblock Flat direction inflation with running kinetic term and
+  baryogenesis\allowbreak[J].
+\newblock Physics Letters B, 2014, 736:\penalty0 526-532.
+
+\bibitem[{Allahverdi {\bibetal}(2006)Allahverdi, Enqvist, Garcia-Bellido, and
+  Mazumdar}]{allahverdi2006gauge}
+ALLAHVERDI~R, ENQVIST~K, GARCIA-BELLIDO~J, et~al.
+\newblock Gauge-invariant inflaton in the minimal supersymmetric standard
+  model\allowbreak[J].
+\newblock Physical review letters, 2006, 97\penalty0 (19):\penalty0 191304.
+
+\bibitem[{Allahverdi {\bibetal}(2007)Allahverdi, Kusenko, and
+  Mazumdar}]{allahverdi2007term}
+ALLAHVERDI~R, KUSENKO~A, MAZUMDAR~A.
+\newblock A-term inflation and the smallness of the neutrino
+  masses\allowbreak[J].
+\newblock Journal of Cosmology and Astroparticle Physics, 2007, 2007\penalty0
+  (07):\penalty0 018.
+
+\bibitem[{Enqvist {\bibetal}(2010)Enqvist, Mazumdar, and
+  Stephens}]{enqvist2010inflection}
+ENQVIST~K, MAZUMDAR~A, STEPHENS~P.
+\newblock Inflection point inflation within supersymmetry\allowbreak[J].
+\newblock Journal of Cosmology and Astroparticle Physics, 2010, 2010\penalty0
+  (06):\penalty0 020.
+
+\bibitem[{Hotchkiss {\bibetal}(2012)Hotchkiss, Mazumdar, and
+  Nadathur}]{hotchkiss2012observable}
+HOTCHKISS~S, MAZUMDAR~A, NADATHUR~S.
+\newblock Observable gravitational waves from inflation with small field
+  excursions\allowbreak[J].
+\newblock Journal of Cosmology and Astroparticle Physics, 2012, 2012\penalty0
+  (02):\penalty0 008.
+
+\bibitem[{Chatterjee {\biband} Mazumdar(2015)Chatterjee and
+  Mazumdar}]{chatterjee2015bound}
+CHATTERJEE~A, MAZUMDAR~A.
+\newblock Bound on largest r≲ 0.1 from sub-planckian excursions of
+  inflaton\allowbreak[J].
+\newblock Journal of Cosmology and Astroparticle Physics, 2015, 2015\penalty0
+  (01):\penalty0 031.
+
+\bibitem[{Gao {\biband} Guo(2015)Gao and Guo}]{gao2015inflection}
+GAO~T~J, GUO~Z~K.
+\newblock Inflection point inflation and dark energy in
+  supergravity\allowbreak[J].
+\newblock Physical Review D, 2015, 91\penalty0 (12):\penalty0 123502.
+
+\bibitem[{Nakayama {\bibetal}(2013)Nakayama, Takahashi, and
+  Yanagida}]{nakayama2013polynomial}
+NAKAYAMA~K, TAKAHASHI~F, YANAGIDA~T~T.
+\newblock Polynomial chaotic inflation in supergravity\allowbreak[J].
+\newblock Journal of Cosmology and Astroparticle Physics, 2013, 2013\penalty0
+  (08):\penalty0 038.
+
+\bibitem[{Kawasaki {\bibetal}(2000)Kawasaki, Yamaguchi, and
+  Yanagida}]{kawasaki2000natural}
+KAWASAKI~M, YAMAGUCHI~M, YANAGIDA~T.
+\newblock Natural chaotic inflation in supergravity\allowbreak[J].
+\newblock Physical review letters, 2000, 85\penalty0 (17):\penalty0 3572.
+
+\bibitem[{Kawasaki {\bibetal}(2001)Kawasaki, Yamaguchi, and
+  Yanagida}]{kawasaki2001natural}
+KAWASAKI~M, YAMAGUCHI~M, YANAGIDA~T.
+\newblock Natural chaotic inflation in supergravity and
+  leptogenesis\allowbreak[J].
+\newblock Physical Review D, 2001, 63\penalty0 (10):\penalty0 103514.
+
+\bibitem[{Kallosh {\biband} Linde(2010)Kallosh and Linde}]{kallosh2010new}
+KALLOSH~R, LINDE~A.
+\newblock New models of chaotic inflation in supergravity\allowbreak[J].
+\newblock journal of Cosmology and Astroparticle Physics, 2010, 2010\penalty0
+  (11):\penalty0 011.
+
+\bibitem[{Kallosh {\bibetal}(2011)Kallosh, Linde, and
+  Rube}]{kallosh2011general}
+KALLOSH~R, LINDE~A, RUBE~T.
+\newblock General inflaton potentials in supergravity\allowbreak[J].
+\newblock Physical Review D, 2011, 83\penalty0 (4):\penalty0 043507.
+
+\bibitem[{Ketov {\biband} Terada(2016)Ketov and Terada}]{ketov2016susy}
+KETOV~S~V, TERADA~T.
+\newblock On susy restoration in single-superfield inflationary models of
+  supergravity\allowbreak[J].
+\newblock The European Physical Journal C, 2016, 76\penalty0 (8):\penalty0 438.
+
+\bibitem[{Krasnikov(1987)}]{krasnikov1987supersymmetry}
+KRASNIKOV~N.
+\newblock On supersymmetry breaking in superstring theories\allowbreak[J].
+\newblock Physics Letters B, 1987, 193\penalty0 (1):\penalty0 37-40.
+
+\bibitem[{Escoda {\bibetal}(2003)Escoda, G{\'o}mez-Reino, and
+  Quevedo}]{escoda2003saltatory}
+ESCODA~C, G{\'O}MEZ-REINO~M, QUEVEDO~F.
+\newblock Saltatory de sitter string vacua\allowbreak[J].
+\newblock Journal of High Energy Physics, 2003, 2003\penalty0 (11):\penalty0
+  065.
+
+\bibitem[{Blanco-Pillado {\bibetal}(2005)Blanco-Pillado, Burgess, Cline,
+  Escoda, G{\'o}mez-Reino, Kallosh, Linde, and Quevedo}]{blanco2005racetrack}
+BLANCO-PILLADO~J~J, BURGESS~C~P, CLINE~J~M, et~al.
+\newblock Racetrack inflation\allowbreak[J].
+\newblock Journal of High Energy Physics, 2005, 2004\penalty0 (11):\penalty0
+  063.
+
+\bibitem[{Dimopoulos(2017)}]{dimopoulos2017ultra}
+DIMOPOULOS~K.
+\newblock Ultra slow-roll inflation demystified\allowbreak[J].
+\newblock Physics Letters B, 2017, 775:\penalty0 262-265.
+
+\bibitem[{Germani {\biband} Prokopec(2017)Germani and
+  Prokopec}]{germani2017primordial}
+GERMANI~C, PROKOPEC~T.
+\newblock On primordial black holes from an inflection point\allowbreak[J].
+\newblock Physics of the dark universe, 2017, 18:\penalty0 6-10.
+
+\bibitem[{Schwarz {\bibetal}(2001)Schwarz, Terrero-Escalante, and
+  Garc{\i}́a}]{schwarz2001higher}
+SCHWARZ~D~J, TERRERO-ESCALANTE~C~A, GARC{I}́A~A~A.
+\newblock Higher order corrections to primordial spectra from cosmological
+  inflation\allowbreak[J].
+\newblock Physics Letters B, 2001, 517\penalty0 (3-4):\penalty0 243-249.
+
+\bibitem[{Leach {\bibetal}(2002)Leach, Liddle, Martin, and
+  Schwarz}]{leach2002cosmological}
+LEACH~S~M, LIDDLE~A~R, MARTIN~J, et~al.
+\newblock Cosmological parameter estimation and the inflationary
+  cosmology\allowbreak[J].
+\newblock Physical Review D, 2002, 66\penalty0 (2):\penalty0 023515.
+
+\bibitem[{Schwarz {\biband} Terrero-Escalante(2004)Schwarz and
+  Terrero-Escalante}]{schwarz2004primordial}
+SCHWARZ~D~J, TERRERO-ESCALANTE~C~A.
+\newblock Primordial fluctuations and cosmological inflation after wmap
+  1.0\allowbreak[J].
+\newblock Journal of Cosmology and Astroparticle Physics, 2004, 2004\penalty0
+  (08):\penalty0 003.
+
+\bibitem[{Akrami {\bibetal}(2018)Akrami, Arroja, Ashdown, Aumont, Baccigalupi,
+  Ballardini, Banday, Barreiro, Bartolo, Basak, et~al.}]{akrami2018planck}
+AKRAMI~Y, ARROJA~F, ASHDOWN~M, et~al.
+\newblock Planck 2018 results. x. constraints on inflation\allowbreak[J].
+\newblock arXiv preprint arXiv:1807.06211, 2018.
+
+\bibitem[{Gao {\biband} Guo(2018)Gao and Guo}]{gao2018primordial}
+GAO~T~J, GUO~Z~K.
+\newblock Primordial black hole production in inflationary models of
+  supergravity with a single chiral superfield\allowbreak[J].
+\newblock Physical Review D, 2018, 98\penalty0 (6):\penalty0 063526.
+
+\bibitem[{Bunch {\biband} Davies(1978)Bunch and Davies}]{bunch1978quantum}
+BUNCH~T~S, DAVIES~P~C.
+\newblock Quantum field theory in de sitter space: renormalization by
+  point-splitting\allowbreak[J].
+\newblock Proceedings of the Royal Society of London. A. Mathematical and
+  Physical Sciences, 1978, 360\penalty0 (1700):\penalty0 117-134.
+
+\bibitem[{Ballesteros {\biband} Taoso(2018)Ballesteros and
+  Taoso}]{ballesteros2018primordial}
+BALLESTEROS~G, TAOSO~M.
+\newblock Primordial black hole dark matter from single field
+  inflation\allowbreak[J].
+\newblock Physical Review D, 2018, 97\penalty0 (2):\penalty0 023501.
+
+\bibitem[{Ananda {\bibetal}(2007)Ananda, Clarkson, and
+  Wands}]{ananda2007cosmological}
+ANANDA~K~N, CLARKSON~C, WANDS~D.
+\newblock Cosmological gravitational wave background from primordial density
+  perturbations\allowbreak[J].
+\newblock Physical Review D, 2007, 75\penalty0 (12):\penalty0 123518.
+
+\bibitem[{Baumann {\bibetal}(2007)Baumann, Steinhardt, Takahashi, and
+  Ichiki}]{baumann2007gravitational}
+BAUMANN~D, STEINHARDT~P, TAKAHASHI~K, et~al.
+\newblock Gravitational wave spectrum induced by primordial scalar
+  perturbations\allowbreak[J].
+\newblock Physical Review D, 2007, 76\penalty0 (8):\penalty0 084019.
+
+\bibitem[{Mukhanov {\bibetal}(1992)Mukhanov, Feldman, and
+  Brandenberger}]{mukhanov1992theory}
+MUKHANOV~V~F, FELDMAN~H~A, BRANDENBERGER~R~H.
+\newblock Theory of cosmological perturbations\allowbreak[J].
+\newblock Physics Reports, 1992, 215\penalty0 (5-6):\penalty0 203-333.
+
+\bibitem[{Kodama {\biband} Sasaki(1984)Kodama and
+  Sasaki}]{kodama1984cosmological}
+KODAMA~H, SASAKI~M.
+\newblock Cosmological perturbation theory\allowbreak[J].
+\newblock Progress of Theoretical Physics Supplement, 1984, 78:\penalty0 1-166.
+
+\bibitem[{Kohri {\biband} Terada(2018)Kohri and Terada}]{kohri2018semianalytic}
+KOHRI~K, TERADA~T.
+\newblock Semianalytic calculation of gravitational wave spectrum nonlinearly
+  induced from primordial curvature perturbations\allowbreak[J].
+\newblock Physical Review D, 2018, 97\penalty0 (12):\penalty0 123532.
 
 \end{thebibliography}

@@ -1,10 +1,83 @@
 \section{暴胀介绍}
 
-\citet{linde2008inflationary}
-为何引入暴胀理论
 
-暴胀模型基本概念
+- 为何引入暴胀理论
 
-暴胀基本性质
 
-具体暴胀模型举例
+- 暴胀模型基本概念
+
+- 暴胀基本性质
+
+- 具体暴胀模型举例
+
+\subsection{现代宇宙学}
+基于当前观测，现代宇宙学普遍采用两条假设作为宇宙学原理：物质分布在宇宙学尺度上
+1）均匀的；2）、各向同性。以此为出发点可以导出用于描述可观测宇宙的
+Friedmann-Robertson-Walker度规
+
+\begin{equation}\label{eq:frw}
+    ds^2=dt^2-a^2(t)\left[\frac{dr^2}{1-Kr^2}+r^2\sin^2\theta d\phi^2\right]
+\end{equation}
+
+$a(t)$为尺度因子，$K=-1, 0,
++1$分别代表开放、平坦、闭合宇宙。为了确定宇宙的演化过程，首先求解FRW度规$(\ref{eq:frw})$下的Einstin场方程
+
+\begin{equation}\label{eq:ij_einstein}
+    -\frac{2K}{a^2}-\frac{2\dot{a}^2}{a^2}-\frac{\ddot{a}}{a}=-4\phi G(\rho-p)
+\end{equation}
+\begin{equation}\label{eq:00_einstein}
+    \frac{3\ddot{a}}{a}=-4\phi G(3p+\rho)
+\end{equation}
+
+上述方程分别来自 Einstein 场方程的 ij分量$(\ref{eq:ij_einstein})$ 和
+00分量$(\ref{eq:00_einstein})$。进一步可以导出主导宇宙膨胀的 Friedmann
+方程和能量守恒方程
+
+\begin{equation}\label{eq:friedmann_equation}
+    H^2+\frac{K}{a^2}=\frac{8\pi G}{3}\rho
+\end{equation}
+\begin{equation}\label{eq:energy_conservation}
+    \dot{\rho}=-\frac{3\dot{a}}{a}(\rho+p)
+\end{equation}
+
+定义临界能量密度 $\rho_{cr}=3H^2/(8\pi G)$，以及参数 $\Omega\equiv
+\rho/\rho_{cr}$，空间曲率 $K$可以表示成
+
+\begin{equation}\label{eq:flatness}
+    \Omega(t) - 1 = \frac{K}{{(Ha)}^2} 
+\end{equation}
+
+目前的观测支持 $\Omega(t_0)=1$，即当前的宇宙是平坦的。同时方程
+$(\ref{eq:flatness})$ 说明
+宇宙越早期越平坦。当回溯到普朗克时间的量级时$\Omega_i-1 \leq
+10^{-56}$。如此小的一个误差量级在物理上很不自然，而大爆炸宇宙学无法给出合理的解释。
+
+\subsection{暴胀模型}
+暴胀的基本图像是宇宙在极早期经历过一个加速膨胀的过程，之后转为减速膨胀，过渡到大爆炸宇宙模型。
+
+当暴胀场用标量场$\varphi$描述时，能量密度为
+\begin{equation}\label{eq:energy_density}
+    \rho = \frac{1}{2}\dot{\varphi}^2+V(\varphi)
+\end{equation}
+以及压强
+\begin{equation}\label{eq:pressure}
+    p=\frac{1}{2}\dot{\varphi}^2-V(\varphi)
+\end{equation}
+
+相应的能量守恒方程$(\ref{eq:energy_conservation})$
+以及Friedmann方程$(\ref{eq:friedmann_equation})$改写为
+\begin{equation}
+    \ddot{\varphi}+3H\dot\varphi+V_{,\varphi}=0 
+\end{equation}
+\begin{equation}
+    H^2=\frac{8\pi G}{3}\left(\frac{1}{2}\dot\varphi^2+V(\varphi)\right)
+\end{equation}
+约定约化普朗克质量$M_p\equiv\frac{1}{\sqrt{8\pi G}}=1$。消去标量场$\phi$的二阶导数，得到Hamilton-Jacobi方程
+    \begin{align}
+        \lbrack H'(\varphi)\rbrack^2 - \frac{3}{2}H^2 &=
+        -\frac{1}{2}V(\varphi)\label{HJa} \\
+        \dot\varphi  &= -2H'(\varphi)\label{HJb}
+    \end{align}
+
+    由$(\ref{HJb})$可知$\dot H=-\dot \varphi^2/2\leq 0$，故物理哈勃半径$1/H$随时间增大。同时尺度因子$a(t)$加速增大，故共动哈勃半径$1/(aH)$不断随时间减小。
+    方程$(\ref{HJa})$有一个很好的性质，与任意一个方程解的线性扰动都会以指数的速度趋于零，因此很容易进行数值求解。
