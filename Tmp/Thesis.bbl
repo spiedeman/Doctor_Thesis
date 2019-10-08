@@ -1,4 +1,4 @@
-\begin{thebibliography}{42}
+\begin{thebibliography}{50}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -239,6 +239,57 @@ BALLESTEROS~G, TAOSO~M.
 \newblock Primordial black hole dark matter from single field
   inflation\allowbreak[J].
 \newblock Physical Review D, 2018, 97\penalty0 (2):\penalty0 023501.
+
+\bibitem[{Carr(1975)}]{carr1975primordial}
+CARR~B~J.
+\newblock The primordial black hole mass spectrum\allowbreak[M].
+\newblock Press, 1975.
+
+\bibitem[{Aghanim {\bibetal}(2018)Aghanim, Akrami, Ashdown, Aumont,
+  Baccigalupi, Ballardini, Banday, Barreiro, Bartolo, Basak,
+  et~al.}]{aghanim2018planck}
+AGHANIM~N, AKRAMI~Y, ASHDOWN~M, et~al.
+\newblock Planck 2018 results. vi. cosmological parameters\allowbreak[J].
+\newblock arXiv preprint arXiv:1807.06209, 2018.
+
+\bibitem[{Press {\biband} Schechter(1974)Press and
+  Schechter}]{press1974formation}
+PRESS~W~H, SCHECHTER~P.
+\newblock Formation of galaxies and clusters of galaxies by self-similar
+  gravitational condensation\allowbreak[J].
+\newblock The Astrophysical Journal, 1974, 187:\penalty0 425-438.
+
+\bibitem[{Musco {\bibetal}(2005)Musco, Miller, and
+  Rezzolla}]{musco2005computations}
+MUSCO~I, MILLER~J~C, REZZOLLA~L.
+\newblock Computations of primordial black-hole formation\allowbreak[J].
+\newblock Classical and Quantum Gravity, 2005, 22\penalty0 (7):\penalty0 1405.
+
+\bibitem[{Musco {\bibetal}(2009)Musco, Miller, and
+  Polnarev}]{musco2009primordial}
+MUSCO~I, MILLER~J~C, POLNAREV~A~G.
+\newblock Primordial black hole formation in the radiative era: Investigation
+  of the critical nature of the collapse\allowbreak[J].
+\newblock Classical and Quantum Gravity, 2009, 26\penalty0 (23):\penalty0
+  235001.
+
+\bibitem[{Musco {\biband} Miller(2013)Musco and Miller}]{musco2013primordial}
+MUSCO~I, MILLER~J~C.
+\newblock Primordial black hole formation in the early universe: critical
+  behaviour and self-similarity\allowbreak[J].
+\newblock Classical and Quantum Gravity, 2013, 30\penalty0 (14):\penalty0
+  145009.
+
+\bibitem[{Harada {\bibetal}(2013)Harada, Yoo, and Kohri}]{harada2013threshold}
+HARADA~T, YOO~C~M, KOHRI~K.
+\newblock Threshold of primordial black hole formation\allowbreak[J].
+\newblock Physical Review D, 2013, 88\penalty0 (8):\penalty0 084051.
+
+\bibitem[{Motohashi {\biband} Hu(2017)Motohashi and
+  Hu}]{motohashi2017primordial}
+MOTOHASHI~H, HU~W.
+\newblock Primordial black holes and slow-roll violation\allowbreak[J].
+\newblock Physical Review D, 2017, 96\penalty0 (6):\penalty0 063503.
 
 \bibitem[{Ananda {\bibetal}(2007)Ananda, Clarkson, and
   Wands}]{ananda2007cosmological}

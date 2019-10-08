@@ -1,59 +1,33 @@
-\section{双拐点暴胀模型}
+\section{暴胀宇宙学}
+\subsection{大爆炸宇宙学的几大疑难}
+大爆炸宇宙学
 
-拐点暴胀模型简介
+\section{暴胀模型}
+暴胀的基本图像是宇宙在极早期经历过一个加速膨胀的过程，之后转为减速膨胀，过渡到大爆炸宇宙模型。
 
-双拐点暴胀模型引入
-
-双拐点暴胀模型特点
-
-拐点暴胀通常指这样的暴胀模型，存在场值$\phi=\phi_0$（拐点）使得势能在该处的二阶导数为零
-\begin{equation}
-    V^{\dprime}(\phi_0) = 0
+当暴胀场用标量场$\varphi$描述时，能量密度为
+\begin{equation}\label{eq:energy_density}
+    \rho = \frac{1}{2}\dot{\varphi}^2+V(\varphi)
+\end{equation}
+以及压强
+\begin{equation}\label{eq:pressure}
+    p=\frac{1}{2}\dot{\varphi}^2-V(\varphi)
 \end{equation}
 
-势能的一般形式为
-
+相应的连续性方程$(\ref{eq:continuation})$
+以及弗里德曼方程$(\ref{eq:1st_friedmann_equation})$改写为
 \begin{equation}
-    \label{eq:inf_potential}
-    V (\phi)=V_0+a (\phi-\phi_0)+\frac{c}{6}{\left(\phi-\phi_0\right)}^3\\
+    \ddot{\varphi}+3H\dot\varphi+V_{,\varphi}=0 
 \end{equation}
 \begin{equation}
-    V_0\equiv V (\phi_0),\ a\equiv V' (\phi_0),\ c\equiv V^{\tprime} (\phi_0) 
+    H^2=\frac{8\pi G}{3}\left(\frac{1}{2}\dot\varphi^2+V(\varphi)\right)
 \end{equation}
+约定约化普朗克质量$M_p\equiv\frac{1}{\sqrt{8\pi G}}=1$。消去标量场$\phi$的二阶导数，得到Hamilton-Jacobi方程
+    \begin{align}
+        \lbrack H'(\varphi)\rbrack^2 - \frac{3}{2}H^2 &=
+        -\frac{1}{2}V(\varphi)\label{HJa} \\
+        \dot\varphi  &= -2H'(\varphi)\label{HJb}
+    \end{align}
 
-高阶项 $(n \geq 4)$ 被截断。相应的慢滚参数为
-\begin{equation}
-    \label{eq:psrp}
-    \epsilon = \frac{M_p}{2}\left(\frac{V'}{V}^2\right),\ \eta=M^2_p
-    \left(\frac{V^{\dprime}}{V}\right),\ \xi^2=M^4_p\left(\frac{V'V^{\tprime}}{V^2}\right)
-\end{equation}
-
-接下来通过WMAP、Planck等实验观测到的标量扰动大小$\mathcal{P}_R$和标量谱指标$n_s$来确定系数a和c。
-令暴胀结束时的场值为$\phi_e$，那时有$\epsilon\sim
-1$。则对应$\phi\sim\phi_e$的e-folding数为
-\begin{align}
-    \label{eq:e-folding}
-    \mathcal{N} &= \frac{V_0}{M^2_p}\sqrt{\frac{2}{ac}}\lbrack
-    F_0(\phi_e)-F_0(\phi)\rbrack \\
-    F_0(z) &= \cot^{-1}\left(\sqrt{\frac{c}{2a}}(z-\phi_0)\right)
-\end{align}
-
-如果将慢滚参数在极值处的平方根定义为 $X$， $\mathcal{N}$ 中涉及 $\phi$
-的部分定义为 $Y$，那么可以将各慢滚参数及可观测量用统一用$X,Y$进行描述。
-
-\begin{align}
-    \epsilon &=
-    \frac{2V_0^2}{c^2M_p^6\mathcal{N}^4} {\left(\frac{Y}{X} \right)}^4 \\
-    \eta &=
-    -\frac{2}{\mathcal{N}}\frac{Y}{S}\left(\sqrt{1-X}\cos Y-\sqrt{X}\sin
-    Y\right)\\
-    \xi^2 &= \frac{2}{\mathcal{N}^2}{\left(\frac{Y}{X}\right)}^2
-\end{align}
-
-在暴胀期间，$\epsilon \ll 1$，导致$X=S\sqrt{\epsilon}\leq\sqrt{\epsilon}\ll
-1$，故而有$S\approx \sin Y$。相应的功率谱，标量谱指标及其跑动为
-\begin{align}
-    \mathcal{P}^{1/2}&\equiv\frac{1}{\sqrt{24\pi^2}}\frac{V_0^{1/2}}{\epsilon^{1/2}M_p^2}
-    \approx\frac{V_0^{1/2}}{2\sqrt{6}\pi M_p^2 X}\sin^2Y\\
-    n_s&\equiv1+2\eta-6\epsilon\approx1-\frac{4}{\mathcal{N}}Y\cot Y\\
-\end{align}
+    由$(\ref{HJb})$可知$\dot H=-\dot \varphi^2/2\leq 0$，故物理哈勃半径$1/H$随时间增大。同时尺度因子$a(t)$加速增大，故共动哈勃半径$1/(aH)$不断随时间减小。
+    方程$(\ref{HJa})$有一个很好的性质，与任意一个方程解的线性扰动都会以指数的速度趋于零，因此很容易进行数值求解。

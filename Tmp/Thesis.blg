@@ -5,53 +5,44 @@ The style file: Biblio/gbt7714-unsrt.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: Biblio/ref.bib
-Repeated entry---line 388 of file Biblio/ref.bib
- : @article{gao2015inflection
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 399 of file Biblio/ref.bib
- : @article{takahashi2010linear
- :                             ,
-I'm skipping whatever remains of this entry
-You've used 42 entries,
+You've used 50 entries,
             4079 wiz_defined-function locations,
-            1110 strings with 12514 characters,
-and the built_in function-call counts, 229870 in all, are:
-= -- 2614
-> -- 27148
-< -- 35717
-+ -- 9640
-- -- 266
-* -- 1480
-:= -- 31676
-add.period$ -- 126
-call.type$ -- 42
-change.case$ -- 180
-chr.to.int$ -- 8840
-cite$ -- 42
-duplicate$ -- 901
-empty$ -- 2059
-format.name$ -- 650
-if$ -- 59461
+            1154 strings with 13741 characters,
+and the built_in function-call counts, 274192 in all, are:
+= -- 3111
+> -- 32388
+< -- 42599
++ -- 11506
+- -- 322
+* -- 1764
+:= -- 37800
+add.period$ -- 150
+call.type$ -- 50
+change.case$ -- 215
+chr.to.int$ -- 10541
+cite$ -- 50
+duplicate$ -- 1072
+empty$ -- 2459
+format.name$ -- 784
+if$ -- 70927
 int.to.chr$ -- 1
-int.to.str$ -- 43
+int.to.str$ -- 51
 missing$ -- 0
-newline$ -- 220
-num.names$ -- 152
-pop$ -- 13492
+newline$ -- 260
+num.names$ -- 181
+pop$ -- 15988
 preamble$ -- 1
-purify$ -- 42
+purify$ -- 50
 quote$ -- 0
-skip$ -- 23162
+skip$ -- 27722
 stack$ -- 0
-substring$ -- 9758
-swap$ -- 102
-text.length$ -- 360
+substring$ -- 11629
+swap$ -- 122
+text.length$ -- 434
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 538
+type$ -- 640
 warning$ -- 0
-while$ -- 494
+while$ -- 591
 width$ -- 0
-write$ -- 663
-(There were 2 error messages)
+write$ -- 784
