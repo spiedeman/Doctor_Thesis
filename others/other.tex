@@ -1,0 +1,104 @@
+
+%! TEX program = xelatex
+
+\documentclass{article}
+
+\usepackage[paper=a4paper,left=31.7mm,right=31.7mm,top=25.4mm,bottom=25.4mm,headheight=12pt,headsep=17.5pt,footskip=10.4mm]{geometry}
+
+\usepackage{xeCJK}
+\usepackage{cjkindent}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cite}
+
+\setCJKmainfont[ItalicFont=STKaitiSC-Regular]{Noto Serif CJK SC}
+
+\begin{document}
+弗里德曼方程
+\begin{align}
+  \frac{\dot{a}^2}{a^2}+\frac{K}{a^2} &=\frac{8\pi G}{3}\rho \\
+  \frac{\ddot{a}}{a}+\frac{2\dot{a}^2}{a^2}+\frac{2k}{a^2}&=4\pi
+  G{\left(\rho-p\right)}.
+\end{align}
+由$\dot{H}=\frac{\ddot{a}}{a}-\dot{H}^2$及$H=\frac{\dot{a}}{a}$得到
+\begin{align}
+  \label{eq:friedmann-equation}
+  H^2 &=\frac{8\pi G}{3}\rho -\frac{K}{a^2} \\
+  \label{eq:accelaration-equation}
+  \dot{H}+H^2 &= \frac{\ddot{a}è}{a}=-\frac{4\pi
+  G}{3}{\left(\rho+3p\right)}.
+\end{align}
+以及连续性方程
+\begin{align}
+  \label{eq:continuation-equation}
+  \dot{\rho}=-3H{\left(\rho+p\right)}.
+\end{align}
+
+物态方程
+\begin{align}
+  \label{eq:state-equation}
+  p=w\rho  
+\end{align}
+带入连续性方程$(\ref{eq:continuation-equation})$得到能量密度$\rho$与尺度因子$a(t)$的关系
+\begin{align}
+  \rho a^{3{\left(1+w\right)}}=\text{constant}
+\end{align}
+将其带入弗里德曼方程$(\ref{eq:friedmann-equation})$并令$K=0$，解出哈勃参数及其导数为
+\begin{align}
+  \label{eq:hubble-parameter}
+  H &=H_0 a^{-\frac{3(1+w)}{2}}\\
+  \label{eq:1st-hubble-parameter}
+  \dot{H} &= -\frac{3(1+w)}{2}H^2
+\end{align}
+下标$0$表示当前时刻，并取$a_0=1$。进一步得到尺度因子$a(t)$
+\begin{align}
+  \label{eq:scale-factor}
+  a = H_0 t^{\frac{2}{3(1+w)}} = H_0
+  \begin{cases}
+    t^{2 /3},\qquad & w=0 \\
+    t^{1 /2},\qquad & w=1 /3
+  \end{cases}
+\end{align}
+因为物态参数$w\in [-1,
+1]$，所以$\dot{H}<0$恒成立，不论是加速膨胀还是减速膨胀期。因此在宇宙整个的演化过程中，哈勃参数$H$单调减小。根据哈勃定律，退行速度$v_{tui}=Hd$。以光速$c=1$为界，相距$d=1
+/H$时，光子前进的距离正好被膨胀的效应抵消。这个临界距离被定义为哈勃半径
+\begin{align}
+  \label{eq:hubble-distance}
+  r_{H}=\frac{1}{H}
+\end{align}
+因而哈勃半径单调增大，未来能观测到的区域将越来越大。出于方便求解方程的目的，引入共动时间$\eta$作为新的时间变量，定义为
+\begin{align}
+  \label{eq:conformal-time}
+  d\eta = \frac{dt}{a}
+\end{align}
+约定$\dot{a}$和$a^\prime$分别是对$t$和$\eta$的导数。根据链式规则，两种导数按照如下规则互相转换
+\begin{align}
+  \label{eq:t-to-eta}
+  \frac{d}{d\eta}=a \frac{d}{dt}
+\end{align}
+在共动坐标系下，可以定义对应的共动哈勃半径
+\begin{align}
+  \label{eq:comoving-hubble-distance}
+  r_{\mathcal{H}} = \frac{1}{\mathcal{H}} = \frac{1}{aH} = \frac{r_{H}}{a}
+\end{align}
+这里花体表示在共动坐标系中对应的物理量，$r_{\mathcal{H}}$的行为稍有不同，
+\begin{align}
+  r_{\mathcal{H}} = \frac{1}{\dot{a}} =
+  \begin{cases}
+    \text{单调减小},\qquad & \ddot{a}>0 \\
+    \text{单调增大},\qquad &\dot{a} < 0
+  \end{cases}
+\end{align}
+
+根据方程$(\ref{eq:1st-hubble-parameter})$，当$w\sim -1$时，$\dot{H}\sim
+0$，故$H\sim
+\text{常数}$。此时宇宙近似为德-西特宇宙，几乎以指数的速度快速膨胀。尺度因子的二阶导数$\ddot{a}$为
+\begin{align}
+  \label{eq:2nd-scale-factor}
+  \ddot{a}=a{\left(\dot{H}+H^2\right)}=-\frac{1+3w}{2}aH^2
+\end{align}
+当强能量条件被破坏${\left(\rho+3p\right)}<0\Leftrightarrow
+{\left(1+3w\right)}<0$，导致$\ddot{a}>0$，宇宙会加速膨胀。
+
+\end{document}
+

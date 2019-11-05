@@ -1,3 +1,55 @@
-\section{小结}
+\section{CMB和标量扰动}
 
+宇宙学原理假设其中之一是宇宙在大尺度结构上是均匀且各向同性。但真实情况是存在一个一阶扰动修正，扰动可以非均匀、各向异性。带有扰动的弗里德曼平坦宇宙的度规为
+\begin{align}
+  \label{eq:perturbation-metric}
+  ds^2=\left[^{(0)}g_{\alpha\beta}+\delta g_{\alpha\beta}(x^{\gamma})
+  \right]dx^{\alpha}dx^{\beta},
+\end{align}
+其中$|\delta g_{\alpha\beta}|\ll|^{(0)}g_{\alpha\beta}|$。采用共动时间时，
+背景度规为
+\begin{align}
+  \label{eq:background-metric}
+  ^{(0)}g_{\alpha\beta}=a^2(\eta)\text{diag}(1, -1, -1, -1).
+\end{align}
+度规扰动$\delta
+g_{\alpha\beta}$可以分解为三种类型：\textbf{标量扰动}、\textbf{矢量扰动}和\textbf{张量扰动}。
+三种扰动独立演化，互不影响。
+扰动$\delta g_{\alpha\beta}$的来源之一，是
+从物理角度，仅仅因为坐标变换导致的扰动不是真实的扰动。而在坐标变换下的不变量才是反映真实扰动的物理量，
+这样的不变量称为\textbf{规范不变量}。以时空为变量的无穷小函数$\xi^{\alpha}(x)$，可以用来定义一个无穷小坐标变换。
+\begin{align}
+  \label{eq:coordinate-transformation}
+  x^{\alpha} \rightarrow \tilde{x}^{\alpha}=x^{\alpha}+\xi^{\alpha}.
+\end{align}
+4-标量$q(x^{\rho})$的扰动$\delta
+q=q(x^{\rho})-^{(0)}q(x^{\rho})$按如下方式变换
+\begin{align}
+  \label{eq:scalar-perturbation-transformation}
+  \delta q \rightarrow \delta\tilde{q}=\delta q
+  -^{(0)}q_{,\alpha}\xi^{\alpha}.
+\end{align}
+同理可知4-矢量扰动和4-张量扰动的变换规则为
+\begin{align}
+  \label{eq:vector-perturbation-transformation}
+  \delta u_{\alpha} \rightarrow \delta\tilde{u}_{\alpha}&=
+  \delta
+  u_{\alpha}-^{(0)}u_{\alpha,\gamma}\xi^{\gamma}-^{(0)}u_{\gamma}\xi^{\gamma}_{,\alpha},
+  \\
+  \label{eq:tensor-perturbation-transformation}
+  \delta g_{\alpha\beta}\rightarrow\delta \tilde{g}_{\alpha\beta} &=
+  \delta g_{\alpha\beta}-^{(0)}g_{\alpha\beta,\gamma}\xi^{\gamma}
+  -^{(0)}g_{\gamma\beta}\xi^{\gamma}_{,\alpha}-^{(0)}g_{\alpha\gamma}\xi^{\gamma}_{,\beta}.
+\end{align}
 
+考虑标量扰动时，度规的最一般形式为
+\begin{align}
+  \label{eq:scalar-metric-perturbation}
+  g_{\alpha\beta}=a^2(\eta)
+  \begin{pmatrix}
+    1 + 2\phi & B_{,j} \\
+    B_{,i} & -(1-2\psi)\delta_{ij}+E_{,ij}
+  \end{pmatrix}
+\end{align}
+
+其中$\phi$，$\psi$，$B$，$E$为3-标量。

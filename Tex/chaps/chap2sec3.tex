@@ -1,7 +1,146 @@
-\section{CMB和标量扰动}
+\section{暴胀模型}
+由于共动距离不随时间改变，在共动坐标系下讨论\textbf{（共动）粒子视界}会使视界问题变得更简单。若尺度因子$a(t)$是时间$t$的幂函数，则在当前时刻$t_0$和过去某一时刻$t_1$的因果联系区的共动尺度比为
+\begin{align}
+  \frac{\chi_{p 0}}{\chi_{p 1}}\sim \frac{t_0}{t_1}\frac{a_1}{a_0}
+  \sim \frac{\dot{a}_1}{\dot{a}_0}.
+\end{align}
 
-随机引力波背景简介
+平坦性疑难中，给大爆炸宇宙学造成困难的地方来自于比值
+\begin{align}
+  \label{eq:flatness-of-space}
+  \frac{\Omega_0-1}{\Omega_1-1}=
+  \frac{{\left(Ha\right)}^2_{1}}{{\left(Ha\right)}^2_{0}}
+  \sim {\left(\frac{\dot{a}_1}{\dot{a}_0}\right)}^2.
+\end{align}
+在这几个疑难中，都出现了比值$\dot{a}_1 /
+\dot{a}_0$。当强能量条件满足时$\rho+3p>0$，根据加速度方程$(\ref{eq:accelaration_equation})$尺度因子的二阶导数小于零，因此宇宙处于减速膨胀的状态。故越早期，比值$\dot{a}_1
+/\dot{a}_0$越大，问题越严重。如果要求$\dot{a}_1
+/\dot{a}_0\leq
+1$，那么只能假设$\dot{a}$经历了先增大、后渐小的过程。引入的这一段加速膨胀的过程是必要的，至于是否充分取决于实现这一条件的特定模型。
+根据加速度方程，普通物质的存在提供了引力使得宇宙的膨胀速度减小。那么为了实现加速膨胀，必须假设宇宙中存在别的物质，使得引力表现为一种“排斥力”。
 
-与暴胀之间的联系
+我们先给出暴涨的定义：\textbf{暴胀}是当引力表现为一种排斥力使得宇宙处于加速膨胀的一个阶段。
+
+暴胀能够解释大爆炸的起源。因为加速膨胀，原本处于因果联系区内的一个小区域会在短时间内膨胀地非常大。更进一步，
+暴胀甚至能从一个均匀的小区域中产生整个可观测宇宙，即便这一区域外相当非均匀。原因在于，在一个加速膨胀的宇宙中，
+总是存在有限大的事件视界
+\begin{equation}
+  \begin{split}
+    d_{e}(t) &= a(t)\int_t^{t_{\text{max}}} \frac{dt}{a}
+    =a(t)\int_{a(t)}^{a_{\text{max}}} \frac{da}{\dot{a}a} \\
+    &= \sqrt{\frac{3}{8\pi G}}a(t)\int_{a(t)}^{a_{\text{max}}}
+    \frac{da}{a\sqrt{a^{-(1+3w)}-\frac{3K}{8\pi G}}} 
+  \end{split}
+\end{equation}
+因为${\left(1+3w\right)}<0$，即使$a_{\text{max}}\rightarrow
+\infty$，$d_{e}(t)$也会收敛到有限值。如此一来，以$
+p$为中心，$d_{e}(t)$为半径的区域$V_1(t)=\{q\ |\
+|q-p|<d_{e}(t)\}$其未来的演化永远不会受到来自于半径为$2d_{e}(t)$的同心区域$V_2(t)$外的影响。能对内部产生作用的只有半径在$d_{e}(t)$到$2d_{e}(t)$的部分。假设在$t=t_{i}$时$V_2(t_{i})$内部的物质分布均匀且各向同性，那么到暴胀结束时，$V_1(t_{f})$内始终保持均匀和各向同性。$V_1(t)$区域的物理尺度在暴胀结束时为
+\begin{align}
+  d_{e}(t_{f})=d_e(t_{i}) \frac{a_{f}}{a_{i}}.
+\end{align}
+在加速膨胀宇宙中，粒子视界可以作如下近似
+\begin{align}
+  d_{p}(t) =a(t)\int_{t_{i}}^{t} \frac{dt}{a}=a(t)\int_{a_{i}}^{a}
+  \frac{da}{\dot{a}a}\sim \frac{a(t)}{a_{i}}d_{e}(t_i),  
+\end{align}
+因为积分的主要贡献来自于$a\sim a_{i}$的部分。在暴胀结束时，$d_{p}(t)\sim
+d_{e}(t)$，说明均匀区域的大小与粒子视界的尺度相当。不同于一个均匀的宇宙包含很多不同的因果关联区，我们可以从一个
+很小的均匀的因果关联区出发，通过暴胀使得它的大小以爆炸似的方式变大，同时保持了均匀性。
+
+下一个问题是\textbf{均匀性}的条件是否可以放开，即不要求暴胀开始时因果关联区内部物质分布的均匀性。那么我们
+从一个高度非均匀的因果关联区出发，计算一下暴胀结束时的扰动大小。假设初始的能相对量密度扰动在$\sim
+H_{i}^{-1}$的尺度上为$\mathcal{O}(1)$的量级，
+\begin{align}
+  {\left(\frac{\delta \varepsilon}{\varepsilon}\right)}_{t^{i}}
+  \sim \frac{1}{\varepsilon} \frac{|\nabla\varepsilon|}{a_{i}}H_{i}^{-1}
+  =\frac{|\nabla\varepsilon|}{\varepsilon}\frac{1}{\dot{a}_{i}}
+  \sim \mathcal{O}(1)
+\end{align}
+这里$\nabla$是在共动坐标系中对空间的导数。当$t\gg
+t_{i}$时，哈勃半径$H^{-1}(t)$内的能量密度扰动近似为
+\begin{align}
+  \label{eq:relative-energy-density-perturbation}
+  {\left(\frac{\delta\varepsilon}{\varepsilon}\right)}_{t}
+  \sim \frac{1}{\varepsilon} \frac{|\nabla\varepsilon|}{a(t)}H^{-1}(t)
+  \sim \mathcal{O}(1) \frac{\dot{a}_{i}}{\dot{a}(t)},
+\end{align}
+
+这里假设了$|\nabla\varepsilon|/\varepsilon$不会在暴胀期间产生明显变化。这一假设的合理性可以来自于对标量扰动在大于$H^{-1}$的尺度上的行为的分析。
+$(\ref{eq:relative-energy-density-perturbation})$说明当宇宙处于加速膨胀过程中时，在半径为$H^{-1}$的区域内，
+相对能量密度扰动会变得越来越小。因而宇宙变得越来越平坦。
+
+总结起来，如今我们观测到的均匀且各向同性的宇宙，可以有一个非均匀的起源，只要存在暴胀就可以将非均匀性给抹除。
+
+同时，暴胀也能解决平坦性问题。从$(\ref{eq:relative-energy-density-perturbation})$可以发现，如果要求避免大的密度扰动重新进入视界（$\sim
+H_0^{-1}$）使得宇宙的均匀性假设被破坏，那么必须假设暴胀开始时候的膨胀率远小于今天的膨胀率，即$\dot{a}_{i}/\dot{a}_0\ll
+1$。
+再精确一点，可以根据CMB的观测要求在当今的视界尺度上，能量密度扰动的方差不应当超过$10^{-5}$。
+只要满足条件$\dot{a}_{i}/\dot{a}_0\ll
+10^{-5}$，方程$(\ref{eq:relative-energy-density-perturbation})$即可被满足，暴胀时的非均匀性足够被抹除。
+$(\ref{eq:flatness-of-space})$可以改写为
+\begin{align}
+  \Omega_0=1+{\left(\Omega_{i}-1\right)}{\left(\frac{\dot{a}_{i}}{\dot{a}_0}\right)}^2,
+\end{align}
+可以看出只要满足条件$|\Omega_{i}-1|\sim\mathcal{O}(1)$，就能使得
+\begin{align}
+  \Omega_0=1
+\end{align}
+在相当高的精度上成立。还可以从另一个角度来理解，在减速膨胀的宇宙中，只当$t\rightarrow
+0$时会有$\Omega(t)\rightarrow
+1$。而在加速膨胀的宇宙中，是当$t\rightarrow\infty$时才有$\Omega(t)\rightarrow
+1$。因而只要在减速膨胀阶段之前存在一个加速膨胀阶段，困扰我们的精细调节问题便不复存在。
 
 
+
+一般我们通过标量场来实现一个强能量条件被破坏的模型，相应的场被称为暴胀子。带有势能$V(\varphi)$的标量场$\varphi$的能动量张量为
+\begin{align}
+  \label{eq:scalar-energy-momentum-tensor}
+  T^{\alpha}_{\ \beta} = \varphi^{,\alpha}\varphi_{,\beta}-
+  \frac{1}{2}{\left(\varphi^{,\gamma}\varphi_{,\gamma}-V(\varphi)\right)}\delta^{\alpha}_{\ \beta}
+\end{align}
+根据$T^{\alpha}_{\ \beta;\alpha}=0$可得
+\begin{align}
+  \varphi^{;\alpha}_{\ ;\alpha}+\frac{\partial V(\varphi)}{\partial\varphi}
+  =0.
+\end{align}
+若$\varphi^{,\gamma}\varphi_{,\gamma}>0$，且定义变量
+\begin{align}
+  \rho \equiv
+  \frac{1}{2}\varphi^{,\gamma}\varphi_{,\gamma}+V(\varphi),\qquad 
+  p\equiv \frac{1}{2}\varphi^{,\gamma}_{,\gamma}-V(\varphi),\qquad
+  u^{\alpha}\equiv \varphi^{,\alpha}/
+  \sqrt{\varphi^{,\gamma}\varphi_{,\gamma}},
+\end{align}
+则能动量张量$T^{\alpha}_{\
+\beta}$可以改写为理想流体的能动量张量形式，
+\begin{align}
+  \label{eq:perfect-fluid-energy-momentum-tensor}
+  T^{\alpha}_{\ \beta}=(\rho+p)u^{\alpha}u_{\beta}-p\delta^{\alpha}_{\
+  \beta}.
+\end{align}
+特别当场$\varphi$是均匀场，即$\partial\varphi /\partial x^{i}=0$时场的能量密度为
+\begin{equation}\label{eq:energy_density}
+  \rho = \frac{1}{2}\dot{\varphi}^2+V(\varphi)
+\end{equation}
+以及压强
+\begin{equation}\label{eq:pressure}
+  p=\frac{1}{2}\dot{\varphi}^2-V(\varphi)
+\end{equation}
+相应的连续性方程$(\ref{eq:continuation})$
+以及弗里德曼方程$(\ref{eq:1st_friedmann_equation})$改写为
+\begin{equation}
+  \ddot{\varphi}+3H\dot\varphi+V_{,\varphi}=0
+\end{equation}
+\begin{equation}
+  H^2=\frac{8\pi G}{3}\left(\frac{1}{2}\dot\varphi^2+V(\varphi)\right)
+\end{equation}
+约定约化普朗克质量$M_p\equiv\frac{1}{\sqrt{8\pi G}}=1$。消去标量场$\phi$的二阶导数，得到Hamilton-Jacobi方程
+\begin{align}
+  \lbrack H'(\varphi)\rbrack^2 - \frac{3}{2}H^2 &=
+  -\frac{1}{2}V(\varphi)\label{HJa} \\
+  \dot\varphi  &= -2H'(\varphi)\label{HJb}
+\end{align}
+
+由$(\ref{HJb})$可知$\dot H=-\dot \varphi^2/2\leq 0$，故物理哈勃半径$1/H$随时间增大。同时尺度因子$a(t)$加速增大，故共动哈勃半径$1/(aH)$不断随时间减小。
+方程$(\ref{HJa})$有一个很好的性质，与任意一个方程解的线性扰动都会以指数的速度趋于零，因此很容易进行数值求解。

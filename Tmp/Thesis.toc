@@ -1,29 +1,32 @@
 \contentsline {chapter}{\numberline {第1章\hspace {.3em}}引言}{1}{chapter.1}% 
 \contentsline {chapter}{\numberline {第2章\hspace {.3em}}现代宇宙学}{3}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}大爆炸宇宙模型}{3}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}大爆炸宇宙学}{3}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}暴胀宇宙学}{6}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}大爆炸宇宙学的几大疑难}{6}{subsection.2.2.1}% 
-\contentsline {section}{\numberline {2.3}暴胀模型}{6}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}CMB和标量扰动}{7}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}小结}{7}{section.2.5}% 
-\contentsline {chapter}{\numberline {第3章\hspace {.3em}}暴胀模型}{9}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}拐点暴胀模型基本概念}{9}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}一些拐点暴胀模型的文章}{9}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}带跑动动能项的多项式超势}{9}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {3.2.2}建立拐点暴胀模型}{11}{subsection.3.2.2}% 
-\contentsline {section}{\numberline {3.3}预测}{11}{section.3.3}% 
-\contentsline {chapter}{\numberline {第4章\hspace {.3em}}双拐点暴胀模型预言的引力波}{13}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}超引力}{13}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}原初黑洞}{16}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}计算方法}{18}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}引力波}{18}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}基本方程}{18}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}数值结果}{21}{subsection.4.4.2}% 
-\contentsline {subsection}{\numberline {4.4.3}功率谱为幂指数时的结果}{22}{subsection.4.4.3}% 
-\contentsline {chapter}{\numberline {第5章\hspace {.3em}}总结与展望}{23}{chapter.5}% 
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{25}{appendix.A}% 
-\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{25}{section.A.1}% 
-\contentsline {section}{\numberline {A.2}测试公式编号}{25}{section.A.2}% 
-\contentsline {chapter}{参考文献}{27}{section*.19}% 
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{31}{appendix*.21}% 
-\contentsline {chapter}{致谢}{33}{appendix*.28}% 
+\contentsline {subsection}{\numberline {2.2.1}视界疑难}{6}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}平坦性疑难}{7}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}大尺度结构疑难}{7}{subsection.2.2.3}% 
+\contentsline {section}{\numberline {2.3}暴胀模型}{7}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}CMB和标量扰动}{11}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}小结}{12}{section.2.5}% 
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}暴胀模型}{13}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}拐点暴胀模型基本概念}{13}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}双拐点暴胀模型}{13}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}一些拐点暴胀模型的文章}{14}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}带跑动动能项的多项式超势}{14}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}建立拐点暴胀模型}{16}{subsection.3.3.2}% 
+\contentsline {section}{\numberline {3.4}预测}{16}{section.3.4}% 
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}双拐点暴胀模型预言的引力波}{17}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}超引力}{17}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}原初黑洞}{20}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}计算方法}{22}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}引力波}{22}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}基本方程}{22}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}数值结果}{25}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.3}功率谱为幂指数时的结果}{26}{subsection.4.4.3}% 
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}总结与展望}{27}{chapter.5}% 
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{29}{appendix.A}% 
+\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{29}{section.A.1}% 
+\contentsline {section}{\numberline {A.2}测试公式编号}{29}{section.A.2}% 
+\contentsline {chapter}{参考文献}{31}{section*.19}% 
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{35}{appendix*.21}% 
+\contentsline {chapter}{致谢}{37}{appendix*.28}% 
