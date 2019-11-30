@@ -1,4 +1,3 @@
-
 %! TEX program = xelatex
 
 \documentclass{article}
@@ -14,91 +13,234 @@
 \setCJKmainfont[ItalicFont=STKaitiSC-Regular]{Noto Serif CJK SC}
 
 \begin{document}
-弗里德曼方程
-\begin{align}
-  \frac{\dot{a}^2}{a^2}+\frac{K}{a^2} &=\frac{8\pi G}{3}\rho \\
-  \frac{\ddot{a}}{a}+\frac{2\dot{a}^2}{a^2}+\frac{2k}{a^2}&=4\pi
-  G{\left(\rho-p\right)}.
-\end{align}
-由$\dot{H}=\frac{\ddot{a}}{a}-\dot{H}^2$及$H=\frac{\dot{a}}{a}$得到
-\begin{align}
-  \label{eq:friedmann-equation}
-  H^2 &=\frac{8\pi G}{3}\rho -\frac{K}{a^2} \\
-  \label{eq:accelaration-equation}
-  \dot{H}+H^2 &= \frac{\ddot{a}è}{a}=-\frac{4\pi
-  G}{3}{\left(\rho+3p\right)}.
-\end{align}
-以及连续性方程
-\begin{align}
-  \label{eq:continuation-equation}
-  \dot{\rho}=-3H{\left(\rho+p\right)}.
-\end{align}
+\section{first}
+  弗里德曼方程
+  \begin{align}
+    \frac{\dot{a}^2}{a^2}+\frac{K}{a^2} &=\frac{8\pi G}{3}\rho \\
+    \frac{\ddot{a}}{a}+\frac{2\dot{a}^2}{a^2}+\frac{2k}{a^2}&=4\pi
+    G{\left(\rho-p\right)}.
+  \end{align}
+  由$\dot{H}=\frac{\ddot{a}}{a}-\dot{H}^2$及$H=\frac{\dot{a}}{a}$得到
+  \begin{align}
+    \label{eq:friedmann-equation}
+    H^2 &=\frac{8\pi G}{3}\rho -\frac{K}{a^2} \\
+    \label{eq:accelaration-equation}
+    \dot{H}+H^2 &= \frac{\ddot{a}è}{a}=-\frac{4\pi
+    G}{3}{\left(\rho+3p\right)}.
+  \end{align}
+  以及连续性方程
+  \begin{align}
+    \label{eq:continuation-equation}
+    \dot{\rho}=-3H{\left(\rho+p\right)}.
+  \end{align}
 
-物态方程
-\begin{align}
-  \label{eq:state-equation}
-  p=w\rho  
-\end{align}
-带入连续性方程$(\ref{eq:continuation-equation})$得到能量密度$\rho$与尺度因子$a(t)$的关系
-\begin{align}
-  \rho a^{3{\left(1+w\right)}}=\text{constant}
-\end{align}
-将其带入弗里德曼方程$(\ref{eq:friedmann-equation})$并令$K=0$，解出哈勃参数及其导数为
-\begin{align}
-  \label{eq:hubble-parameter}
-  H &=H_0 a^{-\frac{3(1+w)}{2}}\\
-  \label{eq:1st-hubble-parameter}
-  \dot{H} &= -\frac{3(1+w)}{2}H^2
-\end{align}
-下标$0$表示当前时刻，并取$a_0=1$。进一步得到尺度因子$a(t)$
-\begin{align}
-  \label{eq:scale-factor}
-  a = H_0 t^{\frac{2}{3(1+w)}} = H_0
-  \begin{cases}
-    t^{2 /3},\qquad & w=0 \\
-    t^{1 /2},\qquad & w=1 /3
-  \end{cases}
-\end{align}
-因为物态参数$w\in [-1,
-1]$，所以$\dot{H}<0$恒成立，不论是加速膨胀还是减速膨胀期。因此在宇宙整个的演化过程中，哈勃参数$H$单调减小。根据哈勃定律，退行速度$v_{tui}=Hd$。以光速$c=1$为界，相距$d=1
-/H$时，光子前进的距离正好被膨胀的效应抵消。这个临界距离被定义为哈勃半径
-\begin{align}
-  \label{eq:hubble-distance}
-  r_{H}=\frac{1}{H}
-\end{align}
-因而哈勃半径单调增大，未来能观测到的区域将越来越大。出于方便求解方程的目的，引入共动时间$\eta$作为新的时间变量，定义为
-\begin{align}
-  \label{eq:conformal-time}
-  d\eta = \frac{dt}{a}
-\end{align}
-约定$\dot{a}$和$a^\prime$分别是对$t$和$\eta$的导数。根据链式规则，两种导数按照如下规则互相转换
-\begin{align}
-  \label{eq:t-to-eta}
-  \frac{d}{d\eta}=a \frac{d}{dt}
-\end{align}
-在共动坐标系下，可以定义对应的共动哈勃半径
-\begin{align}
-  \label{eq:comoving-hubble-distance}
-  r_{\mathcal{H}} = \frac{1}{\mathcal{H}} = \frac{1}{aH} = \frac{r_{H}}{a}
-\end{align}
-这里花体表示在共动坐标系中对应的物理量，$r_{\mathcal{H}}$的行为稍有不同，
-\begin{align}
-  r_{\mathcal{H}} = \frac{1}{\dot{a}} =
-  \begin{cases}
-    \text{单调减小},\qquad & \ddot{a}>0 \\
-    \text{单调增大},\qquad &\dot{a} < 0
-  \end{cases}
-\end{align}
+  物态方程
+  \begin{align}
+    \label{eq:state-equation}
+    p=w\rho  
+  \end{align}
+  带入连续性方程$(\ref{eq:continuation-equation})$得到能量密度$\rho$与尺度因子$a(t)$的关系
+  \begin{align}
+    \rho a^{3{\left(1+w\right)}}=\text{constant}
+  \end{align}
+  将其带入弗里德曼方程$(\ref{eq:friedmann-equation})$并令$K=0$，解出哈勃参数及其导数为
+  \begin{align}
+    \label{eq:hubble-parameter}
+    H &=H_0 a^{-\frac{3(1+w)}{2}}\\
+    \label{eq:1st-hubble-parameter}
+    \dot{H} &= -\frac{3(1+w)}{2}H^2
+  \end{align}
+  下标$0$表示当前时刻，并取$a_0=1$。进一步得到尺度因子$a(t)$
+  \begin{align}
+    \label{eq:scale-factor}
+    a = H_0 t^{\frac{2}{3(1+w)}} = H_0
+    \begin{cases}
+      t^{2 /3},\qquad & w=0 \\
+      t^{1 /2},\qquad & w=1 /3
+    \end{cases}
+  \end{align}
+  因为物态参数$w\in [-1,
+  1]$，所以$\dot{H}<0$恒成立，不论是加速膨胀还是减速膨胀期。因此在宇宙整个的演化过程中，哈勃参数$H$单调减小。根据哈勃定律，退行速度$v_{tui}=Hd$。以光速$c=1$为界，相距$d=1
+  /H$时，光子前进的距离正好被膨胀的效应抵消。这个临界距离被定义为哈勃半径
+  \begin{align}
+    \label{eq:hubble-distance}
+    r_{H}=\frac{1}{H}
+  \end{align}
+  因而哈勃半径单调增大，未来能观测到的区域将越来越大。出于方便求解方程的目的，引入共动时间$\eta$作为新的时间变量，定义为
+  \begin{align}
+    \label{eq:conformal-time}
+    d\eta = \frac{dt}{a}
+  \end{align}
+  约定$\dot{a}$和$a^\prime$分别是对$t$和$\eta$的导数。根据链式规则，两种导数按照如下规则互相转换
+  \begin{align}
+    \label{eq:t-to-eta}
+    \frac{d}{d\eta}=a \frac{d}{dt}
+  \end{align}
+  在共动坐标系下，可以定义对应的共动哈勃半径
+  \begin{align}
+    \label{eq:comoving-hubble-distance}
+    r_{\mathcal{H}} = \frac{1}{\mathcal{H}} = \frac{1}{aH} = \frac{r_{H}}{a}
+  \end{align}
+  这里花体表示在共动坐标系中对应的物理量，$r_{\mathcal{H}}$的行为稍有不同，
+  \begin{align}
+    r_{\mathcal{H}} = \frac{1}{\dot{a}} =
+    \begin{cases}
+      \text{单调减小},\qquad & \ddot{a}>0 \\
+      \text{单调增大},\qquad &\dot{a} < 0
+    \end{cases}
+  \end{align}
 
-根据方程$(\ref{eq:1st-hubble-parameter})$，当$w\sim -1$时，$\dot{H}\sim
-0$，故$H\sim
-\text{常数}$。此时宇宙近似为德-西特宇宙，几乎以指数的速度快速膨胀。尺度因子的二阶导数$\ddot{a}$为
-\begin{align}
-  \label{eq:2nd-scale-factor}
-  \ddot{a}=a{\left(\dot{H}+H^2\right)}=-\frac{1+3w}{2}aH^2
-\end{align}
-当强能量条件被破坏${\left(\rho+3p\right)}<0\Leftrightarrow
-{\left(1+3w\right)}<0$，导致$\ddot{a}>0$，宇宙会加速膨胀。
+  根据方程$(\ref{eq:1st-hubble-parameter})$，当$w\sim -1$时，$\dot{H}\sim
+  0$，故$H\sim
+  \text{常数}$。此时宇宙近似为德-西特宇宙，几乎以指数的速度快速膨胀。尺度因子的二阶导数$\ddot{a}$为
+  \begin{align}
+    \label{eq:2nd-scale-factor}
+    \ddot{a}=a{\left(\dot{H}+H^2\right)}=-\frac{1+3w}{2}aH^2
+  \end{align}
+  当强能量条件被破坏${\left(\rho+3p\right)}<0\Leftrightarrow
+  {\left(1+3w\right)}<0$，导致$\ddot{a}>0$，宇宙会加速膨胀。
 
+\section{second}
+  规范变换和规范不变量。由于物理规律不依赖于所用的坐标系，因而在任何情况下，只有不依赖于坐标系选择的物理量
+  才是值得讨论的。所以当我们研究宇宙中物质扰动的演化规律时，目标就是要找到非坐标依赖的扰动量。首先定义\textbf{规范变换}为物理量在无穷小坐标变换下的变换规则，而\textbf{规范不变量}为在规范变换下不变的物理量。
+  考虑无穷小坐标变换
+  \begin{align}
+    \label{eq:coordinate-transformation}
+    x^{\alpha}\rightarrow \tilde{x}^{\alpha}=x^{\alpha} + \xi^{\alpha}.
+  \end{align}
+  其中$\xi^{\alpha}$为无穷小时空的函数。在该变换下，四-标量（矢量、张量）的扰动分别遵循如下的变换规则
+  \begin{align}
+    \label{eq:gauge-transformation-scalar}
+    \delta{q} \rightarrow \tilde{q} &=\delta{q}-^{(0)}q_{\alpha}\xi^{\alpha} \\
+    \label{eq:gauge-transformation-vector}
+    \delta{u}_{\alpha}\rightarrow \delta{\tilde{u}}_{\alpha}&=
+    \delta{u}_{\alpha}-^{(0)}u_{\alpha,\gamma}\xi^{\gamma}-^{(0)}u_{\gamma}\xi^{\gamma}_{\
+    ,\alpha} \\
+    \label{eq:gauge-transformation-tensor}
+    \delta{g_{\alpha\beta}}\rightarrow \delta{\tilde{g}_{\alpha\beta}} &=
+    \delta{g_{\alpha\beta}}-^{(0)}g_{\alpha\beta,\gamma}\xi^{\gamma}-^{(0)}g_{\gamma\beta}\xi^{\gamma}_{\
+    ,\alpha}-^{(0)}g_{\alpha\gamma}\xi^{\gamma}_{\ ,\beta}.
+  \end{align}
+  
+  当度规扰动为标量扰动时，扰动度规形式为
+  \begin{align}
+    \label{eq:scalar-perturbation-metric}
+    ds^2=a^2{\left[(1+2\phi)d\eta^2+2B_{,i}dx^{i}d\eta-{\left((1-2\psi)\delta_{ij}-2E_{,ij}\right)}dx^{i}dx^{j}\right]}.
+  \end{align}
+  其中$\phi, \psi, B,
+  E$为四个标量函数，根据张量扰动的规范变换可以得到它们的变换规则，再通过线性组合能够得到两个规范不变量
+  \begin{equation}
+    \begin{split}
+      \label{eq:gauge-invariant-varible}
+      \Phi &\equiv\phi-\frac{1}{a}{\left[a{\left(B-E^\prime\right)}\right]}^{\prime}\\
+      \Psi &\equiv \psi+ \frac{a^\prime}{a}{\left(B-E^\prime\right)}.
+    \end{split}
+  \end{equation}
+  
+  规范不变量的存在表明四个标量函数中只有两个独立函数。通过人为引入两个约束条件，可以消去多余的非物理自由度。
+  不同的引入约束条件的方式代表不同的规范，效果等价于选取一个唯一的坐标系或一类坐标簇。常用的规范有\textbf{纵向规范}和\textbf{同步规范}。
+
+  \textbf{纵向规范}：$B=E=0$。度规的扰动形式由$\phi$、$\psi$两个标量函数刻画，
+  \begin{align}
+    \label{eq:conformal-newtonian}
+    ds^2=a^2{\left[(1+2\phi)d\eta^2-(1-2\psi)\delta_{ij}dx^{i}dx^{j}\right]}.
+  \end{align}
+  从$(\ref{eq:gauge-invariant-varible})$可知在纵向规范下，规范不变量就是度规的扰动，特别有$\Psi=\psi
+  $，$\Phi=\phi$。
+
+  \textbf{同步规范}：$\phi=B=0$。度规的扰动形式由$\psi$、$E$两个标量函数刻画，
+  \begin{align}
+    \label{eq:syncronous-gauge}
+    ds^2=a^2{\left[-{\left((1-2\psi)\delta_{ij}-2E_{,ij}\right)}dx^{i}dx^{j}\right]}.
+  \end{align}
+  从$(\ref{eq:gauge-invariant-varible})$可知在同步规范下，规范不变量与扰动的关系为
+  \begin{align}
+    \Phi=\frac{1}{a}{\left[aE^\prime\right]}^{\prime},\qquad
+    \Psi=\psi-\frac{a^\prime}{a}E^\prime.
+  \end{align}
+  
+  \subsection{扰动方程}
+  为了获知规范不变量如何随时间演化，首先要得到规范不变量满足的方程。由爱因斯坦方程很容易得到这个方程为
+  \begin{align}
+    \label{eq:gauge-invariant-perturbation-equation}
+    \overline{\delta G}^{\alpha}_{\beta}= 8\pi G\overline{\delta
+    T}^{\alpha}_{\ \beta}. 
+  \end{align}
+  规范不变量$\overline{\delta T}^{\alpha}_{\
+  \beta}$可以分解为标量、矢量、张量三个互不影响的部分。背景为FRW度规的情况下，直接计算规范不变的张量扰动$\overline{\delta
+G}^{\alpha}_{\ \beta}$可以得到三种扰动分别满足的方程组
+  
+  \textbf{标量扰动}：
+  \begin{align}
+    \Delta\Phi-3\mathcal{H}{\left(\Phi^\prime+\mathcal{H}\Psi\right)} =
+    4\pi Ga^2\overline{\delta T}^{0}_{\ 0}&, 
+    \label{eq:equation-gauge-scalar-perturbation1}\\
+    {\left(\Phi^\prime+\mathcal{H}\Phi\right)}_{,i}=4\pi
+    Ga^2\overline{\delta T}^{0}_{\ i}&,
+    \label{eq:equation-gauge-scalar-perturbation2}\\
+    \begin{split}
+      {\left[\Phi^{\prime\prime}+\mathcal{H}{\left(2\Psi+\Phi\right)}^{\prime}+(2\mathcal{H^\prime}+\mathcal{H}^2)\Phi 
+  +\frac{1}{2}\Delta(\Phi-\Psi)\right]}&\delta_{ij} \\
+      -\frac{1}{2}{\left((\Phi-\Psi)\right)}_{,ij} = -4\pi
+  Ga^2\overline{\delta T}^{i}_{\ j}&.
+    \end{split}
+    \label{eq:equation-gauge-scalar-perturbation3}
+  \end{align}
+  
+  \textbf{矢量扰动}：
+  \begin{align}
+    \label{eq:equation-gauge-vector-perturbation}
+    \Delta\overline{V}_{i}=16\pi Ga^2\overline{\delta T}^{0}_{\ i(V)}, \\  
+    {\left(\overline{V}_{i,j}+\overline{V}_{j,i}\right)}^{\prime} + 
+    2\mathcal{H}{\left(\overline{V}_{i,j}+\overline{V}_{j,i}\right)} = 
+    -16\pi Ga^2&\overline{\delta T}^{i}_{\ j(V)}.
+  \end{align}
+  
+  \textbf{张量扰动}：
+  \begin{align}
+    \label{eq:equation-gauge-tensor-perturbation}
+    h^{\prime\prime}_{ij}+2\mathcal{H}h^\prime_{ij}-\Delta h_{ij}=16\pi
+    Ga^2\overline{\delta T}^{i}_{\ j(T)}.
+  \end{align}
+  
+  这些方程的成立不依赖于某个特定的坐标系。然而由于在纵向规范下，有特殊关系$\Phi=\phi$和$\Psi=\psi$，使我们
+  能够在该规范下求得扰动满足的各种方程，再做替换便可直接得到规范不变量所满足的方程。
+
+  \subsection{完美流体}
+  得到扰动方程后，以完美流体为例，求解规范不变量的演化。完美流体的能动量张量为
+  \begin{align}
+    \label{eq:perfect-fluid}
+    T^{\alpha}_{\beta}=(\varepsilon+p)u^{\alpha}u_{\beta}-p\delta^{\alpha}_{\ \beta}.
+  \end{align}
+  相应的规范不变量为
+  \begin{align}
+    \label{eq:perfect-fluid-gauge-invariant-variable}
+    \overline{\delta{T}}^{0}_{\ 0} &= \overline{\delta{\varepsilon}} \\
+    \overline{\delta{T}}^{0}_{\ i} &=
+    \frac{1}{a}(\varepsilon_0+p_0){\left(\overline{\delta{u}}_{\shortparallel
+          i}+\overline{\delta{u}}_{\perp i}\right)} \\
+    \overline{\delta{T}}^{i}_{\ j}&= -\overline{\delta{p}}\delta^{i}_{\ j}.
+  \end{align}
+  $\overline{\delta{\varepsilon}}$、$\overline{\delta{u}}_{\shortparallel
+  i}$、$\overline{\delta{p}}$分别是能量密度扰动、无旋速度扰动、压强扰动对应的规范不变量。
+  标量扰动的贡献只来自于这几项，正比于速度扰动的无源分量$\overline{\delta{u}}_{\perp
+  i}$的项只对矢量扰动产生贡献。\\
+  当$i\neq
+  j$时，$\delta{T}^{i}_{j}=0$，方程$(\ref{eq:equation-gauge-scalar-perturbation3})$约化为
+  \begin{align}
+    {\left(\Phi-\Psi\right)}_{,ij}=0\qquad (i\neq j).
+  \end{align}
+  有唯一解$\Phi=\Psi$。从而标量扰动满足的方程组进一步被化简为
+  \begin{align}
+    \label{eq:simplified-equation-gauge-scalar-perturbation}
+    \Delta \Phi -3\mathcal{H}{\left(\Phi^\prime+\mathcal{H}\Phi\right)} =
+    4\pi Ga^2\overline{\delta{\varepsilon}}, \\
+    {\left(a\Phi\right)}^{\prime}_{,i}=4\pi
+    Ga^2{\left(\varepsilon_0+p_0\right)}\overline{\delta{u}}_{\shortparallel i}, \\
+    \Phi^{\prime\prime}+3\mathcal{H}\Phi^\prime+(2\mathcal{H}^{\prime}+\mathcal{H}^2)\Phi=
+    4\pi Ga^2\overline{\delta{p}}.
+  \end{align}
+  
+  
 \end{document}
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.10.9)  7 NOV 2019 08:13
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.11.15)  26 NOV 2019 09:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1179,11 +1179,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ]
 第2章
-(./Tex/chaps/chap2sec1.tex [3] [4] [5]) (./Tex/chaps/chap2sec2.tex [6]) (./Tex/chaps/chap2sec3.tex [7] [8] [9]
-
-LaTeX Warning: Reference `hjA' on page 10 undefined on input line 146.
-
-) (./Tex/chaps/chap2sec4.tex [10] [11]) (./Tex/chaps/chap2sec5.tex)) (./Tex/chaps/Chap_3.tex [12]
+(./Tex/chaps/chap2sec1.tex [3] [4] [5]) (./Tex/chaps/chap2sec2.tex [6]) (./Tex/chaps/chap2sec3.tex [7] [8] [9]) (./Tex/chaps/chap2sec4.tex [10] [11]) (./Tex/chaps/chap2sec5.tex)) (./Tex/chaps/Chap_3.tex [12]
 第3章
 (./Tex/chaps/chap3sec1.tex [13
 
@@ -1263,17 +1259,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 31550 strings out of 492916
- 623375 string characters out of 6133345
+ 31545 strings out of 492916
+ 623200 string characters out of 6133344
  682066 words of memory out of 5000000
- 35101 multiletter control sequences out of 15000+600000
- 579250 words of font info for 193 fonts, out of 8000000 for 9000
+ 35098 multiletter control sequences out of 15000+600000
+ 579234 words of font info for 191 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,24n,94p,919b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ./Tmp/Thesis.xdv (56 pages, 419608 bytes).
+Output written on ./Tmp/Thesis.xdv (56 pages, 421192 bytes).
