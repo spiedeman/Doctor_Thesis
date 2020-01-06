@@ -2,66 +2,253 @@
 
 宇宙学原理假设其中之一是宇宙在大尺度结构上是均匀且各向同性。但真实情况是存在一个一阶扰动修正，扰动可以非均匀、各向异性。带有扰动的弗里德曼平坦宇宙的度规为
 \begin{align}
-  \label{eq:perturbation-metric}
-  ds^2=\left[^{(0)}g_{\alpha\beta}+\delta g_{\alpha\beta}(x^{\gamma})
-  \right]dx^{\alpha}dx^{\beta},
+	\label{eq:perturbation-metric}
+	ds^2=\left[^{(0)}g_{\alpha\beta}+\delta g_{\alpha\beta}(x^{\gamma})
+	\right]dx^{\alpha}dx^{\beta},
 \end{align}
 其中$|\delta g_{\alpha\beta}|\ll|^{(0)}g_{\alpha\beta}|$。采用共动时间时，
 背景度规为
 \begin{align}
-  \label{eq:background-metric}
-  ^{(0)}g_{\alpha\beta}=a^2(\eta)\text{diag}(1, -1, -1, -1).
+	\label{eq:background-metric}
+	^{(0)}g_{\alpha\beta}=a^2(\eta)\text{diag}(1, -1, -1, -1).
 \end{align}
 度规扰动$\delta
-g_{\alpha\beta}$可以分解为三种类型：\textbf{标量扰动}、\textbf{矢量扰动}和\textbf{张量扰动}。
+	g_{\alpha\beta}$可以分解为三种类型：\textbf{标量扰动}、\textbf{矢量扰动}和\textbf{张量扰动}。
 三种扰动独立演化，互不影响。
 扰动$\delta g_{\alpha\beta}$的来源之一，是
 从物理角度，仅仅因为坐标变换导致的扰动不是真实的扰动。而在坐标变换下的不变量才是反映真实扰动的物理量，
 这样的不变量称为\textbf{规范不变量}。以时空为变量的无穷小函数$\xi^{\alpha}(x)$，可以用来定义一个无穷小坐标变换。
 \begin{align}
-  \label{eq:coordinate-transformation}
-  x^{\alpha} \rightarrow \tilde{x}^{\alpha}=x^{\alpha}+\xi^{\alpha}.
+	\label{eq:coordinate-transformation}
+	x^{\alpha} \rightarrow \tilde{x}^{\alpha}=x^{\alpha}+\xi^{\alpha}.
 \end{align}
 4-标量$q(x^{\rho})$的扰动$\delta
-q=q(x^{\rho})-^{(0)}q(x^{\rho})$按如下方式变换
+	q=q(x^{\rho})-^{(0)}q(x^{\rho})$按如下方式变换
 \begin{align}
-  \label{eq:scalar-perturbation-transformation}
-  \delta q \rightarrow \delta\tilde{q}=\delta q
-  -^{(0)}q_{,\alpha}\xi^{\alpha}.
+	\label{eq:scalar-perturbation-transformation}
+	\delta q \rightarrow \delta\tilde{q}=\delta q
+	-^{(0)}q_{,\alpha}\xi^{\alpha}.
 \end{align}
 同理可知4-矢量扰动和4-张量扰动的变换规则为
 \begin{align}
-  \label{eq:vector-perturbation-transformation}
-  \delta u_{\alpha} \rightarrow \delta\tilde{u}_{\alpha}&=
-  \delta
-  u_{\alpha}-^{(0)}u_{\alpha,\gamma}\xi^{\gamma}-^{(0)}u_{\gamma}\xi^{\gamma}_{,\alpha},
-  \\
-  \label{eq:tensor-perturbation-transformation}
-  \delta g_{\alpha\beta}\rightarrow\delta \tilde{g}_{\alpha\beta} &=
-  \delta g_{\alpha\beta}-^{(0)}g_{\alpha\beta,\gamma}\xi^{\gamma}
-  -^{(0)}g_{\gamma\beta}\xi^{\gamma}_{,\alpha}-^{(0)}g_{\alpha\gamma}\xi^{\gamma}_{,\beta}.
+	\label{eq:vector-perturbation-transformation}
+	\delta u_{\alpha} \rightarrow \delta\tilde{u}_{\alpha}          & =
+	\delta
+	u_{\alpha}-^{(0)}u_{\alpha,\gamma}\xi^{\gamma}-^{(0)}u_{\gamma}\xi^{\gamma}_{,\alpha},
+	\\
+	\label{eq:tensor-perturbation-transformation}
+	\delta g_{\alpha\beta}\rightarrow\delta \tilde{g}_{\alpha\beta} & =
+	\delta g_{\alpha\beta}-^{(0)}g_{\alpha\beta,\gamma}\xi^{\gamma}
+	-^{(0)}g_{\gamma\beta}\xi^{\gamma}_{,\alpha}-^{(0)}g_{\alpha\gamma}\xi^{\gamma}_{,\beta}.
 \end{align}
 
 考虑标量扰动时，度规的最一般形式为
 \begin{align}
-  \label{eq:scalar-metric-perturbation}
-  g_{\alpha\beta}=a^2(\eta)
-  \begin{pmatrix}
-    1 + 2\phi & B_{,j} \\
-    B_{,i} & -(1-2\psi)\delta_{ij}+E_{,ij}
-  \end{pmatrix}
+	\label{eq:scalar-metric-perturbation}
+	g_{\alpha\beta}=a^2(\eta)
+	\begin{pmatrix}
+		1 + 2\phi & B_{,j}                        \\
+		B_{,i}    & -(1-2\psi)\delta_{ij}+E_{,ij}
+	\end{pmatrix}
 \end{align}
 
 其中$\phi$，$\psi$，$B$，$E$为3-标量。
 根据扰动的规范变换，可得这几个标量函数相应的变换规则。通过观察发现有这些标量函数的线性组合可得的最简单的
 规范不变量有两个，分别为
 \begin{align}
-  \label{eq:gauge-invariant-scalar}
-  \Phi\equiv \phi -\frac{1}{a}{[a{\left(B-E^{\prime}\right)}]}^{\prime}
-  ,\qquad
-  \Psi \equiv \psi + \frac{a^{\prime}}{a}{\left(B-E^{\prime}\right)}.
+	\label{eq:gauge-invariant-scalar}
+	\Phi & \equiv \phi -\frac{1}{a}{[a{\left(B-E^{\prime}\right)}]}^{\prime} \\
+	\Psi & \equiv \psi + \frac{a^{\prime}}{a}{\left(B-E^{\prime}\right)}.
 \end{align}
 容易验证$\Phi$和$\Psi$在坐标变换下不变，包含了真实的扰动信息。
 
 同理可得，矢量扰动和张量扰动的规范不变量为$\bar{V_{i}}=S_{i}-F^\prime_{i}$和$h_{ij}$，且物理自由度均为$2$。
-因为存在两个非物理自由度，因此可以引入两个约束条件以固定其中两个变量，从而简化方程的求解。通常
+因为存在两个非物理自由度，因此可以引入两个约束条件以固定其中两个变量，从而简化方程的求解。通常采用\textbf{纵向规范}和\textbf{同步规范}。
+
+\textbf{同步规范}：$\phi=B=0$。度规的扰动形式由$\phi$、$E$两个标量函数刻画，
+\begin{align}
+	\label{eq:synchronous-gauge-metric}
+	ds^2=a^2{\left[-((1-2\phi)\delta_{ij}-2E_{,ij})dx^{i}dx^{j}\right]}.
+\end{align}
+由式$(\ref{eq:gauge-invariant-scalar})$可知在同步规范下，规范不变量与扰动之间的关系为
+\begin{align}
+	\Phi & =\frac{1}{a}{\left[aE^\prime\right]}^{\prime} \\
+	\Psi & =\phi-\frac{a^\prime}{a}E^\prime.
+\end{align}
+
+\textbf{纵向规范}：$B=E=0$。度规的扰动形式由$\phi$、$\psi$两个标量函数刻画，
+\begin{align}
+	ds^2=a^2{\left[(1+2\phi)d\eta^2-(1-2\psi)\delta_{ij}dx^{i}dx^{j}\right]}.
+\end{align}
+由式$(\ref{eq:gauge-invariant-scalar})$可知在纵向规范下，规范不变量与扰动之间的关系为
+\begin{align}
+	\Phi & = \phi  \\
+	\Psi & = \psi.
+\end{align}
+纵向规范下规范不变量与扰动之间的简单关系，使得有关不变量的复杂计算可以在特定的规范下完成。
+
+爱因斯坦场方程是一组非线性方程，在数学上难以求解。当在均匀且各向同性的基础上考虑扰动时，一般也只考虑到方程的线性阶。幸运的是，即便只是精确到线性阶，也足以描述能量密度扰动的非线性演化。
+
+根据场方程，扰动所满足的规范不变场方程为
+\begin{align}
+	\label{eq:gauge-invariant-perturbation-equation}
+	\overline{\delta G}^{\alpha}_{~\beta}=8\pi G\overline{\delta
+		T}^{\alpha}_{~\beta}.
+\end{align}
+$\overline{\delta
+		T}^{\alpha}_{~\beta}$可以分解为标量、矢量、张量三个互不影响的部分。在FRW度规的背景下，直接计算$\overline{\delta
+		G}^{\alpha}_{~\beta}$得到各个扰动分别满足的方程组
+
+\textbf{标量扰动：}
+\begin{align}
+  \Delta\Phi-3\mathcal{H}{\left(\Phi^\prime+\mathcal{H}\Psi\right)} =
+  4\pi Ga^2\overline{\delta T}^{0}_{\ 0}&, 
+  \label{eq:equation-gauge-scalar-perturbation1}\\
+  {\left(\Phi^\prime+\mathcal{H}\Phi\right)}_{,i}=4\pi
+  Ga^2\overline{\delta T}^{0}_{\ i}&,
+  \label{eq:equation-gauge-scalar-perturbation2}\\
+  \begin{split}
+    {\left[\Phi^{\prime\prime}+\mathcal{H}{\left(2\Psi+\Phi\right)}^{\prime}+(2\mathcal{H^\prime}+\mathcal{H}^2)\Phi 
++\frac{1}{2}\Delta(\Phi-\Psi)\right]}&\delta_{ij} \\
+    -\frac{1}{2}{\left((\Phi-\Psi)\right)}_{,ij} = -4\pi
+Ga^2\overline{\delta T}^{i}_{\ j}&.
+  \end{split}
+  \label{eq:equation-gauge-scalar-perturbation3}
+\end{align}
+
+\textbf{矢量扰动}：
+\begin{align}
+  \label{eq:equation-gauge-vector-perturbation}
+  \Delta\overline{V}_{i}=16\pi Ga^2\overline{\delta T}^{0}_{\ i(V)}, \\  
+  {\left(\overline{V}_{i,j}+\overline{V}_{j,i}\right)}^{\prime} + 
+  2\mathcal{H}{\left(\overline{V}_{i,j}+\overline{V}_{j,i}\right)} = 
+  -16\pi Ga^2&\overline{\delta T}^{i}_{\ j(V)}.
+\end{align}
+
+\textbf{张量扰动}：
+\begin{align}
+  \label{eq:equation-gauge-tensor-perturbation}
+  h^{\prime\prime}_{ij}+2\mathcal{H}h^\prime_{ij}-\Delta h_{ij}=16\pi
+  Ga^2\overline{\delta T}^{i}_{\ j(T)}.
+\end{align}
+这些方程描述了各种类型的扰动如何随时间演化的过程。物质在宇宙中的分布可以用理想流体来近似描述，而在这种情况下得到的矢量扰动的解正比于尺度因子的负二次方，因此矢量类型的度规扰动会衰减的非常迅速以至于在通常情况下都可以将其忽略。
+张量扰动正是所谓的引力波，此处暂且把焦点放在标量扰动上，后文关于第二个工作的内容中会更加详细地讨论二阶张量扰动。
+
+根据理想流体的能动量张量$(\ref{eq:perfect-fluid-energy-momentum-tensor})$，容易得到相应的规范不变量为
+\begin{align}
+  \label{eq:perfect-fluid-gauge-invariant-variable}
+  \overline{\delta{T}}^{0}_{\ 0} &= \overline{\delta{\varepsilon}} \\
+  \overline{\delta{T}}^{0}_{\ i} &=
+  \frac{1}{a}(\varepsilon_0+p_0){\left(\overline{\delta{u}}_{\shortparallel
+        i}+\overline{\delta{u}}_{\perp i}\right)} \\
+  \overline{\delta{T}}^{i}_{\ j}&= -\overline{\delta{p}}\delta^{i}_{\ j}.
+\end{align}
+$\overline{\delta{\varepsilon}}$、$\overline{\delta{u}}_{\shortparallel
+i}$、$\overline{\delta{p}}$分别是能量密度扰动、无旋速度扰动、压强扰动对应的规范不变量。
+标量扰动的贡献只来自于这几项，正比于速度扰动的无源分量$\overline{\delta{u}}_{\perp
+i}$的项只对矢量扰动产生贡献。\\
+当$i\neq
+j$时，$\delta{T}^{i}_{j}=0$，方程$(\ref{eq:equation-gauge-scalar-perturbation3})$约化为
+\begin{align}
+  {\left(\Phi-\Psi\right)}_{,ij}=0\qquad (i\neq j).
+\end{align}
+有唯一解$\Phi=\Psi$。从而标量扰动满足的方程组进一步被化简为
+\begin{align}
+  \Delta \Phi -3\mathcal{H}{\left(\Phi^\prime+\mathcal{H}\Phi\right)} =
+  4\pi Ga^2\overline{\delta{\varepsilon}},
+  \label{eq:simplified-equation-gauge-scalar-perturbation-1} \\
+  {\left(a\Phi\right)}^{\prime}_{,i}=4\pi
+  Ga^2{\left(\varepsilon_0+p_0\right)}\overline{\delta{u}}_{\shortparallel i},
+  \label{eq:simplified-equation-gauge-scalar-perturbation-2} \\
+  \Phi^{\prime\prime}+3\mathcal{H}\Phi^\prime+(2\mathcal{H}^{\prime}+\mathcal{H}^2)\Phi=
+  4\pi Ga^2\overline{\delta{p}}.
+  \label{eq:simplified-equation-gauge-scalar-perturbation-3}
+\end{align}
+在非膨胀宇宙中$\mathcal{H}=0$，方程$(\ref{eq:simplified-equation-gauge-scalar-perturbation-1})$与引力势满足的泊松方程
+相同。在膨胀宇宙中，方程$(\ref{eq:simplified-equation-gauge-scalar-perturbation-1})$左边的第二、三项在视界内会被压低一个因子
+$\sim\lambda
+/H^{-1}$，可以忽略。故而方程$(\ref{eq:simplified-equation-gauge-scalar-perturbation-1})$可以看作是泊松方程的推广，而度规的一阶标量扰动$\Phi$可以是牛顿引力势在广义相对论下的推广。
+
+从热力学可知，压强作为内能和熵的函数$p(\varepsilon, S)$，其涨落的表达式为
+\begin{align}
+  \label{eq:perturbation-of-pressure}
+  \overline{\delta
+  p}=c^2_{s}\overline{\delta\varepsilon}+\tau\delta S,
+\end{align}
+其中$c^2_{s}\equiv {\left(\partial p /\partial
+\varepsilon\right)}_{S}$为声速，$\tau\equiv{\left(\partial p /\partial
+S\right)}_{\varepsilon}$。将上式带入方程$(\ref{eq:simplified-equation-gauge-scalar-perturbation-1})$和$(\ref{eq:simplified-equation-gauge-scalar-perturbation-3})$可得关于引力势的闭方程
+\begin{align}
+  \label{eq:closed-form-equation-for-Phi}
+  \Phi^{\prime\prime}+3{\left(1+c^2_{s}\right)}\mathcal{H}\Phi^\prime-c^2_{s}\Delta\Phi+{\left(2\mathcal{H}^{\prime}+
+  {\left(1+3c^2_{s}\right)}\mathcal{H}^2\right)}\Phi=4\pi Ga^2\tau\delta S.
+\end{align}
+针对上述方程，共有8种情况需要讨论。是否为绝热扰动${\left(\delta
+S=0\right)}$，是否为极端相对论物质，以及长短波极限。即便在绝热扰动下，
+上述方程也无法对任意物态方程$p(\varepsilon)$给出解析解，不过针对长波及短波极限能够给出相应的渐进解。这里仅以极端
+相对论物质的绝热扰动为例略加讨论。
+\\
+物态方程为
+\begin{align}
+  p=w\varepsilon,
+\end{align}
+因此声速为
+\begin{align}
+  c^2_{s}=w,
+\end{align}
+尺度因子为
+\begin{align}
+  a\propto\eta^{2 /(1+3w)},
+\end{align}
+结合上面两式，方程$(\ref{eq:closed-form-equation-for-Phi})$在傅里叶空间中变为
+\begin{align}
+  \label{eq:adiabatic-relativistic-equation-of-Phi}
+  \Phi^{\prime\prime}_{\mathbf{k}}+\frac{6(1+w)}{1+3w}\frac{1}{\eta}\Phi^\prime_{\mathbf{k}}+wk^2\Phi_{\mathbf{k}}=0.
+\end{align}
+方程有解析解
+\begin{align}
+  \label{eq:solution-for-adiabatic-relativistic-equation-of-Phi}
+  \Phi_{\mathbf{k}}=\eta^{-\nu}{\left[
+  C_1J_{\nu}{\left(\sqrt{w}k\eta\right)}+C_2Y_{\nu}{\left(\sqrt{w}k\eta\right)}
+  \right]},\quad
+  \nu\equiv \frac{1}{2}{\left(\frac{5+3w}{1+3w}\right)},
+\end{align}
+其中$J_{\nu}$和$Y_{\nu}$为$\nu$阶贝塞尔函数，分别为扰动$\Phi$的非衰减模式和衰减模式。\\
+联合$(\ref{eq:simplified-equation-gauge-scalar-perturbation-1})$和方程
+\begin{align}
+  ^{(0)}G^{0}_{~0} =8\pi G ^{(0)}T^{0}_{~0}, 
+\end{align}
+得到能量密度的相对扰动
+\begin{align}
+  \label{eq:gauge-invariant-relative-energy-density-perturbation}
+  \delta\equiv\frac{\overline{\delta\varepsilon}}{\varepsilon_0}
+  =\frac{k^2 \Phi -3\mathcal{H}{\left(\Phi^\prime+\mathcal{H}\Phi\right)}}{\frac{3}{2}\mathcal{H}^2}.
+\end{align}
+在\textbf{长波极限}下，$\sqrt{w}k\eta\ll
+1$，$\delta$及$\Phi$的非衰减模式均趋近于常数，且
+\begin{align}
+  \overline{\delta\varepsilon} /\varepsilon_0\simeq -2\Phi.
+\end{align}
+说明不论是度规扰动还是能量密度的相对扰动，在离开视界之后都会趋近于稳定。\\
+在\textbf{短波极限}下，$\sqrt{w}k\eta\gg 1$，即对尺度小于Jeans波长（$\lambda_{J}\sim
+c_{s}t$）的扰动模式而言，其行为更像是振幅随时间衰减的声波
+\begin{align}
+  \Phi_{\mathbf{k}}\propto \eta^{-\nu-\frac{1}{2}}\exp{\left(\pm
+  i\sqrt{w}k\eta\right)}. 
+\end{align}
+特别是在\textbf{辐射为主}时期，$w=1 /3$以及$\nu=1
+/3$，贝塞尔函数有更简单的表达式使得
+\begin{align}
+  \label{eq:Phi-in-radiation-dominated}
+  \Phi_{\mathbf{k}}=\frac{1}{x^2}{\left[
+  C_1{\left(\frac{\sin x}{x}-\cos x\right)}+
+  C_2{\left(\frac{\cos x}{x}+\sin x\right)}\right]}.
+\end{align}
+其中$x\equiv k\eta /\sqrt{3}$。对应的相对能量密度扰动为
+\begin{align}
+  \frac{\overline{\delta\varepsilon}}{\varepsilon_0}=
+  &2C_1{\left[{\left(\frac{2-x^2}{x^2}\right)}{\left(\frac{\sin x}{x}-\cos x\right)}-\frac{\sin x}{x}\right]}
+  \\
+  &+4C_2{\left[{\left(\frac{1-x^2}{x^2}{\left(\frac{\cos x}{x}+\sin x\right)}+\frac{\sin x}{2}\right)}\right]}.
+\end{align}
+
