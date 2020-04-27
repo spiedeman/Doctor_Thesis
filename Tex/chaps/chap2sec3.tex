@@ -19,7 +19,7 @@
 1$，那么只能假设$\dot{a}$经历了先增大、后渐小的过程。引入的这一段加速膨胀的过程是必要的，至于是否充分取决于实现这一条件的特定模型。
 根据加速度方程，普通物质的存在提供了引力使得宇宙的膨胀速度减小。那么为了实现加速膨胀，必须假设宇宙中存在别的物质，使得引力表现为一种“排斥力”。
 
-我们先给出暴涨的定义：\textbf{暴胀}是当引力表现为一种排斥力使得宇宙处于加速膨胀的一个阶段。
+我们先给出暴胀的定义：\textbf{暴胀}是当引力表现为一种排斥力使得宇宙处于加速膨胀的一个阶段。
 
 暴胀能够解释大爆炸的起源。因为加速膨胀，原本处于因果联系区内的一个小区域会在短时间内膨胀地非常大。更进一步，
 暴胀甚至能从一个均匀的小区域中产生整个可观测宇宙，即便这一区域外相当非均匀。原因在于，在一个加速膨胀的宇宙中，
@@ -93,7 +93,7 @@ $(\ref{eq:flatness-of-space})$可以改写为
 
 
 
-一般我们通过标量场来实现一个强能量条件被破坏的模型，相应的场被称为暴胀子。带有势能$V(\varphi)$的标量场$\varphi$的能动量张量为
+一般我们通过标量场来实现一个强能量条件$(\rho+3p > 0)$被破坏的模型，相应的场被称为暴胀子。带有势能$V(\varphi)$的标量场$\varphi$的能动量张量为
 \begin{align}
   \label{eq:scalar-energy-momentum-tensor}
   T^{\alpha}_{\ \beta} = \varphi^{,\alpha}\varphi_{,\beta}-
@@ -130,9 +130,11 @@ $(\ref{eq:flatness-of-space})$可以改写为
 相应的连续性方程$(\ref{eq:continuation})$
 以及弗里德曼方程$(\ref{eq:1st_friedmann_equation})$改写为
 \begin{equation}
-  \ddot{\varphi}+3H\dot\varphi+V_{,\varphi}=0
+  \label{eq:continuation_in_inflation}
+  \ddot{\varphi}+3H\dot\varphi+V^\prime(\varphi)=0
 \end{equation}
 \begin{equation}
+  \label{eq:1st_friedmann_equation_in_inflation}
   H^2=\frac{8\pi G}{3}\left(\frac{1}{2}\dot\varphi^2+V(\varphi)\right)
 \end{equation}
 约定约化普朗克质量$M_p\equiv\frac{1}{\sqrt{8\pi G}}=1$。消去标量场$\phi$的二阶导数，得到Hamilton-Jacobi方程
@@ -144,3 +146,54 @@ $(\ref{eq:flatness-of-space})$可以改写为
 
 由$(\ref{HJb})$可知$\dot H=-\dot \varphi^2/2\leq 0$，故物理哈勃半径$1/H$随时间增大。同时尺度因子$a(t)$加速增大，故共动哈勃半径$1/(aH)$不断随时间减小。
 方程$(\ref{HJa})$有一个很好的性质，与任意一个方程解的线性扰动都会以指数的速度趋于零，因此很容易进行数值求解。
+
+因为$\rho+3p=2{(\dot{\varphi}^2-V(\varphi))}$，所以只有当$\dot{\varphi}^2<V(\varphi)$时，宇宙才能加速膨胀。
+而在常见的慢滚暴胀模型中，假设动能项远小于势能项，$\dot{\varphi}\ll
+V(\varphi)$，并且摩擦项$3H\dot{\varphi}$足够大，使得加速度项$\ddot{\varphi}$迅速减小直至可被忽略。
+基于慢滚暴胀模型的上述两个假设，方程$(\ref{eq:continuation_in_inflation})$及$(\ref{eq:1st_friedmann_equation_in_inflation})$简化为
+\begin{equation}
+  \label{eq:friedmann_equation_in_slow_roll_inflation}
+  3H\dot{\varphi} = -V^\prime(\varphi);\quad 3H^2=V(\varphi).
+\end{equation}
+为了更好地刻画与描述慢滚暴胀过程，通常借助慢滚参数。慢滚参数有两种定义方式，基于势能的\textit{potential-slow-roll}
+(\textbf{PSR}) 参数和基于哈勃参数$H(\varphi)$的\textbf{HSR}。
+分别以下标V和H表示。定义
+\begin{align}
+  \label{eq:HSRA_epsilon_and_eta}
+  \epsilon_H(\varphi) &= 2
+  {\left(\frac{H^{\prime}}{H}\right)}^2=-\frac{\dot{H}}{H^2}, \\
+  \eta_H(\varphi) &= 2 \frac{H^{\prime\prime}}{H}=-3
+  \frac{\varphi^{\dot\dot}}{3H\dot{\varphi}}.
+\end{align}
+相比$\epsilon_V$和$\eta_V$，采用$\epsilon_H$和$\eta_H$描述暴胀的优势在于
+\begin{itemize}
+  \item $\epsilon_H\ll 1$是动能项相比于势能项可被忽略充要条件。\\
+  \item $\lvert \eta_H\rvert \ll
+    1$是加速度项相比于摩擦项可被忽略，不需要额外假设存在吸引子解充要条件。因此HSR中包含了所有必要的动力学信息。 \\
+  \item 暴胀发生的充要条件为
+    \begin{equation}
+      \ddot{a} > 0 \Longleftrightarrow \epsilon_H < 1. 
+    \end{equation}
+\end{itemize}
+
+
+
+% 能够退出暴胀是一个暴胀模型有效的必要条件之一。假设$H^2$比$\dot{H}$变化的更快，则暴胀持续的时间根据$(\ref{eq:accelaration_equation})$可得
+% \begin{align}
+%   \label{eq:time_for_inflation}
+%   t_f \sim H_i/\lvert H_i\rvert,
+% \end{align}
+% 为了保证不出现平坦性疑难，暴胀结束时需满足条件
+% \begin{align}
+%    \frac{a_{f}}{a_{i}} > 10^{33}\frac{H_{i}}{H_{f}},
+% \end{align}
+% 假设$\lvert H_{i}\rvert \ll
+% H^2_{i}$且哈勃参数不随时间变化，则由上式可得估计
+% \begin{align}
+%   \frac{\lvert\dot{H_i}\rvert}{H^2_i} < \frac{1}{75},
+% \end{align}
+% 假设$k=0$，利用上式可以得到初始状态方程满足的约束条件
+% \begin{align}
+%   \frac{\varepsilon_i+p_i}{\varepsilon_i} < 10^{-2}. 
+% \end{align}
+% 换言之，暴胀开始时对真空物态方程的偏离不超过$1\%$.

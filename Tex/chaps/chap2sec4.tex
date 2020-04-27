@@ -252,3 +252,88 @@ c_{s}t$）的扰动模式而言，其行为更像是振幅随时间衰减的声�
   &+4C_2{\left[{\left(\frac{1-x^2}{x^2}{\left(\frac{\cos x}{x}+\sin x\right)}+\frac{\sin x}{2}\right)}\right]}.
 \end{align}
 
+\subsection{扰动功率谱}
+在傅立叶空间中，扰动的某个模式一旦在暴胀过程中离开了视界，则该模式对应的扰动将不再变化，直到再次进入视界之后才会开始二度演化。
+因此暴胀结束后扰动在傅立叶空间中的分布，即功率谱将成为扰动再次进入视界时演化的初值。
+
+以张量扰动为例，$h_{ij}$横向无迹，自由度为2，由函数$h_{+}$和$h_{\times}$分别描述$+$模式和$\times$模式。两个模式服从相同的扰动方程
+\begin{equation}
+  \label{eq:tensor-perturbation-equation}
+  h^{\prime\prime}+ 2\mathcal{H}h^\prime+k^2h = 0,
+\end{equation}
+通过变量代换$\tilde{h}=\frac{ah}{\sqrt{16\pi G}}$，化简为关于$\tilde{h}$的简谐方程
+\begin{equation}
+  \tilde{h}^{\prime\prime}+(k^2-\frac{a^{\prime\prime}}{a})\tilde{h} =0. 
+\end{equation}
+对$\tilde{h}$进行量子化，
+\begin{equation}
+  \hat{\tilde{h}}(\vec{k},\eta)=v(k, \eta)\hat{a}_{\vec{k}}+v^{\star}(k,
+  \eta)a^{\dagger}_{\vec{k}},
+\end{equation}
+其中产生、湮灭算符的系数满足相同的简谐方程
+\begin{equation}
+  \label{eq:harmonic-equation}
+  v^{\prime\prime}+(k^2-\frac{a^{\prime\prime}}{a})v =0. 
+\end{equation}
+场算符$\tilde{h}$方差的期望值为
+\begin{equation}
+  \langle \hat{\tilde{h}}^{\dagger}(\vec{k},
+  \eta)\hat{\tilde{h}}(\vec{k}^{\prime},\eta)\rangle={\lvert
+  v(\vec{k},\eta)\rvert}^2 {\left(2\pi
+\right)}^3\delta^{3}(\vec{k}-\vec{k^\prime}).
+\end{equation}
+因此扰动$h$量子化后对应的场的方差的期望为
+\begin{align}
+  \langle \hat{h}^{\dagger}(\vec{k},\eta)\hat{h}(\vec{k}^{\prime},\eta) \rangle
+  &= \frac{16\pi G}{a^2}{\lvert
+  v(k,\eta)\rvert}^2{\left(2\pi\right)}^3\delta^3(\vec{k}-\vec{k}^{\prime})
+  \\
+  &\equiv {\left(2\pi\right)}^3 P_h(k)\delta^3(\vec{k}-\vec{k}^\prime).
+\end{align}
+第二行定义了原初张量扰动的功率谱
+\begin{equation}
+  \label{eq:tensor-primodial-pertubation} 
+  P_h(k) = 16\pi G \frac{{\lvert v(k,\eta)\rvert}^2}{a^2}.
+\end{equation}
+对任意物态系数$w$，由连续性方程$(\ref{eq:continuation})$可知
+\begin{equation}
+  a \propto \eta^{\frac{2}{1+3w}} = \eta^{r} 
+\end{equation}
+$r=1,2$分别在辐射为主时期和物质为主时期，暴胀期间近似为德$\cdot$西特宇宙，物态系数$w\approx
+-1$，故$r\approx 2$，此时方程$(\ref{eq:harmonic-equation})$存在解析解
+\begin{equation}
+  \label{eq:solution-for-harmonic-equation}
+  v = \frac{e^{-ik\eta}}{\sqrt{2k}}{\left[1-\frac{i}{k\eta}\right]}.
+\end{equation}
+因为要计算模式离开视界后的扰动，取长波极限（$k\lvert \eta\rvert \ll
+1$）代回功率谱的定义中得到
+\begin{align}
+  \label{eq:tensor-power-spectrum}
+  P_h(k)&= \frac{16\pi G}{a^2}\frac{1}{2k^3\eta^2} \\
+        &= \frac{8\pi GH^2}{k^3}.
+\end{align}
+其中哈勃参数取值为模式$k$离开视界时的值。
+
+标量扰动计算以暴胀场$\phi(\vec{x},\eta)$为例，将其分解为0-阶均匀且各项同性的部分以及1-阶扰动部分
+\begin{equation}
+  \varphi(\vec{x},\eta)=\varphi^{(0)}(\eta)+\delta\varphi(\vec{x},\eta), 
+\end{equation}
+为了尽可能简化$\delta\varphi(\vec{x},\eta)$满足的扰动方程，选取spatially flat
+slicing 规范，该规范下度规为
+\begin{equation}
+  \label{eq:spatially-flat-slicing-gauge-metric}
+  g_{\mu\nu} = \begin{pmatrix}
+    1+2\phi & B_{,i} \\
+    B_{,j} & -\delta_{ij}
+  \end{pmatrix}
+\end{equation}
+扰动$\delta\varphi$在该规范下满足的方程为
+\begin{equation}
+  \delta\varphi^{\prime\prime} + 2
+  \mathcal{H}\delta\varphi^\prime+k^2\delta\varphi = 0. 
+\end{equation}
+与张量扰动满足的方程$(\ref{eq:tensor-perturbation-equation})$形式相同，因此可直接得到对应的功率谱为
+\begin{equation}
+  P_{\delta\varphi}=\frac{H^2}{2k^{3}}. 
+\end{equation}
+为了最终得到规范不变的标量扰动$\Phi$的功率谱，

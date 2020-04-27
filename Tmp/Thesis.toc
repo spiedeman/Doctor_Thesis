@@ -6,27 +6,28 @@
 \contentsline {subsection}{\numberline {2.2.2}平坦性疑难}{7}{subsection.2.2.2}% 
 \contentsline {subsection}{\numberline {2.2.3}大尺度结构疑难}{7}{subsection.2.2.3}% 
 \contentsline {section}{\numberline {2.3}暴胀模型}{7}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}CMB和标量扰动}{11}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}小结}{16}{section.2.5}% 
-\contentsline {chapter}{\numberline {第3章\hspace {.3em}}暴胀模型}{17}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}拐点暴胀模型基本概念}{17}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}双拐点暴胀模型}{17}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}一些拐点暴胀模型的文章}{18}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}带跑动动能项的多项式超势}{18}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}建立拐点暴胀模型}{20}{subsection.3.3.2}% 
-\contentsline {section}{\numberline {3.4}预测}{20}{section.3.4}% 
-\contentsline {chapter}{\numberline {第4章\hspace {.3em}}双拐点暴胀模型预言的引力波}{21}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}超引力}{21}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}原初黑洞}{24}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}计算方法}{26}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}引力波}{26}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}基本方程}{26}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}数值结果}{29}{subsection.4.4.2}% 
-\contentsline {subsection}{\numberline {4.4.3}功率谱为幂指数时的结果}{30}{subsection.4.4.3}% 
-\contentsline {chapter}{\numberline {第5章\hspace {.3em}}总结与展望}{31}{chapter.5}% 
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{33}{appendix.A}% 
-\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{33}{section.A.1}% 
-\contentsline {section}{\numberline {A.2}测试公式编号}{33}{section.A.2}% 
-\contentsline {chapter}{参考文献}{35}{section*.19}% 
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{39}{appendix*.21}% 
-\contentsline {chapter}{致谢}{41}{appendix*.28}% 
+\contentsline {section}{\numberline {2.4}CMB和标量扰动}{12}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}扰动功率谱}{16}{subsection.2.4.1}% 
+\contentsline {section}{\numberline {2.5}小结}{18}{section.2.5}% 
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}暴胀模型}{19}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}拐点暴胀模型基本概念}{19}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}一些拐点暴胀模型的文章}{19}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}带跑动动能项的多项式超势}{19}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}建立拐点暴胀模型}{21}{subsection.3.2.2}% 
+\contentsline {section}{\numberline {3.3}预测}{21}{section.3.3}% 
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}双拐点暴胀模型预言的引力波}{23}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}双拐点暴胀模型}{23}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}超引力}{24}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}原初黑洞}{27}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}计算方法}{29}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}引力波}{29}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}基本方程}{29}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.2}数值结果}{32}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.3}功率谱为幂指数时的结果}{33}{subsection.4.5.3}% 
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}总结与展望}{35}{chapter.5}% 
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{37}{appendix.A}% 
+\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{37}{section.A.1}% 
+\contentsline {section}{\numberline {A.2}测试公式编号}{37}{section.A.2}% 
+\contentsline {chapter}{参考文献}{39}{section*.19}% 
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{43}{appendix*.21}% 
+\contentsline {chapter}{致谢}{45}{appendix*.28}% 
