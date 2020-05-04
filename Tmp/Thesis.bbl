@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{58}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -16,6 +16,68 @@ AMARO-SEOANE~P, AUDLEY~H, BABAK~S, et~al.
 GUO~Z~K, CAI~R~G, ZHANG~Y~Z.
 \newblock Taiji program: Gravitational-wave sources\allowbreak[J].
 \newblock arXiv preprint arXiv:1807.09495, 2018.
+
+\bibitem[{Goncharov {\biband} Linde(1984)Goncharov and
+  Linde}]{goncharov1984chaotic}
+GONCHAROV~A, LINDE~A.
+\newblock Chaotic inflation of the universe in supergravity\allowbreak[J].
+\newblock Zh. Eksp. Teor. Fiz, 1984, 86:\penalty0 1594.
+
+\bibitem[{Kallosh {\biband} Linde(2010)Kallosh and Linde}]{kallosh2010new}
+KALLOSH~R, LINDE~A.
+\newblock New models of chaotic inflation in supergravity\allowbreak[J].
+\newblock journal of Cosmology and Astroparticle Physics, 2010, 2010\penalty0
+  (11):\penalty0 011.
+
+\bibitem[{Kallosh {\biband} Linde(2015)Kallosh and
+  Linde}]{kallosh2015inflation}
+KALLOSH~R, LINDE~A.
+\newblock Inflation and uplifting with nilpotent superfields\allowbreak[J].
+\newblock Journal of Cosmology and Astroparticle Physics, 2015, 2015\penalty0
+  (01):\penalty0 025.
+
+\bibitem[{Dall’Agata {\biband} Zwirner(2014)Dall’Agata and
+  Zwirner}]{dall2014sgoldstino}
+DALL’AGATA~G, ZWIRNER~F.
+\newblock On sgoldstino-less supergravity models of inflation\allowbreak[J].
+\newblock Journal of High Energy Physics, 2014, 2014\penalty0 (12):\penalty0
+  172.
+
+\bibitem[{Linde(2015)}]{linde2015does}
+LINDE~A.
+\newblock Does the first chaotic inflation model in supergravity provide the
+  best fit to the planck data?\allowbreak[J].
+\newblock Journal of Cosmology and Astroparticle Physics, 2015, 2015\penalty0
+  (02):\penalty0 030.
+
+\bibitem[{Ketov {\biband} Terada(2014{\natexlab{a}})Ketov and
+  Terada}]{ketov2014generic}
+KETOV~S~V, TERADA~T.
+\newblock Generic scalar potentials for inflation in supergravity with a single
+  chiral superfield\allowbreak[J].
+\newblock Journal of High Energy Physics, 2014, 2014\penalty0 (12):\penalty0
+  62.
+
+\bibitem[{Ketov {\biband} Terada(2014{\natexlab{b}})Ketov and
+  Terada}]{ketov2014inflation}
+KETOV~S~V, TERADA~T.
+\newblock Inflation in supergravity with a single chiral
+  superfield\allowbreak[J].
+\newblock Physics Letters B, 2014, 736:\penalty0 272-277.
+
+\bibitem[{Dudas {\bibetal}(2013)Dudas, Linde, Mambrini, Mustafayev, and
+  Olive}]{dudas2013strong}
+DUDAS~E, LINDE~A, MAMBRINI~Y, et~al.
+\newblock Strong moduli stabilization and phenomenology\allowbreak[J].
+\newblock The European Physical Journal C, 2013, 73\penalty0 (1):\penalty0
+  2268.
+
+\bibitem[{Ferrara {\bibetal}(2014)Ferrara, Kallosh, and
+  Linde}]{ferrara2014cosmology}
+FERRARA~S, KALLOSH~R, LINDE~A.
+\newblock Cosmology with nilpotent superfields\allowbreak[J].
+\newblock Journal of High Energy Physics, 2014, 2014\penalty0 (10):\penalty0
+  143.
 
 \bibitem[{Freedman {\bibetal}(1989)Freedman, Nieuwenhuizen, and
   Ferrara}]{freedman1989progress}
@@ -135,7 +197,7 @@ NAKAYAMA~K, TAKAHASHI~F, YANAGIDA~T~T.
   Yanagida}]{kawasaki2000natural}
 KAWASAKI~M, YAMAGUCHI~M, YANAGIDA~T.
 \newblock Natural chaotic inflation in supergravity\allowbreak[J].
-\newblock Physical review letters, 2000, 85\penalty0 (17):\penalty0 3572.
+\newblock Physical Review Letters, 2000, 85\penalty0 (17):\penalty0 3572.
 
 \bibitem[{Kawasaki {\bibetal}(2001)Kawasaki, Yamaguchi, and
   Yanagida}]{kawasaki2001natural}
@@ -143,12 +205,6 @@ KAWASAKI~M, YAMAGUCHI~M, YANAGIDA~T.
 \newblock Natural chaotic inflation in supergravity and
   leptogenesis\allowbreak[J].
 \newblock Physical Review D, 2001, 63\penalty0 (10):\penalty0 103514.
-
-\bibitem[{Kallosh {\biband} Linde(2010)Kallosh and Linde}]{kallosh2010new}
-KALLOSH~R, LINDE~A.
-\newblock New models of chaotic inflation in supergravity\allowbreak[J].
-\newblock journal of Cosmology and Astroparticle Physics, 2010, 2010\penalty0
-  (11):\penalty0 011.
 
 \bibitem[{Kallosh {\bibetal}(2011)Kallosh, Linde, and
   Rube}]{kallosh2011general}

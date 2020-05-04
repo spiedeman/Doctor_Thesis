@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.12)  27 APR 2020 20:41
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.12)  4 MAY 2020 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1156,16 +1156,19 @@ LaTeX Font Warning: Font shape `OT1/entextrm/b/n' undefined
 
 [15] [16] [17]) (./Tex/chaps/chap2sec5.tex)) (./Tex/chaps/Chap_3.tex [18]
 第3章
-(./Tex/chaps/chap3sec1.tex) (./Tex/chaps/chap3sec2.tex [19
+(./Tex/chaps/chap3sec1.tex
+File: Img/kinetic_coefficient_for_Phi.png Graphic file (type bmp)
+<Img/kinetic_coefficient_for_Phi.png>
+ [19
 
-] [20]) (./Tex/chaps/chap3sec3.tex)) (./Tex/chaps/Chap_4.tex [21] [22
-
-]
+] [20]) (./Tex/chaps/chap3sec2.tex [21] [22] [23]) (./Tex/chaps/chap3sec3.tex)) (./Tex/chaps/Chap_4.tex [24]
 第4章
-(./Tex/chaps/chap4sec1.tex [23] [24]
+(./Tex/chaps/chap4sec1.tex [25
+
+] [26]
 File: Img/potential.eps Graphic file (type eps)
 <Img/potential.eps>
- [25] [26]
+ [27] [28]
 Invalid UTF-8 byte or sequence at line 166 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 166 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 166 replaced by U+FFFD.
@@ -1176,7 +1179,7 @@ Invalid UTF-8 byte or sequence at line 166 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 166 replaced by U+FFFD.
 File: Img/pert.eps Graphic file (type eps)
 <Img/pert.eps>
-) (./Tex/chaps/chap4sec2.tex [27] [28]) (./Tex/chaps/chap4sec3.tex) (./Tex/chaps/chap4sec4.tex [29] [30] [31] [32]
+) (./Tex/chaps/chap4sec2.tex [29] [30]) (./Tex/chaps/chap4sec3.tex) (./Tex/chaps/chap4sec4.tex [31] [32] [33] [34]
 Invalid UTF-8 byte or sequence at line 214 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 214 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 214 replaced by U+FFFD.
@@ -1185,11 +1188,11 @@ Invalid UTF-8 byte or sequence at line 214 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 214 replaced by U+FFFD.
 File: Img/Lisa2.eps Graphic file (type eps)
 <Img/Lisa2.eps>
- [33])) (./Tex/chaps/Chap_5.tex [34]
+ [35])) (./Tex/chaps/Chap_5.tex [36]
 第5章
-)) [35
+)) [37
 
-] [36
+] [38
 
 ] (./Tex/Appendix.tex
 附录 A
@@ -1197,18 +1200,18 @@ File: Img/Lisa2.eps Graphic file (type eps)
 LaTeX Font Warning: Font shape `TU/entextsf/b/n' undefined
 (Font)              using `TU/entextsf/m/n' instead on input line 13.
 
-) [37
+) [39
 
-] [38
+] [40
 
-] (./Tmp/Thesis.bbl [39
+] (./Tmp/Thesis.bbl [41
 
 
-] [40] [41]) (./Tex/Backmatter.tex [42] [43
+] [42] [43]) (./Tex/Backmatter.tex [44] [45
 
-] [44
+] [46
 
-] [45] [46
+] [47] [48
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
@@ -1217,7 +1220,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 87.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 28F8C64E2DE94560A6E65D3BC1D2DF96.
+(rerunfilecheck)             Checksum: 4A4784012807B9F8E916DC32B029E1A2.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1228,12 +1231,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31499 strings out of 492922
- 627635 string characters out of 6128809
- 681567 words of memory out of 5000000
- 35063 multiletter control sequences out of 15000+600000
- 579494 words of font info for 187 fonts, out of 8000000 for 9000
+ 31564 strings out of 492922
+ 630942 string characters out of 6128809
+ 682165 words of memory out of 5000000
+ 35125 multiletter control sequences out of 15000+600000
+ 579502 words of font info for 188 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,24n,94p,919b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,24n,94p,919b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ./Tmp/Thesis.xdv (64 pages, 487292 bytes).
+Output written on ./Tmp/Thesis.xdv (66 pages, 539652 bytes).
