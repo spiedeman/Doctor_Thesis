@@ -12,7 +12,7 @@
 %->> Identification
 %---------------------------------------------------------------------------%
 \NeedsTeXFormat{LaTeX2e}%
-\ProvidesClass{ucasthesis}[2014/10/01 v1.0 LaTeX document class]%
+\ProvidesClass{Style/ucasthesis}[2014/10/01 v1.0 LaTeX document class]%
 %---------------------------------------------------------------------------%
 %->> Declare options
 %---------------------------------------------------------------------------%

@@ -1,145 +1,51 @@
-\section{构造拐点暴胀模型}
-这里我们讨论如何在超引力中构建一个拐点暴胀模型。基于超引力构建的大多数旧暴胀模型\citep{freedman1989progress,deser1976consistent,wess1992supersymmetry}都遇到了$\eta$问题\citep{yamaguchi2011supergravity}：F-term势能正比于指数因子$e^{|\phi|^2}$，使得慢滚参数$\eta$不满足慢滚条件。有多种方法可以$\eta$问题\citep{stewart1995inflation,linde1994hybrid,linde1997hybrid,panagiotakopoulos1997hybrid}。其中一种办法是将平移对称性引入K\"ahler势中$K(\phi-\phi^\dagger)$，这样暴胀子不会出现在K\"ahler势中，消失的指数因子保证了势能的平坦性。这种情形下，能够得到幂指数势能$V(\phi)\propto
-\phi^n$的混沌暴胀。
+\section{跑动能项暴胀模型}
+其次是\textbf{跑动动能暴胀}模型，是指场的质量在暴胀期间会随场的变化而变的模型
+。对于慢滚暴胀模型，习惯假设暴胀场是弱耦合场，其拉氏量中的动能项在暴胀期间及暴
+胀结束后不会发生大的改变。又为了暴胀能够产生，通常利用对称性产生平坦的势能。如
+果不利用对称性，通常需要精细调节参数来获得平坦的势能，且需要挑选能够使暴胀发生
+的初始位置。后来，有人提出了一类新的暴胀模型，丢弃了动能项的变化被忽略的假设。
+在整个暴胀期间，动能项的变化不能被忽略，在某些情况下，这种变化甚至能明显地影响
+到暴胀场的动力学。这样的模型被称为\textbf{跑动动能暴胀}模型。
 
-有作者\citep{takahashi2010linear,nakayama2010running,kasuya2014flat}将手征场$\phi$的类Nambu-Goldstone平移对称性推广到了一般形式$\phi^n\rightarrow
-\phi^n+C$，使得K\"ahler势是$\left(\phi^n-\phi^\dagger\right)$的函数。
-为了获得合理的势能形式，应当在K\"{a}hler势和超势中分别加入一个小的shift对称性破缺项$\kappa|\phi|^2$和$\lambda\phi^m
-X$，此处有$\kappa,\lambda\ll
-1$以及外场$X$。这样可以获得幂指数为分数的标量势能$V(\phi)\propto
-\phi^{m/n}$，标量谱指标$n_s$以及张标比$r$近似为
-$n_s=1-(1+\frac{m}{n})\frac{1}{N}$和$\frac{8m}{n}\frac{1}{N}$\citep{nakayama2010running}。
-由于模型中动能项的系数是场依赖的：$(\kappa+n^2|\phi|^{2n-2})\partial_{\mu}\phi\partial^{\mu}\phi^{\dag}$，这就是所谓的跑动动能项暴胀。
+\textbf{出发点} 
 
-在最小超对称标准模型的框架下，通过规范不变的平坦方向\textit{udd}或\textit{LLe}首次构造出了拐点暴胀模型\citep{allahverdi2006gauge}，并得到了发展\citep{allahverdi2007term,enqvist2010inflection,hotchkiss2012observable,chatterjee2015bound}。
-在\citep{gao2015inflection}中，作者用单手征超场构造出了一个拐点暴胀模型，与Planck
-2015年的结果相一致。在暴胀结束后，该模型进入一个非超对称德-西特真空，能够用于解释宇宙近期的加速膨胀。
-
-\subsection{带跑动动能项的多项式超势}
-对于慢滚暴胀模型，习惯假设暴胀场是弱耦合场，其拉氏量中的动能项在暴胀期间及暴胀
-结束后不会发生大的改变。又为了暴胀能够产生，通常利用对称性产生平坦的势能。如果
-不利用对称性，通常需要精细调节参数来获得平坦的势能，且需要挑选能够使暴胀发生的
-初始位置。后来，有人提出了一类新的暴胀模型，丢弃了动能项的变化被忽略的假设。在
-整个暴胀期间，动能项的变化不能被忽略，在某些情况下，这种变化甚至能明显地影响到
-暴胀场的动力学。这养的模型被称为\textbf{跑动动能暴胀}模型。
-
-
-K\"ahler势在手征超场$\phi$的广义平移对称性变换下保持不变：
+假设实标量场$\phi$有如下形式的拉氏量，
 \begin{equation}
-    \phi^n \rightarrow \phi^n + C,
+  \mathcal{L} =
+  \frac{1}{2}f(\phi)\partial^{\mu}\phi\partial_{\mu}\phi-V(\phi),
 \end{equation}
+假设场$\phi$在某个区间时，$f(\phi)$的行为能够近似为$f(\phi)\approx
+\phi^{2n-2}$，$n$为给定的整数。则对场$\phi$作正则归一化之后，$\hat{\phi}\equiv
+\phi^{n}/n$，势能函数将会变得更加平坦。例如，当$n=2$时，二次（四次）方势能函数，$V(\phi)\propto
+\phi^2(\phi^{4})$，将变成线性（二次）势能$V(\hat{\phi})\propto
+\hat{\phi}(\hat{\phi}^2)$。因此暴胀场的动力学非常依赖其动能项。
 
-因此，它必然是$i\chi \equiv (\phi^n - \phi^{n\dagger})$的函数：
+再举一个例子，
 \begin{equation}
-    K = \sum_{l=1}\frac{c_l}{l}{\left(\phi^n-\phi^{n\dagger}\right)}^l
-    =
-    i c_1(\phi^n-\phi^{n\dagger})-\frac{1}{2}{\left(\phi^n-\phi^{n\dagger}\right)}^2+\cdots.
+  f(\phi) = \kappa + \phi^2. 
 \end{equation}
-
-系数$c_l$是与$1$同量级的常数。在暴胀期间，$\chi$一直稳定在极小值处，所以$l\ge
-3$的项对动能的贡献可以忽略\citep{takahashi2010linear}。对$l\le2$的项，$\chi$稳定在$\chi_{\text{min}}\simeq
-c_1$。
-
-为了使暴胀模型可行，需要在K\"ahler势中添加一个微小的平移对称性破缺项：
+其中$0 < \kappa \ll 1$。因此当$\phi \gtrsim \sqrt{\kappa}$时，$f(\phi)
+\approx \phi^2$。当$\phi \ll \sqrt{\kappa}$时，$f(\phi)\approx
+\sqrt{\kappa}$。因此，标量场$\phi$将按如下方式进行正则归一化
 \begin{equation}
-    \Delta{K} = \kappa \left|\phi\right|^2,
+  \hat{\phi} = 
+  \begin{cases}
+    \frac{\phi^2}{2}, \qquad & \phi \gg \sqrt{\kappa} \\
+    \sqrt{\kappa},\qquad & \phi \ll \sqrt{\kappa}
+  \end{cases},
 \end{equation}
-系数满足条件$0< \kappa \ll 1$。
-
-与\citep{nakayama2010running}不同，我们假设超势满足一个更一般的形式\citep{nakayama2013polynomial,kawasaki2000natural,kawasaki2001natural,kallosh2010new,kallosh2011general}
+故而当$V(\phi)=m^2\phi^2/ 2$时，正则场的势能函数为
 \begin{equation}
-    W = X\left(\sum_{m=0}\lambda_m\phi^m\right)+W_0.
+  V(\hat{\phi}) \simeq 
+  \begin{cases}
+    m^2\hat{\phi},\qquad & \hat{\phi} \gg \kappa \\
+    \frac{m^2}{2\kappa} \hat{\phi}^2,\qquad & \hat{\phi} \ll \kappa
+  \end{cases}.
 \end{equation}
-这里$\lambda_m\ll
-1$，$X$是一个额外的手征超场，并且稳定在$X=0$。$\left|W_0\right|\simeq
-m_{3/2}$且$m_{3/2}$为引力微子的质量。按照通常的假设，在暴胀过程中$m_{3/2}$远远小于哈勃参数，所以在讨论暴胀动力学的时候可以被丢弃。
+从这个例子可以发现，从一个形式简单的拉氏量出发，经过正则归一化，能够轻松实现势能
+函数从线性形式到二次函数的转变。
+原则上，我们可以把正则场$\hat{\phi}$满足的拉氏量作为出发点，得到的暴胀模型拥有
+相同的动力学。然而，这种方式难以从理论上解释为何暴胀场的势能取这样一种特定的函数
+形式。
 
-所以最终的K\"ahler势为
-\begin{equation}
-    K = \kappa |\phi|^2 + c_1(\phi^n-\phi^{n\dagger}) -
-    \frac{1}{2}{(\phi^n-\phi^{n\dagger})}^2 + |X|^2\cdots.
-\end{equation}
 
-超势$W$和K\"ahler势共同决定了标量场$\phi$的有效拉式量
-\begin{equation}
-\begin{split}\label{eq:lagrangian}
-L &= -K^{\phi\phi^\dagger} \partial_\mu\phi\partial^\mu\phi^\dagger
-- V \\
-  & = (\kappa + n^2|\phi|^{(2n-2)})
-  \partial_\mu \phi \partial^\mu \phi^\dagger - V,
-\end{split}
-\end{equation}
-暴胀场$\phi$的标量势能为
-\begin{equation}
-\begin{split}
-V &= e^K \left[
-    D_\phi W{(K^{-1})}^{\phi\phi^\dagger}{(D_\phi W)}^{\star} - 3|W|^2 
-    \right]\\
-  &=
-  e^{\kappa|\phi|^2+c_1(\phi^n-\phi^{n\dagger})-\frac{1}{2}{(\phi^n-\phi^{n\dagger})}^2}{(\sum_m
-  \lambda_m|\phi|^m)}^2,
-\end{split}
-\end{equation}
-其中
-\begin{equation}
-    D_\phi W = \partial_\phi W + (\partial_\phi K) W,
-\end{equation}
-以及
-\begin{equation}
-    K^{\phi\phi^\dagger} = \frac{\partial^2 K}{\partial\phi
-    \partial\phi^\dagger}
-\end{equation}
-
-当${(\kappa/n^2)}^{1/(2n-2)}\ll |\phi| \ll
-\kappa^{-1/2}$时，$\kappa$项可以忽略，所以若定义$\hat{\phi} \equiv
-\phi^n$，则意味着$\hat{\phi}$在类Nambu-Goldstone平移变换下不变，拉式量
-(\ref{eq:lagrangian})近似为
-\begin{equation}
-\begin{split}
-    L &= \partial_\mu \hat{\phi}\partial^\mu \hat{\phi}^\dagger -
-    e^{-\frac{|c_1|^2}{2}}{(\sum_m \lambda_m|\hat{\phi}|^{m/n})}^2 \\
-    &= \partial_\mu \hat{\phi} \partial^\mu \hat{\phi}^\dagger - 
-    {(\sum_m \hat{\lambda_m}|\hat{\phi}|^{m/n})}^2,
-\end{split}
-\end{equation}
-其中$i\chi \equiv (\phi^n - \phi^{n\dagger})=i c_1$，$\hat{\lambda}_m\equiv
-e^{-\frac{|c_1|^2}{4}}\lambda_m$。
-
-由于平移对称性，$\hat{\phi}$的实部不会出现在K\"ahler势中，所以势能在实方向上相当地平坦使得其成为暴胀子候选者。
-虚部获得了比哈勃能标更重地质量，并且在暴胀过程中稳定在极小值处。因此，设$\hat{\phi}\equiv
-(\varphi+i \chi)/\sqrt{2}=\varphi/\sqrt{2}+i
-c_1/2$并得到$\varphi$地标量势能
-\begin{equation}\label{eq:varphi_scalar_potential}
-    V = {\left[\sum_{m=0}\hat{\lambda}_m
-    {\left(\frac{\varphi}{\sqrt{2}}\right)}^{\frac{m}{n}}\right]}^2.
-\end{equation}
-
-\subsection{建立拐点暴胀模型}
-为了创建一个拐点暴胀模型，我们采用如下形式的超势
-\begin{equation}\label{eq:superpotential}
-    W = X(\lambda_p\phi^p + \lambda_q e^{i\theta}\phi^q),
-\end{equation}
-其中幂指数$q > p \le
-1$且为整数，系数$\lambda_p$、$\lambda_q$为正实数且不失一般性，$\theta$为第二项的相位。
-
-将 (\ref{eq:superpotential})代入势能函数
-(\ref{eq:varphi_scalar_potential})得到
-\begin{equation}
-\begin{split}
-    V &= {\left[ \hat{\lambda}_p {\left(\frac{\varphi}{\sqrt{2}}\right)}^{\frac{p}{n}}
-    + \hat{\lambda}_q e^{i\theta}{\left(\frac{\varphi}{\sqrt{2}}\right)}^{\frac{q}{n}}\right]}^2 \\
-    &= \hat{\lambda}_p^2 {\left(\frac{\varphi}{\sqrt{2}}\right)}^{\frac{2p}{n}}
-    \left[1 + 2\xi\cos\theta {\left(\frac{\varphi}{\sqrt{2}}\right)}^{\frac{q-p}{n}}
-    + \xi^2 {\left(\frac{\varphi}{\sqrt{2}}\right)}^{\frac{2(q-p)}{n}}\right],
-\end{split}
-\end{equation}
-其中$\hat{\lambda}_{p,q}\equiv
-e^{-\frac{|c_1|^2}{4}}\lambda_{p,q}$和$\xi=|\hat{\lambda}_q/\hat{\lambda}_p|=|\lambda_q/\lambda_p|$。
-% 势能曲线参见图\ref{fig:varphi_scalar_potential}。
-
-% \begin{figure}
-%     \centering
-%     \includegraphics{}
-%     \caption{暴胀势能$V(\phi)$，其中$\cos\theta=-1$（虚线），$\cos\theta=-2\sqrt{pq}/(p+q)$（实线），$\cos\theta
-%     > -2\sqrt{pq}/(p+q)$（点线）}\label{fig:varphi_scalar_potential}
-% \end{figure}
