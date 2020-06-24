@@ -45,7 +45,7 @@ $\zeta$是常系数。其中超场$\Phi$通常被分解为实部$\phi$和虚部$
 \begin{equation}
   W = \frac{1}{\sqrt{2}} f(-\sqrt{2}i\Phi),
 \end{equation}
-时，其中$f$为实函数，延暴胀场方向的势能为
+时，其中$f$为实函数，沿暴胀场方向的势能为
 \begin{equation}
   V\simeq {\left[f^\prime(\chi)\right]}^2.
 \end{equation}
@@ -61,14 +61,14 @@ $c$和$d$为实参数，在$\phi=0$方向上势能为
 \begin{figure}
   \centering
   \includegraphics[width=5in]{Img/potential-for-linear-superpotential.png}
-  \caption{引用至\citep{linde2015inflation}，蓝实线为数值计算得到的暴胀场的演化过程，红虚线为有效势能的绝热近似。黑实线为势能$V(\phi(\chi),
+  \caption{蓝实线为数值计算得到的暴胀场的演化过程，红虚线为有效势能的绝热近似。黑实线为势能$V(\phi(\chi),
   \chi)$的对数等高线。当暴胀场靠近吸引子解前以及暴胀结束后都有一个震荡阶段。}\label{fig:potential-for-linear-superpotential}
 \end{figure}
 显然参数$c$的大小将决定势能大于零还是小于零。更具体的分析会发现，暴胀发生的过程并不完全在$\phi=0$方向。从图$(\ref{fig:potential-for-linear-superpotential})$中可以
 看到，暴胀结束后得到的是一个超对称破缺的闵可夫斯基真空。通过对参数$c$进行微小的调节就能得到预期的德$\cdot$西特宇宙，$V_0\sim
 10^{-120}$。但是代价为引起了强超对称破缺，得到的引力微子质量$m_{3/2}$比通常理论预期的TeV量级高出多个量级。当考虑到粒子物理标准模型的时候，暴胀结束后是否恢复超对称性是一件很重要的事情。例如\citep{endo2006moduli,nakamura2006gravitino,kawasaki2006gravitino,kawasaki2006gravitino-overproduction,asaka2006gravitinos}指出当真空超对称破缺时，早期宇宙中从暴胀场衰变得到的引力微子数目会增多，而这将引起灾难。另外\citep{degrassi2012higgs}中指出如果超对称破缺的能标过高，电弱真空会遇到稳定性问题。
 
-为了规避上述困难，同时不破坏no-go定理的前提下，有两种方法既能抬升真空势能得到dS真空又能避免大的超对称破缺。一是引入额外的手征多态（Polonyi场），并且对其施加强约束尽可能降低其对宇宙演化的影响\citep{dudas2013strong}。另一个方法是引入零幂手征超场\citep{ferrara2014cosmology,kallosh2015inflation,dall2014sgoldstino,kallosh2015inflation-de-sitter,linde2015does}，并且能从弦论中找到理论解释\citep{kallosh2014emergence}。
+为了规避上述困难，同时不破坏no-go定理的前提下，有两种方法既能抬升真空势能得到德$\cdot$西特真空又能避免大的超对称破缺。一是引入额外的手征多态（Polonyi场），并且对其施加强约束尽可能降低其对宇宙演化的影响\citep{dudas2013strong}。另一个方法是引入零幂手征超场\citep{ferrara2014cosmology,kallosh2015inflation,dall2014sgoldstino,kallosh2015inflation-de-sitter,linde2015does}，并且能从弦论中找到理论解释\citep{kallosh2014emergence}。
 
 沿着这个思路，\citep{ketov2016susy}讨论了暴胀结束后恢复超对称性的条件，以及通过添加一个满足零幂条件$S^2=0$的Polonyi超场作为超对称破缺场$S$来控制超对称破缺的能标。
 
@@ -96,15 +96,16 @@ $c$和$d$为实参数，在$\phi=0$方向上势能为
 将K\"ahler势和超势代入到公式
 \begin{align}
     V=e^{K/M^2_P}\lbrack
-    D_{\Phi_i}W{(K^{-1})}^{ij^{\star}}D_{\Phi^{\star}_j}W^{\star}-3M^{-2}_P|W|^2\rbrack,
+    D_{\Phi_i}W{(K^{-1})}^{ij^{*}}D_{\Phi^{*}_j}W^{*}-3M^{-2}_P|W|^2\rbrack,
 \end{align}
 中，可以得到标量势能$V(\phi)$。其中，
 \begin{align}
     D_{\Phi}W=\partial_{\Phi}W+M^{-2}_P{(\partial_{\Phi}K)}W,
 \end{align}
+上两式中，$M_{P}^{2}=1 /8\pi G$。
 以及K\"ahler度规的逆，
 \begin{align}
-    K^{ij\star} = \frac{\partial^2K}{\partial\Phi_i\partial\Phi^{\star}_j}.
+    K^{ij*} = \frac{\partial^2K}{\partial\Phi_i\partial\Phi^{*}_j}.
 \end{align}
 
 当在参数空间中选取某组参数如
@@ -125,8 +126,8 @@ $c$和$d$为实参数，在$\phi=0$方向上势能为
 
 在FRW背景以及单场慢滚框架下，基于势能的慢滚参数$\epsilon_V$和$\eta_V$为
 \begin{align}
-    \epsilon_V &= \frac{M^2_P}{2}{\left(\frac{V\prime}{V}\right)}^2, \\
-    \eta_V &= M^2_P {\left(\frac{V^{\prime\prime}}{V}\right)}.
+    \epsilon_V &= \frac{1}{16\pi G}{\left(\frac{V^\prime}{V}\right)}^2, \\
+    \eta_V &= \frac{1}{8\pi G} {\left(\frac{V^{\prime\prime}}{V}\right)}.
 \end{align}
 
 由于在拐点附近势能变得极端平坦，因此慢滚近似不再适用\citep{dimopoulos2017ultra,germani2017primordial}，代之以极端慢滚暴胀。此时为了更精确地求解暴胀过程，势能慢滚参数需要替换为哈勃慢滚参数\citep{schwarz2001higher,leach2002cosmological,schwarz2004primordial}，
@@ -137,7 +138,7 @@ $c$和$d$为实参数，在$\phi=0$方向上势能为
     \frac{\dddot{H}}{2H^2\dot{H}}-2\eta^2_H=\epsilon_H\eta_H-\frac{d\eta_H}{dN_e},
 \end{align}
 
-点$\dot{}$表示对宇宙时间$t$的导数，$N_e(t)$表示从视界穿过$k_{\star}$到暴胀结束期间的e-folding数，通常在取值在范围$50\sim60$之间。
+其中，$N_e(t)$表示从视界穿过$k_{*}$到暴胀结束期间的e-folding数，通常在取值在范围$50\sim60$之间。
 
 标量谱指标及其跑动和张标比的领头阶可以用$\epsilon_H,\eta_H,\xi_H$来表示
 \begin{align}
@@ -148,15 +149,17 @@ $c$和$d$为实参数，在$\phi=0$方向上势能为
 
 在参数集 (\ref{eq:parameters})，相应的数值结果为
 \begin{align}
-    n_s = 0.9635,\qquad \alpha=-0.00369,\qquad r=0.00276,
+  n_s &= 0.9635,\\
+  \alpha&=-0.00369,\\
+  r&=0.00276,
 \end{align}
 
 当$k_{\star}=0.05Mpc^{-1}$时，在$68\%$的置信水平上与Planck
 2018给出的对CMB的限制结果相一致\citep{akrami2018planck}
 \begin{align}
-    n_s = 0.9640\pm 0.0043,\qquad 
-    \alpha = -0.0071\pm 0.0068,\qquad
-    r < 0.079.
+  n_s &= 0.9640\pm 0.0043,\\
+  \alpha &= -0.0071\pm 0.0068,\\
+  r &< 0.079.
 \end{align}
 
 标量扰动的功率谱在慢滚暴胀模型通常用近似公式

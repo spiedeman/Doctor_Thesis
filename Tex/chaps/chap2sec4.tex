@@ -1,4 +1,4 @@
-\section{扰动与功率谱}
+\section{线性扰动理论}
 % 基于广义相对论的宇宙学线性扰动理论在过去的40年中已经发展到高度复杂的程度\citep{bardeen1980gauge,kodama1984cosmological,mukhanov1988quantum}。
 % 
 % 规范不变扰动理论的一般性框架\citep{sonego1998gauge,nakamura2003gauge,nakamura2005second,bruni1997perturbations,nakamura2006gauge,nakamura2007gauge,nakamura2007second,sachs1964gravitational,stewart1974perturbations,stewart1990perturbations,stewart1993advanced,matarrese1998relativistic,bruni2003two,sopuerta2004nonlinear}
@@ -26,15 +26,13 @@
 度规扰动$\delta
 g_{\alpha\beta}$也存在类似的分解\citep{york1974covariant,deser1967covariant}
 ，存在\textbf{标量、矢量、张量}三种扰动类型，互相独立。
-\begin{equation}
-  \begin{aligned}
-  \label{eq:decomposition-of-metric}
-  \delta g_{00} &= 2a^2\phi, \\
-  \delta g_{0i} &= a^2\lrp{B_{,i}+S_{i}}, \\
-  \delta g_{ij}&= a^2
-  \lrp{2\psi \delta_{ij}+2E_{,ij}+F_{i,j}+F_{j,i}+h_{,ij}}.
-  \end{aligned}
-\end{equation}
+\begin{align}
+\label{eq:decomposition-of-metric}
+\delta g_{00} &= 2a^2\phi, \\
+\delta g_{0i} &= a^2\lrp{B_{,i}+S_{i}}, \\
+\delta g_{ij}&= a^2
+\lrp{2\psi \delta_{ij}+2E_{,ij}+F_{i,j}+F_{j,i}+h_{,ij}}.
+\end{align}
 上式中$\phi$、$B$、$\psi$和$E$为3-标量函数，贡献为标量扰动。$\bm{S}$和$\bm{F}$贡献为矢量扰动，满足无源条件
 $S^{i}_{i}=0$以及$F^{i}_{,i}=0$。最后张量扰动来自于横向无迹张量$h_{ij}$，满足四个约束条件
 \begin{equation}
@@ -81,7 +79,7 @@ $S^{i}_{i}=0$以及$F^{i}_{,i}=0$。最后张量扰动来自于横向无迹张�
 	\begin{pmatrix}
 		1 + 2\phi & B_{,j}                        \\
 		B_{,i}    & -(1-2\psi)\delta_{ij}+E_{,ij}
-	\end{pmatrix}
+	\end{pmatrix},
 \end{align}
 在规范变换下，这几个标量函数相应的变换规则为
 \begin{align}
@@ -95,7 +93,8 @@ $S^{i}_{i}=0$以及$F^{i}_{,i}=0$。最后张量扰动来自于横向无迹张�
 观察发现线性组合这些标量函数可以得到两个最简单的规范不变量，分别为
 \begin{align}
 	\label{eq:gauge-invariant-scalar}
-	\Phi & \equiv \phi -\frac{1}{a}{[a{\left(B-E^{\prime}\right)}]}^{\prime} \\
+	\Phi & \equiv \phi
+    -\frac{1}{a}{[a{\left(B-E^{\prime}\right)}]}^{\prime}, \\
 	\Psi & \equiv \psi + \frac{a^{\prime}}{a}{\left(B-E^{\prime}\right)}.
 \end{align}
 容易验证$\Phi$和$\Psi$在坐标变换下不变，包含了真实的扰动信息。这也与上一小节
@@ -111,7 +110,7 @@ $S^{i}_{i}=0$以及$F^{i}_{,i}=0$。最后张量扰动来自于横向无迹张�
 \end{align}
 由式$(\ref{eq:gauge-invariant-scalar})$可知在同步规范下，规范不变量与扰动之间的关系为
 \begin{align}
-	\Phi & =\frac{1}{a}{\left[aE^\prime\right]}^{\prime} \\
+	\Phi & =\frac{1}{a}{\left[aE^\prime\right]}^{\prime}, \\
 	\Psi & =\phi-\frac{a^\prime}{a}E^\prime.
 \end{align}
 
@@ -121,7 +120,7 @@ $S^{i}_{i}=0$以及$F^{i}_{,i}=0$。最后张量扰动来自于横向无迹张�
 \end{align}
 由式$(\ref{eq:gauge-invariant-scalar})$可知在纵向规范下，规范不变量与扰动之间的关系为
 \begin{align}
-	\Phi & = \phi  \\
+	\Phi & = \phi,  \\
 	\Psi & = \psi.
 \end{align}
 纵向规范下规范不变量与扰动之间的简单关系，使得有关不变量的复杂计算可以在特定的规范下完成。
@@ -156,6 +155,7 @@ Ga^2\overline{\delta T}^{i}_{\ j}&.
   \end{split}
   \label{eq:equation-gauge-scalar-perturbation3}
 \end{align}
+其中，$\mathcal{H}=\frac{a^\prime}{a}$，$\prime$表示对共形时间$\eta$的导数。
 
 \textbf{矢量扰动}：
 \begin{align}
@@ -178,13 +178,13 @@ Ga^2\overline{\delta T}^{i}_{\ j}&.
 根据理想流体的能动量张量$(\ref{eq:perfect-fluid-energy-momentum-tensor})$，容易得到相应的规范不变量为
 \begin{align}
   \label{eq:perfect-fluid-gauge-invariant-variable}
-  \overline{\delta{T}}^{0}_{\ 0} &= \overline{\delta{\varepsilon}} \\
+  \overline{\delta{T}}^{0}_{\ 0} &= \overline{\delta{\rho}} \\
   \overline{\delta{T}}^{0}_{\ i} &=
-  \frac{1}{a}(\varepsilon_0+p_0){\left(\overline{\delta{u}}_{\shortparallel
+  \frac{1}{a}(\rho_0+p_0){\left(\overline{\delta{u}}_{\shortparallel
         i}+\overline{\delta{u}}_{\perp i}\right)} \\
   \overline{\delta{T}}^{i}_{\ j}&= -\overline{\delta{p}}\delta^{i}_{\ j}.
 \end{align}
-$\overline{\delta{\varepsilon}}$、$\overline{\delta{u}}_{\shortparallel
+$\overline{\delta{\rho}}$、$\overline{\delta{u}}_{\shortparallel
 i}$、$\overline{\delta{p}}$分别是能量密度扰动、无旋速度扰动、压强扰动对应的规范不变量。
 标量扰动的贡献只来自于这几项，正比于速度扰动的无源分量$\overline{\delta{u}}_{\perp
 i}$的项只对矢量扰动产生贡献。\\
@@ -196,10 +196,10 @@ j$时，$\delta{T}^{i}_{j}=0$，方程$(\ref{eq:equation-gauge-scalar-perturbati
 有唯一解$\Phi=\Psi$。从而标量扰动满足的方程组进一步被化简为
 \begin{align}
   \Delta \Phi -3\mathcal{H}{\left(\Phi^\prime+\mathcal{H}\Phi\right)} =
-  4\pi Ga^2\overline{\delta{\varepsilon}},
+  4\pi Ga^2\overline{\delta{\rho}},
   \label{eq:simplified-equation-gauge-scalar-perturbation-1} \\
   {\left(a\Phi\right)}^{\prime}_{,i}=4\pi
-  Ga^2{\left(\varepsilon_0+p_0\right)}\overline{\delta{u}}_{\shortparallel i},
+  Ga^2{\left(\rho_0+p_0\right)}\overline{\delta{u}}_{\shortparallel i},
   \label{eq:simplified-equation-gauge-scalar-perturbation-2} \\
   \Phi^{\prime\prime}+3\mathcal{H}\Phi^\prime+(2\mathcal{H}^{\prime}+\mathcal{H}^2)\Phi=
   4\pi Ga^2\overline{\delta{p}}.
@@ -210,15 +210,15 @@ j$时，$\delta{T}^{i}_{j}=0$，方程$(\ref{eq:equation-gauge-scalar-perturbati
 $\sim\lambda
 /H^{-1}$，可以忽略。故而方程$(\ref{eq:simplified-equation-gauge-scalar-perturbation-1})$可以看作是泊松方程的推广，而度规的一阶标量扰动$\Phi$为牛顿引力势在广义相对论下的推广。
 
-从热力学可知，压强作为内能和熵的函数$p(\varepsilon, S)$，其涨落的表达式为
+从热力学可知，压强作为内能和熵的函数$p(\rho, S)$，其涨落的表达式为
 \begin{align}
   \label{eq:perturbation-of-pressure}
   \overline{\delta
-  p}=c^2_{s}\overline{\delta\varepsilon}+\tau\delta S,
+  p}=c^2_{s}\overline{\delta\rho}+\tau\delta S,
 \end{align}
 其中$c^2_{s}\equiv {\left(\partial p /\partial
-\varepsilon\right)}_{S}$为声速，$\tau\equiv{\left(\partial p /\partial
-S\right)}_{\varepsilon}$。将上式带入方程$(\ref{eq:simplified-equation-gauge-scalar-perturbation-1})$和$(\ref{eq:simplified-equation-gauge-scalar-perturbation-3})$可得关于引力势的闭方程
+\rho\right)}_{S}$为声速，$\tau\equiv{\left(\partial p /\partial
+S\right)}_{\rho}$。将上式带入方程$(\ref{eq:simplified-equation-gauge-scalar-perturbation-1})$和$(\ref{eq:simplified-equation-gauge-scalar-perturbation-3})$可得关于引力势的闭方程
 \begin{align}
   \label{eq:closed-form-equation-for-Phi}
   \Phi^{\prime\prime}+3{\left(1+c^2_{s}\right)}\mathcal{H}\Phi^\prime-c^2_{s}\Delta\Phi+{\left(2\mathcal{H}^{\prime}+
@@ -226,12 +226,12 @@ S\right)}_{\varepsilon}$。将上式带入方程$(\ref{eq:simplified-equation-ga
 \end{align}
 针对上述方程，共有8种情况需要讨论。是否为绝热扰动${\left(\delta
 S=0\right)}$，是否为极端相对论物质，以及长短波极限。即便在绝热扰动下，
-上述方程也无法对任意物态方程$p(\varepsilon)$给出解析解，不过针对长波及短波极限能够给出相应的渐进解。这里仅以极端
+上述方程也无法对任意物态方程$p(\rho)$给出解析解，不过针对长波及短波极限能够给出相应的渐进解。这里仅以极端
 相对论物质的绝热扰动为例略加讨论。
 \\
 物态方程为
 \begin{align}
-  p=w\varepsilon,
+  p=w\rho,
 \end{align}
 因此声速为
 \begin{align}
@@ -262,13 +262,13 @@ S=0\right)}$，是否为极端相对论物质，以及长短波极限。即便�
 得到能量密度的相对扰动
 \begin{align}
   \label{eq:gauge-invariant-relative-energy-density-perturbation}
-  \delta\equiv\frac{\overline{\delta\varepsilon}}{\varepsilon_0}
+  \delta\equiv\frac{\overline{\delta\rho}}{\rho_0}
   =\frac{k^2 \Phi -3\mathcal{H}{\left(\Phi^\prime+\mathcal{H}\Phi\right)}}{\frac{3}{2}\mathcal{H}^2}.
 \end{align}
 在\textbf{长波极限}下，$\sqrt{w}k\eta\ll
 1$，$\delta$及$\Phi$的非衰减模式均趋近于常数，且
 \begin{align}
-  \overline{\delta\varepsilon} /\varepsilon_0\simeq -2\Phi.
+  \overline{\delta\rho} /\rho_0\simeq -2\Phi.
 \end{align}
 说明不论是度规扰动还是能量密度的相对扰动，在离开视界之后都会趋近于稳定。\\
 在\textbf{短波极限}下，$\sqrt{w}k\eta\gg 1$，即对尺度小于Jeans波长（$\lambda_{J}\sim
@@ -287,7 +287,7 @@ c_{s}t$）的扰动模式而言，其行为更像是振幅随时间衰减的声�
 \end{align}
 其中$x\equiv k\eta /\sqrt{3}$。对应的相对能量密度扰动为
 \begin{align}
-  \frac{\overline{\delta\varepsilon}}{\varepsilon_0}=
+  \frac{\overline{\delta\rho}}{\rho_0}=
   &2C_1{\left[{\left(\frac{2-x^2}{x^2}\right)}{\left(\frac{\sin x}{x}-\cos x\right)}-\frac{\sin x}{x}\right]}
   \\
   &+4C_2{\left[{\left(\frac{1-x^2}{x^2}{\left(\frac{\cos x}{x}+\sin x\right)}+\frac{\sin x}{2}\right)}\right]}.
@@ -303,8 +303,8 @@ c_{s}t$）的扰动模式而言，其行为更像是振幅随时间衰减的声�
 \begin{align}
   \label{eq:u-theta-defininition}
   u &\equiv \exp\lrp{\frac{3}{2}\int (1+c_{s}^2)\mathcal{H}d\eta}\Phi 
-      =\frac{\Phi}{\lrp{\varepsilon_0+p_0}^{1 /2}}, \\
-  \theta &\equiv \frac{1}{a}\lrp{1+\frac{p_0}{\varepsilon_0}}^{-1 /2}=
+      =\frac{\Phi}{\lrp{\rho_0+p_0}^{1 /2}}, \\
+  \theta &\equiv \frac{1}{a}\lrp{1+\frac{p_0}{\rho_0}}^{-1 /2}=
   \frac{1}{a}\lrp{\frac{2}{3}\lrp{1-\frac{\mathcal{H^\prime}}{\mathcal{H}^2}}}^{-1
   /2}
 \end{align}
@@ -328,13 +328,13 @@ c_{s}t$）的扰动模式而言，其行为更像是振幅随时间衰减的声�
 \end{equation}
 求得引力势
 \begin{equation}
-  \Phi=\lrp{\varepsilon_0+p_0}^{1 /2}u
+  \Phi=\lrp{\rho_0+p_0}^{1 /2}u
   = A\lrp{1-\frac{\mathcal{H}}{a^2}\int a^2d\eta}
   = A \frac{d}{dt}\lrp{\frac{1}{a}\int adt}.
 \end{equation}
 式中$A$为积分常数。
 
-\subsection{扰动功率谱}
+\subsection{原初功率谱}
 在傅立叶空间中，扰动的某个模式一旦在暴胀过程中离开了视界，则该模式对应的扰动将不再变化，直到再次进入视界之后才会开始二度演化。
 因此暴胀结束后扰动在傅立叶空间中的分布，即功率谱将成为扰动再次进入视界时演化的初值。
 
@@ -349,33 +349,33 @@ c_{s}t$）的扰动模式而言，其行为更像是振幅随时间衰减的声�
 \end{equation}
 对$\tilde{h}$进行量子化，
 \begin{equation}
-  \hat{\tilde{h}}(\vec{k},\eta)=v(k, \eta)\hat{a}_{\vec{k}}+v^{\star}(k,
+  \hat{\tilde{h}}(\vec{k},\eta)=v_k(\eta)\hat{a}_{\vec{k}}+v^{*}_k(
   \eta)a^{\dagger}_{\vec{k}},
 \end{equation}
 其中产生、湮灭算符的系数满足相同的简谐方程
 \begin{equation}
   \label{eq:harmonic-equation}
-  v^{\prime\prime}+(k^2-\frac{a^{\prime\prime}}{a})v =0. 
+  v_k^{\prime\prime}+(k^2-\frac{a^{\prime\prime}}{a})v_k =0. 
 \end{equation}
 场算符$\tilde{h}$方差的期望值为
 \begin{equation}
   \langle \hat{\tilde{h}}^{\dagger}(\vec{k},
   \eta)\hat{\tilde{h}}(\vec{k}^{\prime},\eta)\rangle={\lvert
-  v(\vec{k},\eta)\rvert}^2 {\left(2\pi
+  v_k(\eta)\rvert}^2 {\left(2\pi
 \right)}^3\delta^{3}(\vec{k}-\vec{k^\prime}).
 \end{equation}
 因此扰动$h$量子化后对应的场的方差的期望为
 \begin{align}
   \langle \hat{h}^{\dagger}(\vec{k},\eta)\hat{h}(\vec{k}^{\prime},\eta) \rangle
   &= \frac{16\pi G}{a^2}{\lvert
-  v(k,\eta)\rvert}^2{\left(2\pi\right)}^3\delta^3(\vec{k}-\vec{k}^{\prime})
+  v_k(\eta)\rvert}^2{\left(2\pi\right)}^3\delta^3(\vec{k}-\vec{k}^{\prime})
   \\
-  &\equiv {\left(2\pi\right)}^3 P_h(k)\delta^3(\vec{k}-\vec{k}^\prime).
+  &\equiv {\left(2\pi\right)}^3 \mathcal{P}_h(k)\delta^3(\vec{k}-\vec{k}^\prime).
 \end{align}
 第二行定义了原初张量扰动的功率谱
 \begin{equation}
   \label{eq:tensor-primodial-pertubation} 
-  P_h(k) = 16\pi G \frac{{\lvert v(k,\eta)\rvert}^2}{a^2}.
+  \mathcal{P}_h(k) = 16\pi G \frac{{\lvert v_k(\eta)\rvert}^2}{a^2}.
 \end{equation}
 对任意物态系数$w$，由连续性方程$(\ref{eq:continuation})$可知
 \begin{equation}
@@ -385,18 +385,18 @@ $r=1,2$分别在辐射为主时期和物质为主时期，暴胀期间近似为�
 -1$，故$r\approx 2$，此时方程$(\ref{eq:harmonic-equation})$存在解析解
 \begin{equation}
   \label{eq:solution-for-harmonic-equation}
-  v = \frac{e^{-ik\eta}}{\sqrt{2k}}{\left[1-\frac{i}{k\eta}\right]}.
+  v_k = \frac{e^{-ik\eta}}{\sqrt{2k}}{\left[1-\frac{i}{k\eta}\right]}.
 \end{equation}
 因为要计算模式离开视界后的扰动，取长波极限（$k\lvert \eta\rvert \ll
 1$）代回功率谱的定义中得到
 \begin{align}
   \label{eq:tensor-power-spectrum}
-  P_h(k)&= \frac{16\pi G}{a^2}\frac{1}{2k^3\eta^2} \\
+  \mathcal{P}_h(k)&= \frac{16\pi G}{a^2}\frac{1}{2k^3\eta^2} \\
         &= \frac{8\pi GH^2}{k^3}.
 \end{align}
 其中哈勃参数取值为模式$k$离开视界时的值。
 
-标量扰动计算以暴胀场$\phi(\vec{x},\eta)$为例，将其分解为0-阶均匀且各项同性的部分以及1-阶扰动部分
+标量扰动计算以暴胀场$\varphi(\vec{x},\eta)$为例，将其分解为均匀且各项同性的背景部分以及线性扰动部分
 \begin{equation}
   \varphi(\vec{x},\eta)=\varphi_{0}(\eta)+\delta\varphi(\vec{x},\eta), 
 \end{equation}
@@ -427,16 +427,15 @@ $r=1,2$分别在辐射为主时期和物质为主时期，暴胀期间近似为�
   \lrb{\theta^2\lrp{\frac{u}{\theta}}^{\prime}}^{\prime} =
   c_{s}^2\theta\Delta u.
 \end{equation}
-从而在超视界区域我们发现了一个“守恒量”——标量曲率扰动，
+从而在超视界区域我们发现了一个“守恒量”——曲率扰动，
 \begin{equation}
   \label{eq:curvature-perturbation-defininition}
-  \zeta\equiv \frac{2}{3}\lrp{\frac{u}{\theta}}^{\prime}\theta^2 = 0.
+  \mathcal{R}\equiv \frac{2}{3}\lrp{\frac{u}{\theta}}^{\prime}\theta^2 = 0.
 \end{equation}
-文献中经常也使用$\mathcal{R}$表示标量曲率扰动，本章将一直使用符号$\zeta$，
-后续章节中将使用符号$\mathcal{R}$。将$u$和$\theta$的定义$(\ref{eq:u-theta-defininition})$带入$\zeta$的定义式
-中$(\ref{eq:curvature-perturbation-defininition})$，得到$\zeta$的表达式为
+将$u$和$\theta$的定义$(\ref{eq:u-theta-defininition})$带入$\mathcal{R}$的定义式
+中$(\ref{eq:curvature-perturbation-defininition})$，得到$\mathcal{R}$的表达式为
 \begin{equation}
-  \zeta = \Phi +
+  \mathcal{R} = \Phi +
   \frac{\mathcal{H}}{\varphi^{\prime}_0}\overline{\delta\varphi}
 \end{equation}
 在长波极限下，$\Phi$和$\overline{\delta\varphi}$的渐进解分别为
@@ -446,7 +445,7 @@ $r=1,2$分别在辐射为主时期和物质为主时期，暴胀期间近似为�
   \overline{\delta\varphi} &\simeq A \dot{\varphi_0}\lrp{\frac{1}{a}\int
   adt}.
 \end{align}
-通过线性组合上两式，发现积分常数$A$恰好等于$\zeta$。暴胀结束后，标量场通常进入
+通过线性组合上两式，发现积分常数$A$恰好等于$\mathcal{R}$。暴胀结束后，标量场通常进入
 振荡阶段，此时尺度因子$a$以物理时间$t$的幂指數方式增长，$a\propto
 t^{p}$。故
 \begin{equation}
@@ -457,17 +456,17 @@ t^{p}$。故
 \begin{equation}
   \Phi \simeq \frac{2}{3}A. 
 \end{equation}
-因此$\Phi$和$\zeta$的功率谱之间的关系为
+因此$\Phi$和$\mathcal{R}$的功率谱之间的关系为
 \begin{equation}
-  P_{\Phi}(k) = \frac{4}{9}P_{\zeta}(k). 
+  \mathcal{P}_{\Phi}(k) = \frac{4}{9}P_{\mathcal{R}}(k). 
 \end{equation}
-于是问题转化为了如何求解功率谱$P_{\zeta}(k)$。
+于是问题转化为了如何求解功率谱$P_{\mathcal{R}}(k)$。
 通过引入两个中间变量$v$和$z$
 \begin{align}
   v&\equiv\theta\lrp{\frac{u}{\theta}}^{\prime} 
   =a\lrp{\overline{\delta\varphi} +
   \frac{\varphi^\prime_0}{\mathcal{H}}\Phi} \\
-  z&\equiv \frac{1}{\theta} = \frac{a^2\lrp{\varepsilon_0+p_0}^{1
+  z&\equiv \frac{1}{\theta} = \frac{a^2\lrp{\rho_0+p_0}^{1
   /2}}{\mathcal{H}}.
 \end{align}
 可以将方程$(\ref{eq:ms-like-bardeen-equation})$拆分两个方程
@@ -475,7 +474,7 @@ t^{p}$。故
   c_{s}^2\Delta u=z\lrp{\frac{v}{z}}^{\prime},\qquad
   v=\theta\lrp{\frac{u}{\theta}}^{\prime}.
 \end{equation}
-并且能使$\zeta$表示成更简单的形式$\zeta=v
+并且能使$\mathcal{R}$表示成更简单的形式$\mathcal{R}=v
 /z$。利用上面两个方程能够得到$v$满足的方程
 \begin{equation}
   \label{eq:ms-equation}
@@ -503,7 +502,7 @@ t^{p}$。故
 \end{align}
 最终得到标量扰动的功率谱为
 \begin{align}
-  P_{\Phi}(k)=\frac{4}{9}P_{\zeta}(k) 
+  \mathcal{P}_{\Phi}(k)=\frac{4}{9}\mathcal{P}_{\mathcal{R}}(k) 
   &= \frac{4}{9}\frac{k^3}{2\pi^2}\lrv{\frac{v_{k}}{z}}^2 \\
                &= \frac{4}{9}2^{2\nu -3}\lrp{\frac{\Gamma(\nu)}{\Gamma(3 /2)}}^2
                \lrp{\frac{H}{\dot{\varphi_0}}}^2
@@ -522,22 +521,22 @@ t^{p}$。故
 % 又因为在 spatially flat slicing
 % 规范中，规范不变量$\Psi=aHB$，所以根据式$(\ref{eq:bardeen's-velocity})$得到的组合项
 % \begin{equation}
-%   \label{eq:gauge-invariant-zeta}
-%   \zeta \equiv -\Psi- \frac{iaH}{k}v =
+%   \label{eq:gauge-invariant-mathcal{R}}
+%   \mathcal{R} \equiv -\Psi- \frac{iaH}{k}v =
 %   -\frac{aH}{\varphi^{(0)\prime}}\delta\varphi,
 % \end{equation}
-% 也是规范不变量，于是$\zeta$的功率谱与扰动$\delta\varphi$的功率谱之间存在简单的关系
+% 也是规范不变量，于是$\mathcal{R}$的功率谱与扰动$\delta\varphi$的功率谱之间存在简单的关系
 % \begin{equation}
-%   P_{\zeta} =
+%   P_{\mathcal{R}} =
 %   {\left(\frac{aH}{\varphi^{(0)\prime}}\right)}^2P_{\delta\varphi}. 
 % \end{equation}
 % 经过简单的计算可得${\left(aH /
 % \varphi^{(0)\prime}\right)}^2=4\pi
-% G/\epsilon$，以及式$(\ref{eq:power-spectrum-for-delta-varphi})$，所以$\zeta$的功率谱为
+% G/\epsilon$，以及式$(\ref{eq:power-spectrum-for-delta-varphi})$，所以$\mathcal{R}$的功率谱为
 % \begin{equation}
-%   P_{\zeta} = \frac{2\pi GH^2}{\epsilon k^3} \mid_{aH=k}.
+%   P_{\mathcal{R}} = \frac{2\pi GH^2}{\epsilon k^3} \mid_{aH=k}.
 % \end{equation}
-% 由于暴胀结束后，在共性牛顿规范下，有$\zeta=3\Psi/2$，故而
+% 由于暴胀结束后，在共性牛顿规范下，有$\mathcal{R}=3\Psi/2$，故而
 % \begin{equation}
 %   P_{\Psi} = \frac{8\pi GHs^2}{9\epsilon k^3}|_{aH=k}.
 % \end{equation}

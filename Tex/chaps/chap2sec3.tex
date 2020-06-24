@@ -52,21 +52,21 @@ d_{e}(t)$，说明均匀区域的大小与粒子视界的尺度相当。不同�
 从一个高度非均匀的因果关联区出发，计算一下暴胀结束时的扰动大小。假设初始的能相对量密度扰动在$\sim
 H_{i}^{-1}$的尺度上为$\mathcal{O}(1)$的量级，
 \begin{align}
-  {\left(\frac{\delta \varepsilon}{\varepsilon}\right)}_{t^{i}}
-  \sim \frac{1}{\varepsilon} \frac{|\nabla\varepsilon|}{a_{i}}H_{i}^{-1}
-  =\frac{|\nabla\varepsilon|}{\varepsilon}\frac{1}{\dot{a}_{i}}
-  \sim \mathcal{O}(1)
+  {\left(\frac{\delta \rho}{\rho}\right)}_{t^{i}}
+  \sim \frac{1}{\rho} \frac{|\nabla\rho|}{a_{i}}H_{i}^{-1}
+  =\frac{|\nabla\rho|}{\rho}\frac{1}{\dot{a}_{i}}
+  \sim \mathcal{O}(1),
 \end{align}
 这里$\nabla$是在共动坐标系中对空间的导数。当$t\gg
 t_{i}$时，哈勃半径$H^{-1}(t)$内的能量密度扰动近似为
 \begin{align}
   \label{eq:relative-energy-density-perturbation}
-  {\left(\frac{\delta\varepsilon}{\varepsilon}\right)}_{t}
-  \sim \frac{1}{\varepsilon} \frac{|\nabla\varepsilon|}{a(t)}H^{-1}(t)
+  {\left(\frac{\delta\rho}{\rho}\right)}_{t}
+  \sim \frac{1}{\rho} \frac{|\nabla\rho|}{a(t)}H^{-1}(t)
   \sim \mathcal{O}(1) \frac{\dot{a}_{i}}{\dot{a}(t)},
 \end{align}
 
-这里假设了$|\nabla\varepsilon|/\varepsilon$不会在暴胀期间产生明显变化。这一假设的合理性可以来自于对标量扰动在大于$H^{-1}$的尺度上的行为的分析。
+这里假设了$|\nabla\rho|/\rho$不会在暴胀期间产生明显变化。这一假设的合理性可以来自于对标量扰动在大于$H^{-1}$的尺度上的行为的分析。
 $(\ref{eq:relative-energy-density-perturbation})$说明当宇宙处于加速膨胀过程中时，在半径为$H^{-1}$的区域内，
 相对能量密度扰动会变得越来越小。因而宇宙变得越来越平坦。
 
@@ -84,7 +84,7 @@ $(\ref{eq:flatness-of-space})$可以改写为
 \end{align}
 可以看出只要满足条件$|\Omega_{i}-1|\sim\mathcal{O}(1)$，就能使得
 \begin{align}
-  \Omega_0=1
+  \Omega_0=1.
 \end{align}
 在相当高的精度上成立。还可以从另一个角度来理解，在减速膨胀的宇宙中，只当$t\rightarrow
 0$时会有$\Omega(t)\rightarrow
@@ -93,86 +93,90 @@ $(\ref{eq:flatness-of-space})$可以改写为
 
 
 
-一般我们通过标量场来实现一个强能量条件$(\rho+3p > 0)$被破坏的模型，相应的场被称为暴胀子。带有势能$V(\varphi)$的标量场$\varphi$的能动量张量为
+一般我们通过标量场来实现一个强能量条件$(\rho+3p >
+0)$被破坏的模型，相应的场被称为暴胀场。带有势能$V(\varphi)$的标量场$\varphi$的能动量张量为
 \begin{align}
   \label{eq:scalar-energy-momentum-tensor}
   T^{\alpha}_{\ \beta} = \varphi^{,\alpha}\varphi_{,\beta}-
-  \frac{1}{2}{\left(\varphi^{,\gamma}\varphi_{,\gamma}-V(\varphi)\right)}\delta^{\alpha}_{\ \beta}
+  \frac{1}{2}{\left(\varphi^{,\gamma}\varphi_{,\gamma}-V(\varphi)\right)}\delta^{\alpha}_{\
+  \beta},
 \end{align}
 根据$T^{\alpha}_{\ \beta;\alpha}=0$可得
 \begin{align}
   \varphi^{;\alpha}_{\ ;\alpha}+\frac{\partial V(\varphi)}{\partial\varphi}
   =0.
 \end{align}
-若$\varphi^{,\gamma}\varphi_{,\gamma}>0$，且定义变量
-\begin{align}
-  \rho \equiv
-  \frac{1}{2}\varphi^{,\gamma}\varphi_{,\gamma}+V(\varphi),\qquad 
-  p\equiv \frac{1}{2}\varphi^{,\gamma}_{,\gamma}-V(\varphi),\qquad
-  u^{\alpha}\equiv \varphi^{,\alpha}/
-  \sqrt{\varphi^{,\gamma}\varphi_{,\gamma}},
-\end{align}
-则能动量张量$T^{\alpha}_{\
+能动量张量$T^{\alpha}_{\
 \beta}$可以改写为理想流体的能动量张量形式，
 \begin{align}
   \label{eq:perfect-fluid-energy-momentum-tensor}
   T^{\alpha}_{\ \beta}=(\rho+p)u^{\alpha}u_{\beta}-p\delta^{\alpha}_{\
   \beta}.
 \end{align}
+若$\varphi^{,\gamma}\varphi_{,\gamma}>0$，且
+\begin{align}
+  \rho &= \frac{1}{2}\varphi^{,\gamma}\varphi_{,\gamma}+V(\varphi),\\
+  p&= \frac{1}{2}\varphi^{,\gamma}_{,\gamma}-V(\varphi), \\
+  u^{\alpha}&= \varphi^{,\alpha}/
+  \sqrt{\varphi^{,\gamma}\varphi_{,\gamma}},
+\end{align}
 特别当$\varphi$场是均匀场，即$\partial\varphi /\partial x^{i}=0$时场的能量密度为
 \begin{equation}\label{eq:energy_density}
-  \rho = \frac{1}{2}\dot{\varphi}^2+V(\varphi)
+  \rho = \frac{1}{2}\dot{\varphi}^2+V(\varphi),
 \end{equation}
 以及压强
 \begin{equation}\label{eq:pressure}
-  p=\frac{1}{2}\dot{\varphi}^2-V(\varphi)
+  p=\frac{1}{2}\dot{\varphi}^2-V(\varphi),
 \end{equation}
 相应的连续性方程$(\ref{eq:continuation})$
 以及弗里德曼方程$(\ref{eq:1st_friedmann_equation})$改写为
 \begin{equation}
   \label{eq:continuation_in_inflation}
-  \ddot{\varphi}+3H\dot\varphi+V^\prime(\varphi)=0
+  \ddot{\varphi}+3H\dot\varphi+\frac{dV(\varphi)}{d\varphi}=0,
 \end{equation}
 \begin{equation}
   \label{eq:1st_friedmann_equation_in_inflation}
-  H^2=\frac{8\pi G}{3}\left(\frac{1}{2}\dot\varphi^2+V(\varphi)\right)
+  H^2=\frac{8\pi G}{3}\left(\frac{1}{2}\dot\varphi^2+V(\varphi)\right).
 \end{equation}
-约定约化普朗克质量$M_p\equiv\frac{1}{\sqrt{8\pi G}}=1$。消去标量场$\phi$的二阶导数，得到Hamilton-Jacobi方程
+% 约定约化普朗克质量$M_p\equiv\frac{1}{\sqrt{8\pi G}}=1$。
+消去标量场$\varphi$的二阶导数，得到Hamilton-Jacobi方程
 \begin{align}
-  \lbrack H'(\varphi)\rbrack^2 - \frac{3}{2}H^2 &=
-  -\frac{1}{2}V(\varphi)\label{HJa} \\
-  \dot\varphi  &= -2H'(\varphi)\label{HJb}
+  \lbrack H'(\varphi)\rbrack^2 - 12\pi G\ H^2 &=
+  -32\pi^2G\ V(\varphi)\label{HJa}, \\
+  \dot\varphi  &= -\frac{H'(\varphi)}{4\pi G}\label{HJb}.
 \end{align}
 
-由$(\ref{HJb})$可知$\dot H=-\dot \varphi^2/2\leq 0$，故物理哈勃半径$1/H$随时间增大。同时尺度因子$a(t)$加速增大，故共动哈勃半径$1/(aH)$不断随时间减小。
-方程$(\ref{HJa})$有一个很好的性质，与任意一个方程解的线性扰动都会以指数的速度趋于零，因此很容易进行数值求解。
+由$(\ref{HJb})$可知$\dot H=-4\pi G\dot \varphi^2\leq 0$，故物理哈勃半径$1/H$
+随时间增大。同时标度因子$a(t)$加速增大，故共动哈勃半径$1/(aH)$不断随时间减小。
+方程$(\ref{HJa})$有一个很好的性质，即任意一个方程解的线性扰动都会以指数的速度趋于零，因此很容易进行数值求解。
 
 因为$\rho+3p=2{(\dot{\varphi}^2-V(\varphi))}$，所以只有当$\dot{\varphi}^2<V(\varphi)$时，宇宙才能加速膨胀。
 而在常见的慢滚暴胀模型中，假设动能项远小于势能项，$\dot{\varphi}\ll
 V(\varphi)$，并且摩擦项$3H\dot{\varphi}$足够大，使得加速度项$\ddot{\varphi}$迅速减小直至可被忽略。
 基于慢滚暴胀模型的上述两个假设，方程$(\ref{eq:continuation_in_inflation})$及$(\ref{eq:1st_friedmann_equation_in_inflation})$简化为
-\begin{equation}
+\begin{align}
   \label{eq:friedmann_equation_in_slow_roll_inflation}
-  3H\dot{\varphi} = -V^\prime(\varphi);\quad 3H^2=V(\varphi).
-\end{equation}
-为了更好地刻画与描述慢滚暴胀过程，通常借助慢滚参数。慢滚参数有两种定义方式，基于势能的\textit{potential-slow-roll}
-(\textbf{PSR}) 参数和基于哈勃参数$H(\varphi)$的\textbf{HSR}。
-分别以下标V和H表示。定义势能慢滚参数
+  3H\dot{\varphi} &= -V^\prime(\varphi), \\
+  3H^2&=8\pi G\ V(\varphi).
+\end{align}
+为了更好地刻画与描述慢滚暴胀过程，通常借助慢滚参数。慢滚参数有两种定义方式，基于暴胀势和哈勃参数的慢滚参数（SRP）。
+分别以下标V和H表示，定义势能慢滚参数
 \begin{align}
   \label{eq:PSRA_epsilon}
-  \epsilon_V(\varphi) &= \frac{1}{2} {\left(\frac{V^\prime}{V}\right)}^2,
+  \epsilon_V(\varphi) &= \frac{1}{16\pi G}
+  {\left(\frac{V^\prime(\varphi)}{V(\varphi)}\right)}^2,
   \\
   \label{eq:PSRA_eta}
-  \eta_V(\varphi) &= \frac{V^{\dprime}}{V}.
+  \eta_V(\varphi) &= \frac{1}{8\pi G}\frac{V^{\dprime}(\varphi)}{V(\varphi)}.
 \end{align}
 及哈勃慢滚参数
 \begin{align}
   \label{eq:HSRA_epsilon}
-  \epsilon_H(\varphi) &= 2
-  {\left(\frac{H^{\prime}}{H}\right)}^2=-\frac{\dot{H}}{H^2}, \\
+  \epsilon_H(\varphi) &= \frac{1}{4\pi G}
+  {\left(\frac{H^{\prime}(\varphi)}{H(\varphi)}\right)}^2=-\frac{\dot{H}}{H^2}, \\
   \label{eq:HSRA_eta}
-  \eta_H(\varphi) &= 2 \frac{H^{\prime\prime}}{H}=-3
-  \frac{\varphi^{\dot\dot}}{3H\dot{\varphi}}.
+  \eta_H(\varphi) &= \frac{1}{4\pi G} \frac{H^{\prime\prime}(\varphi)}{H(\varphi)}=-3
+  \frac{\ddot{\varphi}}{3H\dot{\varphi}}.
 \end{align}
 相比$\epsilon_V$和$\eta_V$，采用$\epsilon_H$和$\eta_H$描述暴胀的优势在于
 \begin{itemize}
@@ -203,6 +207,6 @@ V(\varphi)$，并且摩擦项$3H\dot{\varphi}$足够大，使得加速度项$\dd
 % \end{align}
 % 假设$k=0$，利用上式可以得到初始状态方程满足的约束条件
 % \begin{align}
-%   \frac{\varepsilon_i+p_i}{\varepsilon_i} < 10^{-2}. 
+%   \frac{\rho_i+p_i}{\rho_i} < 10^{-2}. 
 % \end{align}
 % 换言之，暴胀开始时对真空物态方程的偏离不超过$1\%$.
