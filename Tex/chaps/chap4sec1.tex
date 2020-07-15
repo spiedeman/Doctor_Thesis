@@ -1,31 +1,29 @@
-\section{双拐点暴胀模型}
-拐点暴胀通常指这样的暴胀模型，存在场值$\phi=\phi_0$（拐点）使得势能在该处的二阶导数为零
+\section{拐点暴涨模型}
+拐点暴涨通常指这样的暴涨模型，存在场值$\phi=\phi_0$（拐点）使得暴涨势在该处的二阶导数为零
 \begin{equation}
-    V^{\dprime}(\phi_0) = 0,
+    V_{,\phi \phi}(\phi_0) = 0,
 \end{equation}
 
-势能的一般形式为
+暴涨势的一般形式为
 
 \begin{equation}
     \label{eq:inf_potential}
     V (\phi)=V_0+a (\phi-\phi_0)+\frac{c}{6}{\left(\phi-\phi_0\right)}^3,\\
 \end{equation}
 \begin{equation}
-    V_0\equiv V (\phi_0),\ a\equiv V' (\phi_0),\ c\equiv V^{\tprime}
+    V_0\equiv V (\phi_0),\ a\equiv V_{,\phi} (\phi_0),\ c\equiv V_{,\phi \phi \phi}
     (\phi_0),
 \end{equation}
 
 高阶项 $(n \geq 4)$ 被截断。相应的慢滚参数为
 \begin{align}
     \label{eq:psrp}
-    \epsilon &= \frac{M_p}{2}\left(\frac{V'}{V}^2\right),\\
-    \eta&=M^2_p
-    \left(\frac{V^{\dprime}}{V}\right),\\
-    \xi^2&=M^4_p\left(\frac{V'V^{\tprime}}{V^2}\right).
+    \epsilon &= \frac{1}{2}\lrp{\frac{V_{,\phi}}{V(\phi)}}^2,\\
+    \eta&=\frac{V_{,\phi \phi}}{V(\phi)}, \\
+    \xi^2&=\frac{V_{,\phi} V_{,\phi \phi \phi}}{V^2(\phi)}.
 \end{align}
-其中，$M_P=\frac{1}{\sqrt{8\pi
-G}}$。接下来通过WMAP、Planck等实验观测到的标量扰动大小$\mathcal{P}_{\mathcal{R}}$和标量谱指标$n_s$来确定系数$a$和$c$。
-令暴胀结束时的场值为$\phi_e$，那时有$\epsilon\sim
+接下来通过WMAP、Planck等实验观测到的标量扰动大小$\mathcal{P}_{\mathcal{R}}$和标量谱指标$n_s$来确定系数$a$和$c$。
+令暴涨结束时的场值为$\phi_e$，那时有$\epsilon\sim
 1$。则对应$\phi\sim\phi_e$的e-folding数为
 \begin{align}
     \label{eq:e-folding}
@@ -39,17 +37,17 @@ G}}$。接下来通过WMAP、Planck等实验观测到的标量扰动大小$\math
 
 \begin{align}
     \epsilon &=
-    \frac{2V_0^2}{c^2M_p^6\mathcal{N}^4} {\left(\frac{Y}{X} \right)}^4, \\
+    \frac{2V_0^2}{c^21^6\mathcal{N}^4} {\left(\frac{Y}{X} \right)}^4, \\
     \eta &=
     -\frac{2}{\mathcal{N}}\frac{Y}{S}\left(\sqrt{1-X}\cos Y-\sqrt{X}\sin
     Y\right),\\
     \xi^2 &= \frac{2}{\mathcal{N}^2}{\left(\frac{Y}{X}\right)}^2.
 \end{align}
 
-在暴胀期间，$\epsilon \ll 1$，导致$X=S\sqrt{\epsilon}\leq\sqrt{\epsilon}\ll
-1$，故而有$S\approx \sin Y$。相应的功率谱，标量谱指标及其跑动为
+在暴涨期间，$\epsilon \ll 1$，导致$X=S\sqrt{\epsilon}\leq\sqrt{\epsilon}\ll
+1$，故而有$S\approx \sin Y$。相应的功率谱和标量扰动谱指标为
 \begin{align}
-  \mathcal{P}_{\mathcal{R}}^{1/2}&\equiv\frac{1}{\sqrt{24\pi^2}}\frac{V_0^{1/2}}{\epsilon^{1/2}M_p^2}
-    \approx\frac{V_0^{1/2}}{2\sqrt{6}\pi M_p^2 X}\sin^2Y,\\
+  \mathcal{P}_{\mathcal{R}}^{1/2}&\equiv\frac{1}{\sqrt{24\pi^2}}\frac{V_0^{1/2}}{\epsilon^{1/2}1^2}
+    \approx\frac{V_0^{1/2}}{2\sqrt{6}\pi 1^2 X}\sin^2Y,\\
     n_s&\equiv1+2\eta-6\epsilon\approx1-\frac{4}{\mathcal{N}}Y\cot Y.
 \end{align}

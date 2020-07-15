@@ -1,17 +1,22 @@
 早在几千年前，人们已经开始仰望星空，未知、好奇、敬畏驱使着他们开始进行力所能及的
-观测。然而在很长的一段时间内，我们对宇宙的认识都处在非常局限的状态下。知道文艺复兴时期，望远镜的发明使得人类获得了第一次技术上的突破，牛顿万有引力定律则是开启了第一此理论突破，对宇宙的认识开始加剧。
-直到最近一个多世纪，爱因斯坦的广义相对论和射电望远镜开启了对宇宙第二波的加速了解
-。基于广义相对论和宇宙学原理，建立了现代宇宙学。
+观测。然而在很长的一段时间内，我们对宇宙的认识都处在非常局限的状态下。直到文艺
+复兴时期，望远镜的发明使得人类获得了第一次技术上的突破，牛顿万有引力定律则是开
+启了第一次理论突破，对宇宙的认识开始加剧。直到最近一个多世纪，爱因斯坦的广义相
+对论和射电望远镜开启了对宇宙第二波的加速了解。基于广义相对论和宇宙学原理，建立
+了现代宇宙学。
 
 \section{标准宇宙学模型}
 自1915年爱因斯坦提出广义相对论以来，广义相对论便开始替代牛顿引力理论作为研究宇宙学的理论基础。
 时间-空间开始被当作一个整体进行研究，而\textit{爱因斯坦场方程}可以写为
 \begin{equation}
     \label{eq:einstein_equation}
-    G_{\mu\nu}\equiv R_{\mu\nu}-\frac{1}{2}\mathcal{R}g_{\mu\nu}=8\pi G\ T_{\mu\nu},
+    G_{\mu\nu}\equiv R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}=T_{\mu\nu},
 \end{equation}
-其中，$G_{\mu\nu}$为\textit{爱因斯坦张量}，$R_{\mu\nu}$和$R$分别为\textit{里奇张量}和\textit{里奇标量}，$T_{\mu\nu}$为\textit{能量-动量张量}。
-方程左边代表时空作为一个流形整体的几何性质，右边表示时空中物质的分布情况。爱因斯坦方程$(\ref{eq:einstein_equation})$说明时空中的物质分布和时空的几何性质之间是互为因果的关系。
+其中，$G_{\mu\nu}$为\textit{爱因斯坦张量}，$R_{\mu\nu}$和$R$分别为
+\textit{里奇张量}和\textit{里奇标量}，$T_{\mu\nu}$为\textit{能量-动量张量}，
+并且约定\textit{约化普朗克质量}$M_p\equiv 1 /\sqrt{8\pi G}=1$。
+方程左边代表时空作为一个流形整体的几何性质，右边表示时空中物质的分布情况。
+爱因斯坦方程$(\ref{eq:einstein_equation})$说明时空中的物质分布和时空的几何性质之间是互为因果的关系。
 
 为了描述宇宙的演化，首先要确定时空流形的度规以给出方程$(\ref{eq:einstein_equation})$左边的描述。基于当前观测，现代宇宙学普遍采用两条假设作为宇宙学原理：物质分布在宇宙学尺度上是
 1）均匀的；2）、各向同性。以此为出发点可以导出用于描述可观测宇宙的
@@ -20,25 +25,25 @@
     ds^2=dt^2-a^2(t)\left[\frac{dr^2}{1-Kr^2}+r^2\left(d\theta^2+\sin^2\theta
     d\phi^2\right)\right],
 \end{equation}
-其中，$a(t)$为宇宙标度因子，$K>0$，$=0$，$<0$分别代表开放、平直、闭合宇宙。由FLRW度规得到\textit{里奇张量}$R$为
+其中，$a(t)$为宇宙标度因子，$K>0$，$=0$，$<0$分别代表开放、平直、闭合宇宙。由FLRW度规得到\textit{里奇张量}为
 \begin{align}
   R_{00} &= -3\frac{\ddot{a}}{a}, \\
   R_{ij} &= g_{ij}\left(\frac{\ddot{a}}{a}+2H^2+2\frac{K}{a^2}\right), \\
   R_{0i} &= 0,
 \end{align}
-其中，$H=\dot{a} /a$，为哈勃参数。$\dot{}$表示对宇宙时间$t$的导数。
-\textit{里奇标量}$\mathcal{R}$为
+其中，$H=\dot{a} /a$为哈勃参数，点号表示对宇宙时间$t$的导数。
+\textit{里奇标量}为
 \begin{equation}
     \label{eq:ricci_scalar}
-    \mathcal{R} \equiv g^{\alpha\beta}R_{\alpha\beta} =
-    6\left(\frac{\ddot{a}}{a}+H^2+\frac{K}{a^2}\right),
+    R \equiv g^{\alpha\beta}R_{\alpha\beta} =
+    6\left(\frac{\ddot{a}}{a}+H^2+\frac{K}{a^2}\right).
 \end{equation}
-故得到\textit{爱因斯坦张量}
+\textit{爱因斯坦张量}
 \begin{align}
   \label{eq:einstein_tensor}
   G^{0}_0 &= -3\lrp{H^2+\frac{K}{a^2}}, \\
   G^{0}_i &= 0, \\
-  G^i_j &= -\lrp{H^2+ 2 \frac{\ddot{a}}{a}+ \frac{K}{a^2}},
+  G^i_j &= -\lrp{H^2+ 2 \frac{\ddot{a}}{a}+ \frac{K}{a^2}}.
 \end{align}
 
 
@@ -51,24 +56,24 @@
         0 & p & 0 & 0 \\
         0 & 0 & p & 0 \\
         0 & 0 & 0 & p
-    \end{pmatrix}.
+    \end{pmatrix},
 \end{equation}
 其中$\rho$和$p$分别为能量密度和压强，且只为时间$t$的函数。
-根据爱因斯坦场方程组中的时间-时间分量和空间-空间分量分别得到如下方程
+根据爱因斯坦方程组中的时间-时间分量和空间-空间分量分别得到如下方程
 \begin{align}
     \label{eq:00_einstein} 
-    \frac{\dot{a}^2}{a^2} + \frac{K}{a^2} &= \frac{8\pi G}{3} \rho \\
+    \frac{\dot{a}^2}{a^2} + \frac{K}{a^2} &= \frac{\rho}{3} , \\
     \label{eq:ij_einstein}
-    \frac{\ddot{a}}{a}+\frac{2\dot{a}^2}{a^2}+\frac{2K}{a^2}&= 4\pi G(\rho-p),
+    \frac{\ddot{a}}{a}+\frac{2\dot{a}^2}{a^2}+\frac{2K}{a^2}&=
+    \frac{\rho-p}{2},
 \end{align}
 由上面两个方程可以得到两个独立的弗里德曼方程
 \begin{align}
     \label{eq:1st_friedmann_equation}
-    H^2 &= \frac{8\pi G}{3} \rho -
-    \frac{K}{a^2} \\
+    H^2 &= \frac{\rho}{3}-
+    \frac{K}{a^2}, \\
     \label{eq:accelaration_equation}
-    \dot{H} + H^2 &= -\frac{4\pi G}{3}\left(\rho +
-    3p\right).
+    \dot{H} + H^2 &= -\frac{\rho+3p}{6}.
 \end{align}
 由弗里德曼方程可以导出对应能量守恒的连续性方程
 \begin{equation}\label{eq:continuation}
@@ -79,25 +84,30 @@
     \label{eq:state_equation}
     p=w\rho,
 \end{equation}
-其中$w$是物态参数，代入连续性方程$(\ref{eq:continuation})$可得
+其中$w$是物态方程参数，代入连续性方程$(\ref{eq:continuation})$可得
 \begin{equation}
     \label{eq:rho_conservation}
     \rho a^{3(1+w)} =\text{常数}.
 \end{equation}
 
-对物质和辐射，物态参数$w$分别为$0$和$1/3$，因而能量密度$\rho$分别正比于$a^{-3}$和$a^{-4}$。可以看出，辐射的能量密度相比于物质衰减地更快。
+对物质和辐射，物态方程参数$w$分别为$0$和$1/3$，因而能量密度$\rho$分别正比于$a^{-3}$和$a^{-4}$。可以看出，辐射的能量密度相比于物质衰减地更快。
 
-$(\ref{eq:energy_moment_tensor})$中能量-动量张量$T_{\mu\nu}$的来源为物质和辐射。若在场方程中加入宇宙学常数项$\Lambda$，则可以将其移到右侧写作能量-动量张量的一部分$T^{(vac)}_{\mu\nu}\equiv-\Lambda/{8\pi
-G}$，并定义真空能量密度$\rho_{\text{vac}}\equiv\Lambda/{8\pi G}$。对真空能，物态参数$w=-1$，根据方程$(\ref{eq:rho_conservation})$真空能不随时间衰减。从这里开始分别以$\rho_r,\
+$(\ref{eq:energy_moment_tensor})$中能量-动量张量$T_{\mu\nu}$的来源为物质和辐射
+。若在场方程中加入宇宙学常数项$\Lambda$，则可以将其移到右侧写作能量-动量张量的
+一部分$T^{(vac)}_{\mu\nu}\equiv-\Lambda$，并定义真空能量密度
+$\rho_{\text{vac}}\equiv\Lambda$。对真空能，物态方程参数$w=-1$，根据方程
+$(\ref{eq:rho_conservation})$真空能不随时间衰减。从这里开始分别以$\rho_r,\
 \rho_m,\ \rho_{\Lambda}$表示辐射、物质和真空能的能量密度。
 
-由于宇宙中各组分的能量密度的衰减速率不一，使得占据宇宙能量密度主导地位的组分在宇宙演化的不同时期并不相同。根据各组分的衰减速率，宇宙将先后由辐射、物质和真空占据主导地位，决定宇宙的演化方式。在各个时期，尺度因子$a(t)$随时间的变化关系为
+由于宇宙中各组分的能量密度的衰减速率不一，使得占据宇宙能量密度主导地位的组分在
+宇宙演化的不同时期并不相同。根据各组分的衰减速率，宇宙将先后由辐射、物质和真空
+能占据主导地位，决定宇宙的演化方式。在各个时期，标度因子$a(t)$随时间的变化关系为
 \begin{equation}
     a(t)\propto 
     \begin{cases}
-        t^{1/2}\qquad \text{辐射为主},\\
-        t^{2/3}\qquad \text{物质为主},\\
-        e^{\Lambda t}\qquad \text{真空为主，}
+      t^{1/2},\qquad &\text{辐射为主}\\
+      t^{2/3},\qquad &\text{物质为主}\\
+      e^{\sqrt{\Lambda/3}t},\qquad &\text{真空为主}
     \end{cases}
 \end{equation}
 严格意义上宇宙的总能量密度$\rho_{tot}$应为真空、物质和辐射三部分的和
@@ -107,7 +117,7 @@ G}$，并定义真空能量密度$\rho_{\text{vac}}\equiv\Lambda/{8\pi G}$。对
 为了确定宇宙在三维空间上的几何性质（正曲率闭合空间、负曲率开放空间还是零曲率平直空间），定义临界能量密度 
 \begin{equation}
     \label{eq:critical_rho}
-    \rho_{cr} = \frac{3H^2}{8\pi G},
+    \rho_{cr} = 3H^2,
 \end{equation}
 于是弗里德曼方程$(\ref{eq:1st_friedmann_equation})$变成
 \begin{equation}
@@ -118,15 +128,16 @@ G}$，并定义真空能量密度$\rho_{\text{vac}}\equiv\Lambda/{8\pi G}$。对
 \begin{equation}\label{eq:flatness}
     \Omega - 1 = \frac{K}{a^2H^2} ,
 \end{equation}
-对宇宙微波背景辐射的观测支持$K$接近于$0$，故我们认为当前所处的宇宙在空间是平直的，没有曲率。从这里开始若无特别说明，均假定$K=0$。
+对宇宙微波背景辐射的观测支持$K$接近于$0$，故我们认为当前所处的宇宙在空间上是平
+直的，没有曲率。从这里开始若无特别说明，均假定$K=0$。
 在平直宇宙中，各组分的密度参数之和为一
 \begin{equation}
     \Omega_{\Lambda}+\Omega_m+\Omega_r=1.
 \end{equation}
-于是在任意时刻，由弗里德曼方程$(\ref{eq:1st_friedmann_equation})$给出尺度因子$a(t)$满足的方程
+于是在任意时刻，由弗里德曼方程$(\ref{eq:1st_friedmann_equation})$给出标度因子$a(t)$满足的方程
 \begin{equation}
     \frac{\dot{a}}{a} =
-    H_0\sqrt{\Omega_{\Lambda,0}+\frac{\Omega_{m,0}}{a^3}+\frac{\Omega_{r,0}}{a^4}}
+    H_0\sqrt{\Omega_{\Lambda,0}+\frac{\Omega_{m,0}}{a^3}+\frac{\Omega_{r,0}}{a^4}},
 \end{equation}
 其中，$\Omega_{\Lambda,0}$、$\Omega_{m,0}$、$\Omega_{r,0}$分别表示暗能量、
-物质以及辐射在当前时刻的值。
+物质以及辐射的密度参数在当前时刻的值。

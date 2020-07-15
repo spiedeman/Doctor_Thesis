@@ -1,58 +1,60 @@
-\section{暴胀模型}
-由于共动距离不随时间改变，在共动坐标系下讨论\textbf{（共动）粒子视界}会使视界问题变得更简单。若尺度因子$a(t)$是时间$t$的幂函数，则在当前时刻$t_0$和过去某一时刻$t_1$的因果联系区的共动尺度比为
+\section{暴涨}
+由于共动距离不随时间改变，在共动坐标系下讨论\textbf{（共动）粒子视界}会使视界问
+题变得更简单。若标度因子$a(t)$是时间$t$的幂函数，则在当前时刻$t_0$和过去某一时刻$t_1$的因果联系区的共动尺度比为
 \begin{align}
   \frac{\chi_{p 0}}{\chi_{p 1}}\sim \frac{t_0}{t_1}\frac{a_1}{a_0}
   \sim \frac{\dot{a}_1}{\dot{a}_0}.
 \end{align}
 
-平坦性疑难中，给大爆炸宇宙学造成困难的地方来自于比值
+平坦性问题中，给大爆炸宇宙学造成困难的地方来自于比值
 \begin{align}
   \label{eq:flatness-of-space}
   \frac{\Omega_0-1}{\Omega_1-1}=
   \frac{{\left(Ha\right)}^2_{1}}{{\left(Ha\right)}^2_{0}}
   \sim {\left(\frac{\dot{a}_1}{\dot{a}_0}\right)}^2.
 \end{align}
-在这几个疑难中，都出现了比值$\dot{a}_1 /
-\dot{a}_0$。当强能量条件满足时$\rho+3p>0$，根据加速度方程$(\ref{eq:accelaration_equation})$尺度因子的二阶导数小于零，因此宇宙处于减速膨胀的状态。故越早期，比值$\dot{a}_1
-/\dot{a}_0$越大，问题越严重。如果要求$\dot{a}_1
-/\dot{a}_0\leq
-1$，那么只能假设$\dot{a}$经历了先增大、后渐小的过程。引入的这一段加速膨胀的过程是必要的，至于是否充分取决于实现这一条件的特定模型。
-根据加速度方程，普通物质的存在提供了引力使得宇宙的膨胀速度减小。那么为了实现加速膨胀，必须假设宇宙中存在别的物质，使得引力表现为一种“排斥力”。
+在这几个问题中，都出现了比值$\dot{a}_1 /
+\dot{a}_0$。当强能量条件满足时$\rho+3p>0$，根据加速度方程
+$(\ref{eq:accelaration_equation})$标度因子的二阶导数小于零，因此宇宙处于减速
+膨胀的状态。故越早期，比值$\dot{a}_1 /\dot{a}_0$越大，问题越严重。如果要求
+$\dot{a}_1 /\dot{a}_0\leq 1$，那么只能假设$\dot{a}$经历了先增大、后渐小的过程。
+引入的这一段加速膨胀的过程是必要的，至于是否充分取决于实现这一条件的特定模型。
+根据加速度方程，普通物质的存在提供了引力使得宇宙的膨胀速度减小。那么为了实现
+加速膨胀，必须假设宇宙中存在别的物质，使得引力表现为一种“排斥力”。
 
-我们先给出暴胀的定义：\textbf{暴胀}是当引力表现为一种排斥力使得宇宙处于加速膨胀的一个阶段。
+我们先给出暴涨的定义：\textbf{暴涨}是当引力表现为一种排斥力使得宇宙处于加速膨胀的一个阶段。
 
-暴胀能够解释大爆炸的起源。因为加速膨胀，原本处于因果联系区内的一个小区域会在短时间内膨胀地非常大。更进一步，
-暴胀甚至能从一个均匀的小区域中产生整个可观测宇宙，即便这一区域外相当非均匀。原因在于，在一个加速膨胀的宇宙中，
+暴涨能够解释大爆炸的起源。因为加速膨胀，原本处于因果联系区内的一个小区域会在短时间内膨胀地非常大。更进一步，
+暴涨甚至能从一个均匀的小区域中产生整个可观测宇宙，即便这一区域外相当非均匀。原因在于，在一个加速膨胀的宇宙中，
 总是存在有限大的事件视界
-\begin{equation}
-  \begin{split}
+\begin{align}
     d_{e}(t) &= a(t)\int_t^{t_{\text{max}}} \frac{dt}{a}
-    =a(t)\int_{a(t)}^{a_{\text{max}}} \frac{da}{\dot{a}a} \\
-    &= \sqrt{\frac{3}{8\pi G}}a(t)\int_{a(t)}^{a_{\text{max}}}
-    \frac{da}{a\sqrt{a^{-(1+3w)}-\frac{3K}{8\pi G}}} 
-  \end{split}
-\end{equation}
+    =a(t)\int_{a(t)}^{a_{\text{max}}} \frac{da}{\dot{a}a}\notag \\
+    &= \sqrt{3}a(t)\int_{a(t)}^{a_{\text{max}}}
+    \frac{da}{a\sqrt{a^{-(1+3w)}-3K}}.
+\end{align}
 因为${\left(1+3w\right)}<0$，即使$a_{\text{max}}\rightarrow
 \infty$，$d_{e}(t)$也会收敛到有限值。如此一来，以$
 p$为中心，$d_{e}(t)$为半径的区域$V_1(t)=\{q\ |\
-|q-p|<d_{e}(t)\}$其未来的演化永远不会受到来自于半径为$2d_{e}(t)$的同心区域$V_2(t)$外的影响。能对内部产生作用的只有半径在$d_{e}(t)$到$2d_{e}(t)$的部分。假设在$t=t_{i}$时$V_2(t_{i})$内部的物质分布均匀且各向同性，那么到暴胀结束时，$V_1(t_{f})$内始终保持均匀和各向同性。$V_1(t)$区域的物理尺度在暴胀结束时为
+|q-p|<d_{e}(t)\}$其未来的演化永远不会受到来自于半径为$2d_{e}(t)$的同心区域$V_2(t)$外的影响。能对内部产生作用的只有半径在$d_{e}(t)$到$2d_{e}(t)$的部分。假设在$t=t_{i}$时$V_2(t_{i})$内部的物质分布均匀且各向同性，那么到暴涨结束时，$V_1(t_{f})$内始终保持均匀和各向同性。$V_1(t)$区域的物理尺度在暴涨结束时为
 \begin{align}
   d_{e}(t_{f})=d_e(t_{i}) \frac{a_{f}}{a_{i}}.
 \end{align}
 在加速膨胀宇宙中，粒子视界可以作如下近似
 \begin{align}
   d_{p}(t) =a(t)\int_{t_{i}}^{t} \frac{dt}{a}=a(t)\int_{a_{i}}^{a}
-  \frac{da}{\dot{a}a}\sim \frac{a(t)}{a_{i}}d_{e}(t_i),  
+  \frac{da}{\dot{a}a}\sim \frac{a(t)}{a_{i}}d_{e}(t_i). 
 \end{align}
-因为积分的主要贡献来自于$a\sim a_{i}$的部分。在暴胀结束时，$d_{p}(t)\sim
+因为积分的主要贡献来自于$a\sim a_{i}$的部分。在暴涨结束时，$d_{p}(t)\sim
 d_{e}(t)$，说明均匀区域的大小与粒子视界的尺度相当。不同于一个均匀的宇宙包含很多不同的因果关联区，我们可以从一个
-很小的均匀的因果关联区出发，通过暴胀使得它的大小以爆炸似的方式变大，同时保持了均匀性。
+很小的均匀的因果关联区出发，通过暴涨使得它的大小以爆炸似的方式变大，同时保持了均匀性。
 
-下一个问题是\textbf{均匀性}的条件是否可以放开，即不要求暴胀开始时因果关联区内部物质分布的均匀性。那么我们
-从一个高度非均匀的因果关联区出发，计算一下暴胀结束时的扰动大小。假设初始的能相对量密度扰动在$\sim
+下一个问题是\textbf{均匀性}的条件是否可以放开，即不要求暴涨开始时因果关联区内部物质分布的均匀性。那么我们
+从一个高度非均匀的因果关联区出发，计算一下暴涨结束时的扰动大小。假设初始的相对
+能量密度扰动在$\sim
 H_{i}^{-1}$的尺度上为$\mathcal{O}(1)$的量级，
 \begin{align}
-  {\left(\frac{\delta \rho}{\rho}\right)}_{t^{i}}
+  {\left(\frac{\delta \rho}{\rho}\right)}_{t_{i}}
   \sim \frac{1}{\rho} \frac{|\nabla\rho|}{a_{i}}H_{i}^{-1}
   =\frac{|\nabla\rho|}{\rho}\frac{1}{\dot{a}_{i}}
   \sim \mathcal{O}(1),
@@ -63,24 +65,24 @@ t_{i}$时，哈勃半径$H^{-1}(t)$内的能量密度扰动近似为
   \label{eq:relative-energy-density-perturbation}
   {\left(\frac{\delta\rho}{\rho}\right)}_{t}
   \sim \frac{1}{\rho} \frac{|\nabla\rho|}{a(t)}H^{-1}(t)
-  \sim \mathcal{O}(1) \frac{\dot{a}_{i}}{\dot{a}(t)},
+  \sim \mathcal{O}(1) \frac{\dot{a}_{i}}{\dot{a}(t)}.
 \end{align}
 
-这里假设了$|\nabla\rho|/\rho$不会在暴胀期间产生明显变化。这一假设的合理性可以来自于对标量扰动在大于$H^{-1}$的尺度上的行为的分析。
+这里假设了$|\nabla\rho|/\rho$不会在暴涨期间产生明显变化。这一假设的合理性可以来自于对标量扰动在大于$H^{-1}$的尺度上的行为的分析。
 $(\ref{eq:relative-energy-density-perturbation})$说明当宇宙处于加速膨胀过程中时，在半径为$H^{-1}$的区域内，
 相对能量密度扰动会变得越来越小。因而宇宙变得越来越平坦。
 
-总结起来，如今我们观测到的均匀且各向同性的宇宙，可以有一个非均匀的起源，只要存在暴胀就可以将非均匀性给抹除。
+总结起来，如今我们观测到的均匀且各向同性的宇宙，可以有一个非均匀的起源，只要存在暴涨就可以将非均匀性给抹除。
 
-同时，暴胀也能解决平坦性问题。从$(\ref{eq:relative-energy-density-perturbation})$可以发现，如果要求避免大的密度扰动重新进入视界（$\sim
-H_0^{-1}$）使得宇宙的均匀性假设被破坏，那么必须假设暴胀开始时候的膨胀率远小于今天的膨胀率，即$\dot{a}_{i}/\dot{a}_0\ll
+同时，暴涨也能解决平坦性问题。从$(\ref{eq:relative-energy-density-perturbation})$可以发现，如果要求避免大的密度扰动重新进入视界（$\sim
+H_0^{-1}$）使得宇宙的均匀性假设被破坏，那么必须假设暴涨开始时候的膨胀率远小于今天的膨胀率，即$\dot{a}_{i}/\dot{a}_0\ll
 1$。
 再精确一点，可以根据CMB的观测要求在当今的视界尺度上，能量密度扰动的方差不应当超过$10^{-5}$。
 只要满足条件$\dot{a}_{i}/\dot{a}_0\ll
-10^{-5}$，方程$(\ref{eq:relative-energy-density-perturbation})$即可被满足，暴胀时的非均匀性足够被抹除。
+10^{-5}$，方程$(\ref{eq:relative-energy-density-perturbation})$即可被满足，暴涨时的非均匀性足够被抹除。
 $(\ref{eq:flatness-of-space})$可以改写为
 \begin{align}
-  \Omega_0=1+{\left(\Omega_{i}-1\right)}{\left(\frac{\dot{a}_{i}}{\dot{a}_0}\right)}^2,
+  \Omega_0=1+{\left(\Omega_{i}-1\right)}{\left(\frac{\dot{a}_{i}}{\dot{a}_0}\right)}^2.
 \end{align}
 可以看出只要满足条件$|\Omega_{i}-1|\sim\mathcal{O}(1)$，就能使得
 \begin{align}
@@ -94,17 +96,17 @@ $(\ref{eq:flatness-of-space})$可以改写为
 
 
 一般我们通过标量场来实现一个强能量条件$(\rho+3p >
-0)$被破坏的模型，相应的场被称为暴胀场。带有势能$V(\varphi)$的标量场$\varphi$的能动量张量为
+0)$被破坏的模型，相应的场被称为暴涨场。带有暴涨势$V(\varphi)$的标量场$\varphi$的能动量张量为
 \begin{align}
   \label{eq:scalar-energy-momentum-tensor}
   T^{\alpha}_{\ \beta} = \varphi^{,\alpha}\varphi_{,\beta}-
   \frac{1}{2}{\left(\varphi^{,\gamma}\varphi_{,\gamma}-V(\varphi)\right)}\delta^{\alpha}_{\
-  \beta},
+  \beta}.
 \end{align}
 根据$T^{\alpha}_{\ \beta;\alpha}=0$可得
 \begin{align}
-  \varphi^{;\alpha}_{\ ;\alpha}+\frac{\partial V(\varphi)}{\partial\varphi}
-  =0.
+  \varphi^{;\alpha}_{\ ;\alpha}+V_{,\varphi}
+  =0,
 \end{align}
 能动量张量$T^{\alpha}_{\
 \beta}$可以改写为理想流体的能动量张量形式，
@@ -126,64 +128,65 @@ $(\ref{eq:flatness-of-space})$可以改写为
 \end{equation}
 以及压强
 \begin{equation}\label{eq:pressure}
-  p=\frac{1}{2}\dot{\varphi}^2-V(\varphi),
+  p=\frac{1}{2}\dot{\varphi}^2-V(\varphi).
 \end{equation}
 相应的连续性方程$(\ref{eq:continuation})$
 以及弗里德曼方程$(\ref{eq:1st_friedmann_equation})$改写为
 \begin{equation}
   \label{eq:continuation_in_inflation}
-  \ddot{\varphi}+3H\dot\varphi+\frac{dV(\varphi)}{d\varphi}=0,
+  \ddot{\varphi}+3H\dot\varphi+V_{,\varphi}=0,
 \end{equation}
 \begin{equation}
   \label{eq:1st_friedmann_equation_in_inflation}
-  H^2=\frac{8\pi G}{3}\left(\frac{1}{2}\dot\varphi^2+V(\varphi)\right).
+  3H^2=\frac{1}{2}\dot\varphi^2+V(\varphi).
 \end{equation}
 % 约定约化普朗克质量$M_p\equiv\frac{1}{\sqrt{8\pi G}}=1$。
 消去标量场$\varphi$的二阶导数，得到Hamilton-Jacobi方程
 \begin{align}
-  \lbrack H'(\varphi)\rbrack^2 - 12\pi G\ H^2 &=
-  -32\pi^2G\ V(\varphi)\label{HJa}, \\
-  \dot\varphi  &= -\frac{H'(\varphi)}{4\pi G}\label{HJb}.
+  \lbrack H_{,\varphi} \rbrack^2 - H^2 &=
+  -V(\varphi)\label{HJa}, \\
+  \dot\varphi  &= -2H_{,\varphi} \label{HJb}.
 \end{align}
 
-由$(\ref{HJb})$可知$\dot H=-4\pi G\dot \varphi^2\leq 0$，故物理哈勃半径$1/H$
+由$(\ref{HJb})$可知$\dot H=-\dot \varphi^2 /2\leq 0$，故物理哈勃半径$1/H$
 随时间增大。同时标度因子$a(t)$加速增大，故共动哈勃半径$1/(aH)$不断随时间减小。
 方程$(\ref{HJa})$有一个很好的性质，即任意一个方程解的线性扰动都会以指数的速度趋于零，因此很容易进行数值求解。
 
 因为$\rho+3p=2{(\dot{\varphi}^2-V(\varphi))}$，所以只有当$\dot{\varphi}^2<V(\varphi)$时，宇宙才能加速膨胀。
-而在常见的慢滚暴胀模型中，假设动能项远小于势能项，$\dot{\varphi}\ll
+而在常见的慢滚暴涨模型中，假设动能项远小于势能项，$\dot{\varphi}\ll
 V(\varphi)$，并且摩擦项$3H\dot{\varphi}$足够大，使得加速度项$\ddot{\varphi}$迅速减小直至可被忽略。
-基于慢滚暴胀模型的上述两个假设，方程$(\ref{eq:continuation_in_inflation})$及$(\ref{eq:1st_friedmann_equation_in_inflation})$简化为
+基于慢滚暴涨模型的上述两个假设，方程$(\ref{eq:continuation_in_inflation})$及$(\ref{eq:1st_friedmann_equation_in_inflation})$简化为
 \begin{align}
   \label{eq:friedmann_equation_in_slow_roll_inflation}
-  3H\dot{\varphi} &= -V^\prime(\varphi), \\
-  3H^2&=8\pi G\ V(\varphi).
+  3H\dot{\varphi} &= -V_{,\varphi} , \\
+  3H^2&=V(\varphi).
 \end{align}
-为了更好地刻画与描述慢滚暴胀过程，通常借助慢滚参数。慢滚参数有两种定义方式，基于暴胀势和哈勃参数的慢滚参数（SRP）。
+为了更好地刻画与描述慢滚暴涨过程，通常借助慢滚参数。慢滚参数有两种定义方式，基于暴涨势和哈勃参数的慢滚参数（SRP）。
 分别以下标V和H表示，定义势能慢滚参数
 \begin{align}
   \label{eq:PSRA_epsilon}
-  \epsilon_V(\varphi) &= \frac{1}{16\pi G}
-  {\left(\frac{V^\prime(\varphi)}{V(\varphi)}\right)}^2,
+  \epsilon_V(\varphi) &= \frac{1}{2}
+  {\left(\frac{V_{,\varphi}}{V(\varphi)}\right)}^2,
   \\
   \label{eq:PSRA_eta}
-  \eta_V(\varphi) &= \frac{1}{8\pi G}\frac{V^{\dprime}(\varphi)}{V(\varphi)}.
+  \eta_V(\varphi) &= \frac{V_{,\varphi \varphi}}{V(\varphi)}.
 \end{align}
 及哈勃慢滚参数
 \begin{align}
   \label{eq:HSRA_epsilon}
-  \epsilon_H(\varphi) &= \frac{1}{4\pi G}
-  {\left(\frac{H^{\prime}(\varphi)}{H(\varphi)}\right)}^2=-\frac{\dot{H}}{H^2}, \\
+  \epsilon_H(\varphi) &= 2
+  {\left(\frac{H_{,\varphi}}{H(\varphi)}\right)}^2=-\frac{\dot{H}}{H^2}, \\
   \label{eq:HSRA_eta}
-  \eta_H(\varphi) &= \frac{1}{4\pi G} \frac{H^{\prime\prime}(\varphi)}{H(\varphi)}=-3
+  \eta_H(\varphi) &= 2 \frac{H_{,\varphi \varphi}}{H(\varphi)}=-3
   \frac{\ddot{\varphi}}{3H\dot{\varphi}}.
 \end{align}
-相比$\epsilon_V$和$\eta_V$，采用$\epsilon_H$和$\eta_H$描述暴胀的优势在于
+相比$\epsilon_V$和$\eta_V$，采用$\epsilon_H$和$\eta_H$描述暴涨的优势在于
 \begin{itemize}
-  \item $\epsilon_H\ll 1$是动能项相比于势能项可被忽略充要条件。\\
+  \item $\epsilon_H\ll 1$是动能项相比于势能项可被忽略的充要条件。\\
   \item $\lvert \eta_H\rvert \ll
-    1$是加速度项相比于摩擦项可被忽略，不需要额外假设存在吸引子解充要条件。因此HSR中包含了所有必要的动力学信息。 \\
-  \item 暴胀发生的充要条件为
+    1$是加速度项相比于摩擦项可被忽略，不需要额外假设存在吸引子解的充要条件。
+    因此哈勃SRP中包含了所有必要的动力学信息。 \\
+  \item 暴涨发生的充要条件为
     \begin{equation}
       \ddot{a} > 0 \Longleftrightarrow \epsilon_H < 1. 
     \end{equation}
@@ -191,12 +194,12 @@ V(\varphi)$，并且摩擦项$3H\dot{\varphi}$足够大，使得加速度项$\dd
 
 
 
-% 能够退出暴胀是一个暴胀模型有效的必要条件之一。假设$H^2$比$\dot{H}$变化的更快，则暴胀持续的时间根据$(\ref{eq:accelaration_equation})$可得
+% 能够退出暴涨是一个暴涨模型有效的必要条件之一。假设$H^2$比$\dot{H}$变化的更快，则暴涨持续的时间根据$(\ref{eq:accelaration_equation})$可得
 % \begin{align}
 %   \label{eq:time_for_inflation}
 %   t_f \sim H_i/\lvert H_i\rvert,
 % \end{align}
-% 为了保证不出现平坦性疑难，暴胀结束时需满足条件
+% 为了保证不出现平坦性疑难，暴涨结束时需满足条件
 % \begin{align}
 %    \frac{a_{f}}{a_{i}} > 10^{33}\frac{H_{i}}{H_{f}},
 % \end{align}
@@ -209,4 +212,4 @@ V(\varphi)$，并且摩擦项$3H\dot{\varphi}$足够大，使得加速度项$\dd
 % \begin{align}
 %   \frac{\rho_i+p_i}{\rho_i} < 10^{-2}. 
 % \end{align}
-% 换言之，暴胀开始时对真空物态方程的偏离不超过$1\%$.
+% 换言之，暴涨开始时对真空物态方程的偏离不超过$1\%$.
