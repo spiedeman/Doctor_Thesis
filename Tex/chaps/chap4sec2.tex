@@ -205,8 +205,8 @@ Mukhanov-Sasaki (MS)方程为
 
 出于数值求解的方便，我们将共形时间$\eta$替换为$N_e$，把MS方程重写为\citep{ballesteros2018primordial}
 \begin{align}
-    \frac{d^2u_k}{dN^2_e}+\left(1-\epsilon_H\right)\frac{du_k}{dN_2}+
-    \lbrack\frac{k^2}{\mathcal{H}^2}+\left(1+\epsilon_H-\eta_H\right)\left(\eta_H-2\right)-\frac{d\left(\epsilon_H-\eta_H\right)}{dN_e}=0,
+    \frac{d^2u_k}{dN^2_e}+\left(1-\epsilon_H\right)\frac{du_k}{dN_e}+
+    \lbrack\frac{k^2}{\mathcal{H}^2}+\left(1+\epsilon_H-\eta_H\right)\left(\eta_H-2\right)-\frac{d\left(\epsilon_H-\eta_H\right)}{dN_e}\rbrack=0,
 \end{align}
 原初功率谱由下式给出
 \begin{align}
@@ -215,6 +215,13 @@ Mukhanov-Sasaki (MS)方程为
 \end{align}
 
 图\ref{fig:pert}为MS方程\ref{eq:ms}基于参数集\ref{eq:parameters}的数值结果。从图中可以发现功率谱在小尺度有一个高峰，在CMB的尺度上大约增长了7个数量级。这样大的一个密度扰动使得原初黑洞能够通过引力塌缩形成。
+另外，从图中可以看到功率谱在上升之前有一个快速下降的过程。在我们之后有工作
+\citep{liu2020analytical}探讨了这一现象。由于在拐点附近暴涨场经历了一个超慢滚
+过程，该过程会放大
+曲率扰动的速度，且$k$模越靠近超慢滚区域，放大效应越明显。又因为曲率扰动和其速度
+反向，所以超慢滚过程的这一效应会使在它前面的$k$模对应的扰动会随着$k$模增大逐渐
+向原点靠近并越过原点，这一过程体现为曲率扰动的功率谱在上升之前会有一个快速下降
+的行为，并且一定会降到零。
 
 \begin{figure}[!htbp]
     \centering
